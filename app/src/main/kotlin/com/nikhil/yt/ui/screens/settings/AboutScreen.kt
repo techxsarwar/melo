@@ -95,7 +95,7 @@ fun AboutScreen(
                 ) {
                     // Title
                     Text(
-                        text = "VELUNE",
+                        text = "MELO",
                         style = MaterialTheme.typography.displaySmall,
                         fontWeight = FontWeight.Bold,
                         letterSpacing = 2.sp,
@@ -138,10 +138,10 @@ fun AboutScreen(
                 SectionTitle("DEVELOPER")
                 Spacer(Modifier.height(8.dp))
                 AboutItemCard(
-                    iconUrl = "https://github.com/nikhilvishwakarma00.png",
-                    title = "Nikhil",
-                    subtitle = "App Developer",
-                    onClick = { uriHandler.openUri("https://github.com/nikhilvishwakarma00") }
+                    iconUrl = "https://github.com/techxsarwar.png",
+                    title = "Sarwar Altaf Dar",
+                    subtitle = "App Developer & Customizer",
+                    onClick = { uriHandler.openUri("https://github.com/techxsarwar") }
                 )
                 Spacer(Modifier.height(24.dp))
             }
@@ -174,7 +174,7 @@ fun AboutScreen(
                     iconRes = R.drawable.github,
                     title = "GitHub Repository",
                     subtitle = "View source code",
-                    onClick = { uriHandler.openUri("https://github.com/nikhilvishwakarma00/Velune") }
+                    onClick = { uriHandler.openUri("https://github.com/techxsarwar/melo") }
                 )
                 Spacer(Modifier.height(24.dp))
 
@@ -184,10 +184,6 @@ fun AboutScreen(
                     subtitle = "Join the community to chat and report bugs",
                     onClick = { uriHandler.openUri("https://discord.gg/cJNHTdoP6H")}
                 )
-                Spacer(Modifier.height(24.dp))
-
-                SupportDeveloperCard()
-
                 Spacer(Modifier.height(24.dp))
             }
 
