@@ -1,6 +1,6 @@
 /*
- *  - by Nikhil
- * Nikhil
+ *  - by Sarwar Altaf Dar
+ * Sarwar Altaf Dar
  * Licensed Under GPL-3.0
  */
 
@@ -312,7 +312,7 @@ fun AboutItemCard(
     }
 }
 fun launchUpiPayment(context: android.content.Context, upiId: String, payeeName: String) {
-    val note = "Support for Velune"
+    val note = "Support for Melo"
     val uriString = "upi://pay?pa=$upiId&pn=${android.net.Uri.encode(payeeName)}&tn=${android.net.Uri.encode(note)}&cu=INR"
     val uri = android.net.Uri.parse(uriString)
     val intent = android.content.Intent(android.content.Intent.ACTION_VIEW, uri)

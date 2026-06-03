@@ -1139,8 +1139,8 @@ class MainActivity : ComponentActivity() {
                                                     Row(verticalAlignment = Alignment.CenterVertically) {
                                                         // app icon
                                                         Image(
-                                                            painter = painterResource(id = R.drawable.ic_velune_concept),
-                                                            contentDescription = "Velune Logo",
+                                                            painter = painterResource(id = R.mipmap.ic_launcher),
+                                                            contentDescription = "Melo Logo",
                                                             modifier = Modifier
                                                                 .size(35.dp)
                                                                 .padding(end = 6.dp)

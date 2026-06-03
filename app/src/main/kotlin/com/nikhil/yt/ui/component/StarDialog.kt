@@ -54,7 +54,7 @@ fun StarDialog(
         text = {
             Column {
                 Text(
-                    text = "Hey there! I\'m Nikhil, the developer of Velune. I have been putting a lot of love into making this app better every day. \n\nIf you enjoy using Velune, you can support its development by giving the project a star on GitHub — it really helps and keeps me motivated to keep improving it!\n\nThanks a bunch for your support and for being part of this journey!",
+                    text = "Hey there! I\'m Sarwar Altaf Dar, the developer of Melo. I have been putting a lot of love into making this app better every day. \n\nIf you enjoy using Melo, you can support its development by giving the project a star on GitHub — it really helps and keeps me motivated to keep improving it!\n\nThanks a bunch for your support and for being part of this journey!",
                     style = MaterialTheme.typography.bodyMedium,
                 )
             }

@@ -1,6 +1,6 @@
 /*
- * Velune - by Nikhil
- * Nikhil
+ * Melo - by Sarwar Altaf Dar
+ * Sarwar Altaf Dar
  * Licensed Under GPL-3.0
  */
 
@@ -543,7 +543,7 @@ fun SettingsScreen(
                         PremiumSettingsItem(
                             icon = painterResource(R.drawable.info),
                             title = stringResource(R.string.about),
-                            subtitle = "Velune",
+                            subtitle = "Melo",
                             accentColor = MaterialTheme.colorScheme.onSurfaceVariant,
                             keywords = listOf(
                                 "about",

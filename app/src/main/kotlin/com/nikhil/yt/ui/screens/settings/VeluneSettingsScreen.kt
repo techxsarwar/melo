@@ -1,5 +1,5 @@
 /*
- * Velune - by Nikhil
+ * Melo - by Sarwar Altaf Dar
  * Licensed Under GPL-3.0
  */
 
@@ -90,8 +90,8 @@ fun VeluneSettingsScreen(
                         contentAlignment = Alignment.Center
                     ) {
                         Image(
-                            painter = painterResource(id = R.drawable.ic_velune_concept),
-                            contentDescription = "Velune Logo",
+                            painter = painterResource(id = R.mipmap.ic_launcher),
+                            contentDescription = "Melo Logo",
                             modifier = Modifier
                                 .fillMaxSize()
                                 .padding(12.dp)
@@ -100,7 +100,7 @@ fun VeluneSettingsScreen(
                     Spacer(Modifier.width(16.dp))
                     Column {
                         Text(
-                            text = "Velune",
+                            text = "Melo",
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.Normal
                         )
