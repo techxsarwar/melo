@@ -35,5 +35,5 @@ jobs:
       - name: Upload Debug APK Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Velune-Debug-APKs
+          name: Melo-Debug-APKs
           path: app/build/outputs/apk/**/*.apk
