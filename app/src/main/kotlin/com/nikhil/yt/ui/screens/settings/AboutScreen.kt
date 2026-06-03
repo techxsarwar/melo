@@ -1,5 +1,5 @@
 /*
- * Velune - by Nikhil
+ *  - by Nikhil
  * Nikhil
  * Licensed Under GPL-3.0
  */
@@ -179,10 +179,10 @@ fun AboutScreen(
                 Spacer(Modifier.height(24.dp))
 
                 AboutItemCard(
-                    iconRes = R.drawable.ic_discord,
-                    title = "Discord Server",
-                    subtitle = "Join the community to chat and report bugs",
-                    onClick = { uriHandler.openUri("https://discord.gg/cJNHTdoP6H")}
+                    iconRes = R.drawable.instagram,
+                    title = "Follow me on Instagram",
+                    subtitle = "@i.jubito",
+                    onClick = { uriHandler.openUri("https://www.instagram.com/i.jubito")}
                 )
                 Spacer(Modifier.height(24.dp))
 
