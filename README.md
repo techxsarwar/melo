@@ -5,16 +5,16 @@
 
 </div>
 
-# 🌌 Velune
+# 🌌 Melo
 <div align="center">
 
 <pre>
-██╗   ██╗███████╗██╗     ██╗   ██╗███╗   ██╗███████╗
-██║   ██║██╔════╝██║     ██║   ██║████╗  ██║██╔════╝
-██║   ██║█████╗  ██║     ██║   ██║██╔██╗ ██║█████╗
-╚██╗ ██╔╝██╔══╝  ██║     ██║   ██║██║╚██╗██║██╔══╝
- ╚████╔╝ ███████╗███████╗╚██████╔╝██║ ╚████║███████╗
-  ╚═══╝  ╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+███╗   ███╗███████╗██╗      ██████╗ 
+████╗ ████║██╔════╝██║     ██╔═══██╗
+██╔████╔██║█████╗  ██║     ██║   ██║
+██║╚██╔╝██║██╔══╝  ██║     ██║   ██║
+██║ ╚═╝ ██║███████╗███████╗╚██████╔╝
+╚═╝     ╚═╝╚══════╝╚══════╝ ╚═════╝ 
 </pre>
 
 </div>
@@ -57,12 +57,12 @@
     <tr>
       <td align="center">
         <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/techxsarwar/melo">
-          <img src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png" height="50" alt="Get Velune on Obtainium">
+          <img src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png" height="50" alt="Get Melo on Obtainium">
         </a>
       </td>
       <td align="center">
-        <a href="https://apt.izzysoft.de/fdroid/index/apk/com.nikhil.yt">
-          <img src="assets/IzzyOnDroidButtonBorder.svg" height="50" alt="Get Velune on IzzyOnDroid">
+        <a href="https://apt.izzysoft.de/fdroid/index/apk/com.sarwar.melo">
+          <img src="assets/IzzyOnDroidButtonBorder.svg" height="50" alt="Get Melo on IzzyOnDroid">
         </a>
       </td>
     </tr>
@@ -72,7 +72,7 @@
     <tr>
       <td align="center" colspan="2">
         <a href="https://github.com/techxsarwar/melo/releases/latest">
-          <img src="assets/badge_github.png" height="50" alt="Get Velune on GitHub">
+          <img src="assets/badge_github.png" height="50" alt="Get Melo on GitHub">
         </a>
       </td>
     </tr>
@@ -82,9 +82,9 @@
 </div>
 
 
-## 🚀 Why Velune?
+## 🚀 Why Melo?
 
-Velune is not just another music player — it's a **complete reimagination of YouTube Music**.
+Melo is not just another music player — it's a **complete reimagination of YouTube Music**.
 
 * ⚡ **Faster** than the official app
 * 🎵 Built for audiophiles & power users
@@ -183,7 +183,7 @@ Built using **modern Android engineering principles**:
 ## 📂 Project Structure
 
 ```bash
-velune/
+melo/
 ├── app/
 ├── innertube/
 ├── lrclib/
@@ -202,7 +202,7 @@ Run Locally\
 Bash
 ```
 git clone https://github.com/techxsarwar/melo.git\
-cd Velune\
+cd melo\
 
 ```
 Open in Android Studio → Sync → Run ▶ \
@@ -215,10 +215,9 @@ Open in Android Studio → Sync → Run ▶ \
 
 ## 💬 Community
 
-Have a feature request, found a bug,
-or just want to share your favorite music setups? Join the official Velune community!
+Have a feature request, found a bug, or just want to connect?
 
-* *Discord:* [Join the Velune Server](https://discord.gg/cJNHTdpP6H)
+* *Instagram:* [Follow me on Instagram](https://www.instagram.com/i.jubito)
 * *GitHub Discussions:* [Open a Discussion](https://github.com/techxsarwar/melo/discussions)
 
 
@@ -242,13 +241,13 @@ SimpMusic
 BetterLyrics
 
 ⚖️ Legal
-Velune is an independent client and is not affiliated with YouTube or Google.\
+Melo is an independent client and is not affiliated with YouTube or Google.\
 Please support artists through official platforms ❤️\
 Licensed under GPL-3.0
  
 
-💙 Built with passion by Nikhil\
-⭐ Star the repo if Velune impressed you\
+💙 Customized with passion by Sarwar Altaf Dar (Original by Nikhil)\
+⭐ Star the repo if Melo impressed you\
 🚀 Help it reach more people
 
 ## 🔗 Star History
@@ -265,4 +264,3 @@ Licensed under GPL-3.0
   <br/>
   <br/><br/>
 </div>
- 
