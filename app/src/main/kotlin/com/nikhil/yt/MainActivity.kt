@@ -1139,7 +1139,7 @@ class MainActivity : ComponentActivity() {
                                                     Row(verticalAlignment = Alignment.CenterVertically) {
                                                         // app icon
                                                         Image(
-                                                            painter = painterResource(id = R.mipmap.ic_launcher),
+                                                            painter = painterResource(id = R.drawable.app_icon_small),
                                                             contentDescription = "Melo Logo",
                                                             modifier = Modifier
                                                                 .size(35.dp)

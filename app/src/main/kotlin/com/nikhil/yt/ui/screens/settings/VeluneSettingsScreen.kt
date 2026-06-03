@@ -92,7 +92,7 @@ fun VeluneSettingsScreen(
                         contentAlignment = Alignment.Center
                     ) {
                         Image(
-                            painter = painterResource(id = R.mipmap.ic_launcher),
+                            painter = painterResource(id = R.drawable.app_icon_small),
                             contentDescription = "Melo Logo",
                             modifier = Modifier
                                 .fillMaxSize()
