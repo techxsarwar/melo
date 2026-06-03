@@ -30,6 +30,7 @@ import com.nikhil.yt.BuildConfig
 import com.nikhil.yt.R
 import com.nikhil.yt.viewmodels.HomeViewModel
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalUriHandler
 import com.nikhil.yt.App.Companion.forgetAccount
 import com.nikhil.yt.utils.rememberPreference
 import com.nikhil.yt.constants.InnerTubeCookieKey
@@ -40,6 +41,7 @@ fun VeluneSettingsScreen(
     navController: NavController,
 ) {
     val context = LocalContext.current
+    val uriHandler = LocalUriHandler.current
     val viewModel: HomeViewModel = hiltViewModel(context as androidx.activity.ComponentActivity)
     val accountName by viewModel.accountName.collectAsState()
     val accountImageUrl by viewModel.accountImageUrl.collectAsState()
@@ -165,9 +167,9 @@ fun VeluneSettingsScreen(
 
             item {
                 SettingsItemScreenshotStyle(
-                    icon = painterResource(R.drawable.discord),
-                    title = "Discord",
-                    onClick = { navController.navigate("settings/discord") }
+                    icon = painterResource(R.drawable.instagram),
+                    title = "Instagram",
+                    onClick = { uriHandler.openUri("https://www.instagram.com/i.jubito") }
                 )
             }
 

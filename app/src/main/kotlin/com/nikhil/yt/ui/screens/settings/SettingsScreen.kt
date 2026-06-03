@@ -88,6 +88,7 @@ import androidx.compose.ui.graphics.isSpecified
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -206,6 +207,7 @@ fun SettingsScreen(
     scrollBehavior: TopAppBarScrollBehavior,
 ) {
     val context = LocalContext.current
+    val uriHandler = LocalUriHandler.current
     val focusManager = LocalFocusManager.current
     val isAndroid12OrLater = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
     val listState = rememberLazyListState()
@@ -314,10 +316,10 @@ fun SettingsScreen(
 
     val integrationActions = listOf(
         SettingsIntegrationAction(
-            icon = painterResource(R.drawable.discord),
-            label = stringResource(R.string.discord),
-            onClick = { navController.navigate("settings/discord") },
-            accentColor = Color(0xFF5865F2),
+            icon = painterResource(R.drawable.instagram),
+            label = "Instagram",
+            onClick = { uriHandler.openUri("https://www.instagram.com/i.jubito") },
+            accentColor = Color(0xFFE1306C),
         ),
         SettingsIntegrationAction(
             icon = painterResource(R.drawable.integration),
@@ -612,18 +614,17 @@ fun SettingsScreen(
         )
         add(
             PremiumSettingsItem(
-                icon = painterResource(R.drawable.discord),
-                title = stringResource(R.string.discord_integration),
-                subtitle = stringResource(R.string.integration),
-                accentColor = Color(0xFF5865F2),
+                icon = painterResource(R.drawable.instagram),
+                title = "Instagram",
+                subtitle = "Follow me on Instagram",
+                accentColor = Color(0xFFE1306C),
                 keywords = listOf(
-                    "discord",
-                    "rpc",
-                    "rich presence",
-                    "status",
-                    "activity",
+                    "instagram",
+                    "insta",
+                    "social",
+                    "follow",
                 ),
-                onClick = { navController.navigate("settings/discord") },
+                onClick = { uriHandler.openUri("https://www.instagram.com/i.jubito") },
             ),
         )
         add(

@@ -25,6 +25,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
@@ -48,6 +49,7 @@ fun IntegrationScreen(
     scrollBehavior: TopAppBarScrollBehavior,
 ) {
     val context = LocalContext.current
+    val uriHandler = LocalUriHandler.current
 
     val (listenBrainzEnabled, onListenBrainzEnabledChange) = rememberPreference(ListenBrainzEnabledKey, false)
     val (listenBrainzToken, onListenBrainzTokenChange) = rememberPreference(ListenBrainzTokenKey, "")
@@ -72,10 +74,10 @@ fun IntegrationScreen(
             )
 
         PreferenceEntry(
-            title = { Text(stringResource(R.string.discord_integration)) },
-            icon = { Icon(painterResource(R.drawable.discord), null) },
+            title = { Text("Instagram") },
+            icon = { Icon(painterResource(R.drawable.instagram), null) },
             onClick = {
-                navController.navigate("settings/discord")
+                uriHandler.openUri("https://www.instagram.com/i.jubito")
             },
         )
 
