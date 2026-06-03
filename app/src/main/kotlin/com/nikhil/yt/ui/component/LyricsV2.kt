@@ -1,6 +1,6 @@
 /*
- * Velune - by Nikhil
- * Nikhil & WTTexe!
+ * Melo - by Sarwar Altaf Dar
+ * Sarwar Altaf Dar & WTTexe!
  * Licensed Under GPL-3.0
  */
 
