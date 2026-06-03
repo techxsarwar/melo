@@ -1,7 +1,7 @@
 
 <div align="center">
 
- <img src="https://raw.githubusercontent.com/nikhilvishwakarma00/Velune/main/fastlane/metadata/android/en-US/images/icon.png" width="110" />
+ <img src="https://raw.githubusercontent.com/techxsarwar/melo/main/fastlane/metadata/android/en-US/images/icon.png" width="110" />
 
 </div>
 
@@ -25,10 +25,10 @@
 
 <div align="center">
 
-![Release](https://img.shields.io/github/v/release/nikhilvishwakarma00/Velune?style=for-the-badge&logo=github&logoColor=white&labelColor=18181B&color=3B82F6)
-![Downloads](https://img.shields.io/github/downloads/nikhilvishwakarma00/Velune/total?style=for-the-badge&logo=github&logoColor=white&labelColor=18181B&color=10B981)
-![Stars](https://img.shields.io/github/stars/nikhilvishwakarma00/Velune?style=for-the-badge&logo=github&logoColor=white&labelColor=18181B&color=F59E0B)
-![License](https://img.shields.io/github/license/nikhilvishwakarma00/Velune?style=for-the-badge&labelColor=18181B&color=EF4444)
+![Release](https://img.shields.io/github/v/release/techxsarwar/melo?style=for-the-badge&logo=github&logoColor=white&labelColor=18181B&color=3B82F6)
+![Downloads](https://img.shields.io/github/downloads/techxsarwar/melo/total?style=for-the-badge&logo=github&logoColor=white&labelColor=18181B&color=10B981)
+![Stars](https://img.shields.io/github/stars/techxsarwar/melo?style=for-the-badge&logo=github&logoColor=white&labelColor=18181B&color=F59E0B)
+![License](https://img.shields.io/github/license/techxsarwar/melo?style=for-the-badge&labelColor=18181B&color=EF4444)
 
 <br>
 
@@ -56,7 +56,7 @@
   <tbody>
     <tr>
       <td align="center">
-        <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/nikhilvishwakarma00/Velune">
+        <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/techxsarwar/melo">
           <img src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png" height="50" alt="Get Velune on Obtainium">
         </a>
       </td>
@@ -71,7 +71,7 @@
     </tr>
     <tr>
       <td align="center" colspan="2">
-        <a href="https://github.com/nikhilvishwakarma00/Velune/releases/latest">
+        <a href="https://github.com/techxsarwar/melo/releases/latest">
           <img src="assets/badge_github.png" height="50" alt="Get Velune on GitHub">
         </a>
       </td>
@@ -201,7 +201,7 @@ Android SDK 34+ \
 Run Locally\
 Bash
 ```
-git clone https://github.com/nikhilvishwakarma00/Velune.git\
+git clone https://github.com/techxsarwar/melo.git\
 cd Velune\
 
 ```
@@ -219,7 +219,7 @@ Have a feature request, found a bug,
 or just want to share your favorite music setups? Join the official Velune community!
 
 * *Discord:* [Join the Velune Server](https://discord.gg/cJNHTdpP6H)
-* *GitHub Discussions:* [Open a Discussion](https://github.com/nikhilvishwakarma00/Velune/discussions)
+* *GitHub Discussions:* [Open a Discussion](https://github.com/techxsarwar/melo/discussions)
 
 
 
@@ -254,11 +254,11 @@ Licensed under GPL-3.0
 ## 🔗 Star History
 
 <div align="center">
-  <a href="https://star-history.com/nikhilvishwakarma00/velune&Date">
+  <a href="https://star-history.com/techxsarwar/melo&Date">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=nikhilvishwakarma00/velune&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=nikhilvishwakarma00/velune&type=Date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=nikhilvishwakarma00/velune&type=Date" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=techxsarwar/melo&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=techxsarwar/melo&type=Date" />
+      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=techxsarwar/melo&type=Date" />
     </picture>
   </a>
 
