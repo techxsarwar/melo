@@ -135,13 +135,20 @@ fun AboutScreen(
 
             // --- DEVELOPER SECTION ---
             item {
-                SectionTitle("DEVELOPER")
+                SectionTitle("DEVELOPERS")
                 Spacer(Modifier.height(8.dp))
                 AboutItemCard(
                     iconUrl = "https://github.com/techxsarwar.png",
                     title = "Sarwar Altaf Dar",
                     subtitle = "App Developer & Customizer",
                     onClick = { uriHandler.openUri("https://github.com/techxsarwar") }
+                )
+                Spacer(Modifier.height(8.dp))
+                AboutItemCard(
+                    iconUrl = "https://github.com/BurhanHamidDar.png",
+                    title = "Burhan Hamid Dar",
+                    subtitle = "Developer",
+                    onClick = { uriHandler.openUri("https://github.com/BurhanHamidDar") }
                 )
                 Spacer(Modifier.height(24.dp))
             }
