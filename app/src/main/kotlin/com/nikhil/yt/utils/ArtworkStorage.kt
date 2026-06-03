@@ -23,7 +23,7 @@ data class SavedArtwork(
 )
 
 object ArtworkStorage {
-    private const val FILENAME = "velune_saved_artworks.json"
+    private const val FILENAME = "melo_saved_artworks.json"
     private val json = Json { prettyPrint = true; ignoreUnknownKeys = true }
 
     private fun fileFor(context: Context): File = File(context.filesDir, FILENAME)

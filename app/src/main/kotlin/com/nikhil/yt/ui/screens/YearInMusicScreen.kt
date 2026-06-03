@@ -279,7 +279,7 @@ fun YearInMusicScreen(
                                     val uri = ComposeToImage.saveBitmapAsFile(
                                         context,
                                         fitted,
-                                        "Velune_YearInMusic_$selectedYear"
+                                        "Melo_YearInMusic_$selectedYear"
                                     )
                                     val shareIntent = Intent(Intent.ACTION_SEND).apply {
                                         type = "image/png"
