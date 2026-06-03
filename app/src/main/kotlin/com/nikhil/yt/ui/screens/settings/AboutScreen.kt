@@ -185,6 +185,10 @@ fun AboutScreen(
                     onClick = { uriHandler.openUri("https://discord.gg/cJNHTdoP6H")}
                 )
                 Spacer(Modifier.height(24.dp))
+
+                SupportDeveloperCard()
+
+                Spacer(Modifier.height(24.dp))
             }
 
 
@@ -325,8 +329,8 @@ fun launchUpiPayment(context: android.content.Context, upiId: String, payeeName:
 @Composable
 fun SupportDeveloperCard(modifier: Modifier = Modifier) {
     val context = LocalContext.current
-    val myUpiId = "nikhilvishwakarma9631@oksbi"
-    val myName = "Nikhil"
+    val myUpiId = "sarwaraltafdar@fam"
+    val myName = "Sarwar Altaf Dar"
 
     Card(
         modifier = modifier
@@ -355,7 +359,7 @@ fun SupportDeveloperCard(modifier: Modifier = Modifier) {
                     color = MaterialTheme.colorScheme.onSurface
                 )
                 Text(
-                    text = "If you enjoy Velune, consider buying me a chai!",
+                    text = "If you enjoy Melo, consider buying me a chai!",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
