@@ -1,7 +1,7 @@
 
 <div align="center">
 
- <img src="https://raw.githubusercontent.com/techxsarwar/melo/main/fastlane/metadata/android/en-US/images/icon.png" width="110" />
+ <img src="fastlane/metadata/android/en-US/images/icon.png" width="110" />
 
 </div>
 
@@ -230,6 +230,8 @@ Huge respect to these projects:
 
 Archivetune -base framework
 
+Credits to [Nikhil](https://github.com/nikhilvishwakarma00)
+
 Metrolist
 
 InnerTune
@@ -246,7 +248,7 @@ Please support artists through official platforms ❤️\
 Licensed under GPL-3.0
  
 
-💙 Customized with passion by Sarwar Altaf Dar (Original by Nikhil)\
+💙 Customized with passion by Sarwar Altaf Dar (Original by [Nikhil](https://github.com/nikhilvishwakarma00))\
 ⭐ Star the repo if Melo impressed you\
 🚀 Help it reach more people
 
