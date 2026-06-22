@@ -518,7 +518,7 @@ class MainActivity : ComponentActivity() {
                         val notifications = supabase.from("broadcast_notifications")
                             .select {
                                 order(column = "id", order = io.github.jan.supabase.postgrest.query.Order.DESCENDING)
-                                limit(count = 1)
+                                limit(count = 1L)
                             }.decodeList<BroadcastNotification>()
                         val latest = notifications.firstOrNull()
                         if (latest != null && latest.id != null) {
