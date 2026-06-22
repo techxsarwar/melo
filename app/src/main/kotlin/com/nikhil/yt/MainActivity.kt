@@ -172,9 +172,8 @@ import com.nikhil.yt.constants.SearchSource
 import com.nikhil.yt.constants.SearchSourceKey
 import com.nikhil.yt.constants.SlimNavBarHeight
 import com.nikhil.yt.constants.SlimNavBarKey
-
-
 import com.nikhil.yt.constants.StopMusicOnTaskClearKey
+import com.nikhil.yt.constants.LastNotificationIdKey
 import com.nikhil.yt.constants.UseNewMiniPlayerDesignKey
 import com.nikhil.yt.constants.UseSystemFontKey
 import com.nikhil.yt.db.MusicDatabase
@@ -220,6 +219,9 @@ import com.nikhil.yt.ui.utils.resetHeightOffset
 import com.nikhil.yt.utils.SyncUtils
 import com.nikhil.yt.utils.dataStore
 import com.nikhil.yt.utils.get
+import com.nikhil.yt.utils.BroadcastNotificationManager
+import io.github.jan.supabase.postgrest.from
+
 import com.nikhil.yt.utils.rememberEnumPreference
 import com.nikhil.yt.utils.rememberPreference
 import com.nikhil.yt.utils.reportException
@@ -503,6 +505,34 @@ class MainActivity : ComponentActivity() {
                         if (latestUpdate != null && latestUpdate.version_code > BuildConfig.VERSION_CODE) {
                             withContext(Dispatchers.Main) {
                                 activeAppUpdate = latestUpdate
+                            }
+                        }
+                    } catch (e: Exception) {
+                        e.printStackTrace()
+                    }
+                }
+
+                // Supabase broadcast notifications check
+                withContext(Dispatchers.IO) {
+                    try {
+                        val notifications = supabase.from("broadcast_notifications")
+                            .select {
+                                order(column = "id", order = io.github.jan.supabase.postgrest.query.Order.DESCENDING)
+                                limit(count = 1)
+                            }.decodeList<BroadcastNotification>()
+                        val latest = notifications.firstOrNull()
+                        if (latest != null && latest.id != null) {
+                            val lastId = dataStore.get(LastNotificationIdKey, 0)
+                            if (latest.id > lastId) {
+                                withContext(Dispatchers.Main) {
+                                    BroadcastNotificationManager.showNotification(
+                                        this@MainActivity,
+                                        latest
+                                    )
+                                }
+                                dataStore.edit {
+                                    it[LastNotificationIdKey] = latest.id
+                                }
                             }
                         }
                     } catch (e: Exception) {

@@ -585,3 +585,6 @@ val SupabaseUrlKey = stringPreferencesKey("supabaseUrl")
 val SupabaseAnonKey = stringPreferencesKey("supabaseAnon")
 val ExoMinBufferKey = intPreferencesKey("exoMinBuffer")
 val ExoMaxBufferKey = intPreferencesKey("exoMaxBuffer")
+
+val LastNotificationIdKey = intPreferencesKey("lastNotificationId")
+

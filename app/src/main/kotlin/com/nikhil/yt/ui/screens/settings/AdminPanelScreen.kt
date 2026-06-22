@@ -5,6 +5,11 @@
 
 package com.nikhil.yt.ui.screens.settings
 
+import com.nikhil.yt.BroadcastNotification
+import io.github.jan.supabase.postgrest.from
+
+
+
 import android.content.Context
 import android.widget.Toast
 import androidx.compose.foundation.background
@@ -109,6 +114,13 @@ fun AdminPanelScreen(
     var updateChangelog by remember { mutableStateOf("") }
     var updateForceUpdate by remember { mutableStateOf(false) }
     var isBroadcasting by remember { mutableStateOf(false) }
+
+    // Broadcast Notification state
+    var notificationTitle by remember { mutableStateOf("") }
+    var notificationMessage by remember { mutableStateOf("") }
+    var notificationUrl by remember { mutableStateOf("") }
+    var isSendingNotification by remember { mutableStateOf(false) }
+
 
     LaunchedEffect(Unit) {
         // Fetch current live users
@@ -433,6 +445,73 @@ fun AdminPanelScreen(
                                         }
                                     }
                                     isBroadcasting = false
+                                }
+                            }
+                        },
+                        icon = { Icon(painterResource(R.drawable.sync), null) }
+                    )
+
+                    PreferenceGroupTitle(title = "System Announcement Broadcaster")
+
+                    EditTextPreference(
+                        title = { Text("Notification Title") },
+                        value = notificationTitle,
+                        onValueChange = { notificationTitle = it },
+                        icon = { Icon(painterResource(R.drawable.text_fields), null) }
+                    )
+
+                    EditTextPreference(
+                        title = { Text("Notification Message") },
+                        value = notificationMessage,
+                        onValueChange = { notificationMessage = it },
+                        icon = { Icon(painterResource(R.drawable.info), null) }
+                    )
+
+                    EditTextPreference(
+                        title = { Text("Notification Link / URL (Optional)") },
+                        value = notificationUrl,
+                        onValueChange = { notificationUrl = it },
+                        icon = { Icon(painterResource(R.drawable.link), null) }
+                    )
+
+                    PreferenceEntry(
+                        title = { Text("Send Broadcast Notification Now") },
+                        description = if (isSendingNotification) "Sending..." else "Broadcast notification to all active devices",
+                        trailingContent = {
+                            if (isSendingNotification) {
+                                CircularProgressIndicator(modifier = Modifier.size(24.dp))
+                            } else {
+                                Icon(painterResource(R.drawable.done), null)
+                            }
+                        },
+                        onClick = {
+                            if (notificationTitle.isBlank() || notificationMessage.isBlank()) {
+                                Toast.makeText(context, "Fill in Title and Message", Toast.LENGTH_SHORT).show()
+                            } else {
+                                coroutineScope.launch {
+                                    isSendingNotification = true
+                                    withContext(Dispatchers.IO) {
+                                        try {
+                                            val notification = BroadcastNotification(
+                                                title = notificationTitle,
+                                                message = notificationMessage,
+                                                url = notificationUrl.ifBlank { null }
+                                            )
+                                            com.nikhil.yt.supabase.from("broadcast_notifications").insert(notification)
+                                            withContext(Dispatchers.Main) {
+                                                Toast.makeText(context, "Announcement broadcasted successfully!", Toast.LENGTH_SHORT).show()
+                                                notificationTitle = ""
+                                                notificationMessage = ""
+                                                notificationUrl = ""
+                                            }
+                                        } catch (e: Exception) {
+                                            e.printStackTrace()
+                                            withContext(Dispatchers.Main) {
+                                                Toast.makeText(context, "Failed to send: ${e.localizedMessage}", Toast.LENGTH_LONG).show()
+                                            }
+                                        }
+                                    }
+                                    isSendingNotification = false
                                 }
                             }
                         },
