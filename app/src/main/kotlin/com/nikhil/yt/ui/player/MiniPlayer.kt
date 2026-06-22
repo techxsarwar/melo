@@ -1,5 +1,5 @@
 /*
- * Melo - by Sarwar Altaf Dar
+ * Melo - by ParallelogramFoundation
  * Sarwar Altaf Dar
  * Licensed Under GPL-3.0
  */
@@ -391,21 +391,23 @@ private fun LegacyMiniMediaInfo(
                 .size(48.dp)
                 .clip(RoundedCornerShape(ThumbnailCornerRadius))
         ) {
-            AsyncImage(
-                model = mediaMetadata.thumbnailUrl,
-                contentDescription = null,
-                contentScale = ContentScale.FillBounds,
-                modifier = Modifier
-                    .fillMaxSize()
-                    .let { if (cropThumbnailToSquare) it.aspectRatio(1f) else it }
-                    .graphicsLayer(
-                        renderEffect = BlurEffect(
-                            radiusX = 75f,
-                            radiusY = 75f
-                        ),
-                        alpha = 0.5f
-                    )
-            )
+             if (!cropThumbnailToSquare) {
+                 AsyncImage(
+                     model = mediaMetadata.thumbnailUrl,
+                     contentDescription = null,
+                     contentScale = ContentScale.FillBounds,
+                     modifier = Modifier
+                         .fillMaxSize()
+                         .let { if (cropThumbnailToSquare) it.aspectRatio(1f) else it }
+                         .graphicsLayer {
+                             renderEffect = BlurEffect(
+                                 radiusX = 75f,
+                                 radiusY = 75f
+                             )
+                             alpha = 0.5f
+                         }
+                 )
+             }
 
             AsyncImage(
                 model = mediaMetadata.thumbnailUrl,

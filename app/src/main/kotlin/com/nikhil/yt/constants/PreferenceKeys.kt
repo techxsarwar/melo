@@ -1,5 +1,5 @@
 /*
- * Melo - by Sarwar Altaf Dar
+ * Melo - by ParallelogramFoundation
  * Sarwar Altaf Dar
  * Licensed Under GPL-3.0
  */
@@ -580,3 +580,8 @@ enum class UpdateChannel {
     STABLE,
     NIGHTLY,
 }
+
+val SupabaseUrlKey = stringPreferencesKey("supabaseUrl")
+val SupabaseAnonKey = stringPreferencesKey("supabaseAnon")
+val ExoMinBufferKey = intPreferencesKey("exoMinBuffer")
+val ExoMaxBufferKey = intPreferencesKey("exoMaxBuffer")

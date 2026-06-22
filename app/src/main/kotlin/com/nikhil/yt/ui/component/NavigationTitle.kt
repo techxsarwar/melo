@@ -1,5 +1,5 @@
 /*
- * Melo - by Sarwar Altaf Dar
+ * Melo - by ParallelogramFoundation
  * Sarwar Altaf Dar
  * Licensed Under GPL-3.0
  */

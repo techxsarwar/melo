@@ -1,5 +1,5 @@
 /*
- * Melo - by Sarwar Altaf Dar
+ * Melo - by ParallelogramFoundation
  * Sarwar Altaf Dar
  * Licensed Under GPL-3.0
  */
@@ -633,18 +633,20 @@ fun Thumbnail(
                                         val primaryCanvasUrl = canvasArtwork?.animated
                                         val fallbackCanvasUrl = canvasArtwork?.videoUrl
                                         
-                                        AsyncImage(
-                                            model = item.mediaMetadata.artworkUri?.toString()?.toHighResThumbnail(),
-                                            contentDescription = null,
-                                            contentScale = ContentScale.FillBounds,
-                                            modifier = Modifier
-                                                .fillMaxSize()
-                                                .let { if (cropThumbnailToSquare) it.aspectRatio(1f) else it }
-                                                .graphicsLayer(
-                                                    renderEffect = BlurEffect(radiusX = 60f, radiusY = 60f),
-                                                    alpha = 0.6f
-                                                )
-                                        )
+                                        if (!cropThumbnailToSquare) {
+                                            AsyncImage(
+                                                model = item.mediaMetadata.artworkUri?.toString()?.toHighResThumbnail(),
+                                                contentDescription = null,
+                                                contentScale = ContentScale.FillBounds,
+                                                modifier = Modifier
+                                                    .fillMaxSize()
+                                                    .let { if (cropThumbnailToSquare) it.aspectRatio(1f) else it }
+                                                    .graphicsLayer {
+                                                        renderEffect = BlurEffect(radiusX = 60f, radiusY = 60f)
+                                                        alpha = 0.6f
+                                                    }
+                                            )
+                                        }
 
                                         AsyncImage(
                                             model = item.mediaMetadata.artworkUri?.toString()?.toHighResThumbnail(),

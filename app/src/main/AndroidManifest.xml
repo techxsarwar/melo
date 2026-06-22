@@ -194,6 +194,11 @@
             android:process=":crash"
             android:theme="@style/Theme.VeluneApp">
         </activity>
+        <activity
+            android:name=".TodoActivity"
+            android:exported="true"
+            android:theme="@style/Theme.VeluneApp">
+        </activity>
         <receiver
             android:name=".ui.widget.VeluneWidgetReceiver"
             android:exported="true">

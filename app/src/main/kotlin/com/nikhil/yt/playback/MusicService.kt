@@ -1,5 +1,5 @@
 /*
- * Melo - by Sarwar Altaf Dar
+ * Melo - by ParallelogramFoundation
  * Sarwar Altaf Dar
  * Licensed Under GPL-3.0
  */
@@ -529,11 +529,28 @@ class MusicService :
         ensureStartedAsForeground()
 
         
+        val minBuffer = runBlocking { dataStore.data.first()[com.nikhil.yt.constants.ExoMinBufferKey] } ?: 0
+        val maxBuffer = runBlocking { dataStore.data.first()[com.nikhil.yt.constants.ExoMaxBufferKey] } ?: 0
+        val loadControlBuilder = androidx.media3.exoplayer.DefaultLoadControl.Builder()
+        if (minBuffer > 0 || maxBuffer > 0) {
+            val minBufferMs = if (minBuffer > 0) minBuffer * 1000 else androidx.media3.exoplayer.DefaultLoadControl.DEFAULT_MIN_BUFFER_MS
+            val maxBufferMs = if (maxBuffer > 0) maxBuffer * 1000 else androidx.media3.exoplayer.DefaultLoadControl.DEFAULT_MAX_BUFFER_MS
+            val finalMinBufferMs = minBufferMs.coerceAtMost(maxBufferMs)
+            loadControlBuilder.setBufferDurationsMs(
+                finalMinBufferMs,
+                maxBufferMs,
+                androidx.media3.exoplayer.DefaultLoadControl.DEFAULT_BUFFER_FOR_PLAYBACK_MS,
+                androidx.media3.exoplayer.DefaultLoadControl.DEFAULT_BUFFER_FOR_PLAYBACK_AFTER_REBUFFER_MS
+            )
+        }
+        val loadControl = loadControlBuilder.build()
+
         player =
             ExoPlayer
                 .Builder(this)
                 .setMediaSourceFactory(createMediaSourceFactory())
                 .setRenderersFactory(createRenderersFactory())
+                .setLoadControl(loadControl)
                 .setHandleAudioBecomingNoisy(true)
                 .setWakeMode(C.WAKE_MODE_NETWORK)
                 .setAudioAttributes(

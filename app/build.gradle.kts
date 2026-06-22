@@ -23,8 +23,8 @@ android {
         applicationId = "com.sarwar.melo"
         minSdk = 26
         targetSdk = 36
-        versionCode = 10
-        versionName = "1.0.0-Melo"
+        versionCode = 12
+        versionName = "1.0.2-Melo"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
@@ -241,6 +241,7 @@ dependencies {
 
     implementation("androidx.glance:glance-appwidget:1.1.1")
     implementation("androidx.glance:glance-material3:1.1.1")
+    implementation("io.github.jan-tennert.supabase:postgrest-kt:3.0.3")
 }
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {

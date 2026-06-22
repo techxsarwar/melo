@@ -1,5 +1,5 @@
 /*
- * Melo - by Sarwar Altaf Dar
+ * Melo - by ParallelogramFoundation
  * Sarwar Altaf Dar
  * Licensed Under GPL-3.0
  */
@@ -85,6 +85,7 @@ import com.nikhil.yt.ui.screens.settings.PrivacySettings
 import com.nikhil.yt.ui.screens.settings.SettingsScreen
 import com.nikhil.yt.ui.screens.settings.StorageSettings
 import com.nikhil.yt.ui.screens.settings.ThemeCreatorScreen
+import com.nikhil.yt.ui.screens.settings.AdminPanelScreen
 import com.nikhil.yt.ui.utils.ShowMediaInfo
 import com.nikhil.yt.utils.rememberEnumPreference
 import com.nikhil.yt.utils.rememberPreference
@@ -356,6 +357,9 @@ fun NavGraphBuilder.navigationBuilder(
     }
     composable("settings/about") {
         AboutScreen(navController, scrollBehavior)
+    }
+    composable("settings/admin") {
+        AdminPanelScreen(navController, scrollBehavior)
     }
     composable("settings/po_token") {
         PoTokenScreen(navController, scrollBehavior)

@@ -1,5 +1,5 @@
 /*
- * Melo - by Sarwar Altaf Dar
+ * Melo - by ParallelogramFoundation
  * Sarwar Altaf Dar
  * Licensed Under GPL-3.0
  */
@@ -1660,4 +1660,19 @@ interface DatabaseDao {
 
     @Query("DELETE FROM song_skip WHERE songId = :songId")
     suspend fun deleteSkip(songId: String)
+
+    @Query("SELECT COUNT(*) FROM song")
+    fun getSongCount(): Flow<Int>
+
+    @Query("SELECT COUNT(*) FROM playlist")
+    fun getPlaylistCount(): Flow<Int>
+
+    @Query("SELECT COUNT(*) FROM event")
+    fun getHistoryCount(): Flow<Int>
+
+    @Query("SELECT COUNT(*) FROM lyrics")
+    fun getLyricsCount(): Flow<Int>
+
+    @Query("DELETE FROM lyrics")
+    fun clearLyrics()
 }

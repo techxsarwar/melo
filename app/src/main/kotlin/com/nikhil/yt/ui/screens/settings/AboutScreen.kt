@@ -147,7 +147,7 @@ fun AboutScreen(
                 AboutItemCard(
                     iconUrl = "https://github.com/BurhanHamidDar.png",
                     title = "Burhan Hamid Dar",
-                    subtitle = "Developer",
+                    subtitle = "Developer & Modifier",
                     onClick = { uriHandler.openUri("https://github.com/BurhanHamidDar") }
                 )
                 Spacer(Modifier.height(24.dp))
@@ -158,17 +158,17 @@ fun AboutScreen(
                 SectionTitle("INSPIRATION")
                 Spacer(Modifier.height(8.dp))
                 AboutItemCard(
-                    iconUrl = "https://avatars.githubusercontent.com/u/107134739?v=4", 
-                    title = "Archivetune   -by koiverse",
-                    subtitle = "Base Framework",
-                    onClick = { uriHandler.openUri("https://github.com/koiverse/ArchiveTune") }
+                    iconUrl = "https://github.com/torvalds.png",
+                    title = "Linus Torvalds",
+                    subtitle = "Creator of Linux & Git",
+                    onClick = { uriHandler.openUri("https://github.com/torvalds") }
                 )
                 Spacer(Modifier.height(8.dp))
                 AboutItemCard(
-                    iconUrl = "https://avatars.githubusercontent.com/u/80542861?v=4",
-                    title = "MO AGAMY",
-                    subtitle = "Metrolist Dev",
-                    onClick = { uriHandler.openUri("https://github.com/mostafaalagamy") }
+                    iconUrl = "https://github.com/YouBTech01.png",
+                    title = "YouBTech01",
+                    subtitle = "Contributor & Developer",
+                    onClick = { uriHandler.openUri("https://github.com/YouBTech01") }
                 )
                 Spacer(Modifier.height(24.dp))
             }
@@ -183,6 +183,13 @@ fun AboutScreen(
                     subtitle = "View source code",
                     onClick = { uriHandler.openUri("https://github.com/techxsarwar/melo") }
                 )
+                Spacer(Modifier.height(8.dp))
+                AboutItemCard(
+                    iconUrl = "https://github.com/ParallelogramFoundation.png",
+                    title = "GitHub Organization",
+                    subtitle = "Parallelogram Foundation",
+                    onClick = { uriHandler.openUri("https://github.com/ParallelogramFoundation") }
+                )
                 Spacer(Modifier.height(24.dp))
 
                 AboutItemCard(
@@ -190,6 +197,14 @@ fun AboutScreen(
                     title = "Follow me on Instagram",
                     subtitle = "@i.jubito",
                     onClick = { uriHandler.openUri("https://www.instagram.com/i.jubito")}
+                )
+                Spacer(Modifier.height(8.dp))
+
+                AboutItemCard(
+                    iconRes = R.drawable.instagram,
+                    title = "Burhan on Instagram",
+                    subtitle = "@let_me_code__",
+                    onClick = { uriHandler.openUri("https://www.instagram.com/let_me_code__")}
                 )
                 Spacer(Modifier.height(24.dp))
 

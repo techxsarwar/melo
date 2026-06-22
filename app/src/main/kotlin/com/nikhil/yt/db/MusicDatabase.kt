@@ -1,5 +1,5 @@
 /*
- * Melo - by Sarwar Altaf Dar
+ * Melo - by ParallelogramFoundation
  * Sarwar Altaf Dar
  * Licensed Under GPL-3.0
  */
@@ -92,6 +92,10 @@ class MusicDatabase(
             awaitExecutor(delegate.queryExecutor)
             awaitExecutor(delegate.transactionExecutor)
         }
+    }
+
+    fun clearAllTables() {
+        delegate.clearAllTables()
     }
 
     fun close() = delegate.close()

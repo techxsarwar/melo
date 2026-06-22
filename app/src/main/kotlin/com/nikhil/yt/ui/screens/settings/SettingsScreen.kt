@@ -1,5 +1,5 @@
 /*
- * Melo - by Sarwar Altaf Dar
+ * Melo - by ParallelogramFoundation
  * Sarwar Altaf Dar
  * Licensed Under GPL-3.0
  */
@@ -538,6 +538,24 @@ fun SettingsScreen(
                                 "internal",
                             ),
                             onClick = { navController.navigate("settings/misc") },
+                        ),
+                    )
+
+                    add(
+                        PremiumSettingsItem(
+                            icon = painterResource(R.drawable.settings),
+                            title = "Admin & Developer Panel",
+                            subtitle = "Configure Supabase & system tweaks",
+                            accentColor = MaterialTheme.colorScheme.primary,
+                            keywords = listOf(
+                                "admin",
+                                "developer",
+                                "supabase",
+                                "database",
+                                "logs",
+                                "debug",
+                            ),
+                            onClick = { navController.navigate("settings/admin") },
                         ),
                     )
 

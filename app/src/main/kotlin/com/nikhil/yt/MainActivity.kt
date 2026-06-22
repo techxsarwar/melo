@@ -1,5 +1,5 @@
 /*
- * Melo - by Sarwar Altaf Dar
+ * Melo - by ParallelogramFoundation
  * Sarwar Altaf Dar
  * Licensed Under GPL-3.0
  */
@@ -62,6 +62,9 @@ import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.systemBars
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Button
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.AlertDialogDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -461,6 +464,8 @@ class MainActivity : ComponentActivity() {
                     }
                 }
 
+            var activeAppUpdate by remember { mutableStateOf<AppUpdate?>(null) }
+
             LaunchedEffect(Unit) {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
                     ContextCompat.checkSelfPermission(
@@ -471,13 +476,89 @@ class MainActivity : ComponentActivity() {
                     notificationPermissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
                 }
 
-                // Update checker disabled - IzzyOnDroid handles updates
-                // if (System.currentTimeMillis() - Updater.lastCheckTime > 1.days.inWholeMilliseconds) {
-                //     Updater.getLatestVersionName().onSuccess {
-                //         latestVersionName = it
-                //     }
-                // }
-                // com.nikhil.yt.utils.UpdateNotificationManager.checkForUpdates(this@MainActivity)
+                // Supabase live session heartbeat
+                withContext(Dispatchers.IO) {
+                    try {
+                        val deviceId = android.provider.Settings.Secure.getString(
+                            contentResolver,
+                            android.provider.Settings.Secure.ANDROID_ID
+                        ) ?: "unknown_device"
+
+                        val session = ActiveSession(
+                            device_id = deviceId,
+                            last_seen_at = java.time.Instant.now().toString()
+                        )
+                        supabase.from("active_sessions").upsert(session)
+                    } catch (e: Exception) {
+                        e.printStackTrace()
+                    }
+                }
+
+                // Supabase update check
+                withContext(Dispatchers.IO) {
+                    try {
+                        val updates = supabase.from("app_updates")
+                            .select().decodeList<AppUpdate>()
+                        val latestUpdate = updates.firstOrNull()
+                        if (latestUpdate != null && latestUpdate.version_code > BuildConfig.VERSION_CODE) {
+                            withContext(Dispatchers.Main) {
+                                activeAppUpdate = latestUpdate
+                            }
+                        }
+                    } catch (e: Exception) {
+                        e.printStackTrace()
+                    }
+                }
+            }
+
+            activeAppUpdate?.let { update ->
+                AlertDialog(
+                    onDismissRequest = {
+                        if (!update.force_update) {
+                            activeAppUpdate = null
+                        }
+                    },
+                    icon = {
+                        Icon(
+                            painter = painterResource(R.drawable.info),
+                            contentDescription = null
+                        )
+                    },
+                    title = {
+                        Text(text = "Update Available (${update.version_name})")
+                    },
+                    text = {
+                        Column {
+                            Text(text = "A new version of Melo is available. Please update to get the latest features.")
+                            if (update.changelog.isNotBlank()) {
+                                Spacer(modifier = Modifier.height(12.dp))
+                                Text(text = "Changelog:", fontWeight = FontWeight.Bold)
+                                Text(text = update.changelog)
+                            }
+                        }
+                    },
+                    confirmButton = {
+                        val uriHandler = androidx.compose.ui.platform.LocalUriHandler.current
+                        Button(
+                            onClick = {
+                                try {
+                                    uriHandler.openUri(update.download_url)
+                                } catch (e: Exception) {
+                                    e.printStackTrace()
+                                }
+                            }
+                        ) {
+                            Text("Download")
+                        }
+                    },
+                    dismissButton = if (update.force_update) null else {
+                        {
+                            TextButton(onClick = { activeAppUpdate = null }) {
+                                Text("Later")
+                            }
+                        }
+                    }
+                )
             }
 
             // Use remembered instances so the same state object is used everywhere
