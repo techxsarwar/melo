@@ -17,12 +17,12 @@ if (localPropertiesFile.exists()) {
 
 android {
     namespace = "com.nikhil.yt"
-    compileSdk = 36
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.sarwar.melo"
         minSdk = 26
-        targetSdk = 36
+        targetSdk = 35
         versionCode = 12
         versionName = "1.0.2-Melo"
 
