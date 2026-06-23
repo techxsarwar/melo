@@ -31,9 +31,11 @@ jobs:
 
       - name: Configure Gradle for CI
         run: |
-          echo "org.gradle.jvmargs=-Xmx4096M -Dfile.encoding=UTF-8 -Djava.awt.headless=true -XX:+UseParallelGC" >> gradle.properties
+          echo "org.gradle.jvmargs=-Xmx2048M -Dfile.encoding=UTF-8 -Djava.awt.headless=true -XX:+UseParallelGC" >> gradle.properties
+          echo "kotlin.daemon.jvmargs=-Xmx3072M -Djava.awt.headless=true" >> gradle.properties
+          echo "kotlin.compiler.execution.strategy=daemon" >> gradle.properties
           echo "org.gradle.parallel=true" >> gradle.properties
-          echo "org.gradle.workers.max=4" >> gradle.properties
+          echo "org.gradle.workers.max=2" >> gradle.properties
 
       - name: Build APKs (Debug & Release)
         run: ./gradlew assembleDebug assembleRelease
