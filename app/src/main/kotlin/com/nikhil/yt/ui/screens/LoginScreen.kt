@@ -20,6 +20,8 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TextButton
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
@@ -138,6 +140,17 @@ fun LoginScreen(
                 Icon(
                     painterResource(R.drawable.arrow_back),
                     contentDescription = null
+                )
+            }
+        },
+        actions = {
+            TextButton(
+                onClick = { navController.navigate("settings/admin") }
+            ) {
+                Text(
+                    text = "Admin Login",
+                    color = MaterialTheme.colorScheme.primary,
+                    fontWeight = androidx.compose.ui.text.font.FontWeight.Bold
                 )
             }
         }
