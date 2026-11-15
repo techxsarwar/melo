@@ -1,4 +1,4 @@
-// settings → modules: a word on what modules are, mochy's bar, then the looks and the js and source modules, each list dragged into order and swiped to delete
+// settings → modules: a word on what modules are, melo's bar, then the looks and the js and source modules, each list dragged into order and swiped to delete
 
 package com.mochyy.mochymusic.ui.screens.settings.modules
 
@@ -63,7 +63,7 @@ const val ModuleRoutePattern = "module/{id}"
 fun moduleRoute(id: String) = "module/$id"
 
 /** how to make a module, the guide on mochy's wiki */
-const val ModuleDocsUrl = "https://realidkroo.github.io/Mochy-Music/wiki/#modules-types"
+const val ModuleDocsUrl = "https://techxsarwar.github.io/Melo/wiki/#modules-types"
 
 private val CardShape = RoundedCornerShape(26.dp)
 
@@ -87,9 +87,10 @@ fun ModulesScreen(navController: NavController, viewModel: ModulesViewModel = hi
         titleBadge = { BetaBadge() },
     ) {
         ThirdPartyCard { context.openDevUrl(ModuleDocsUrl) }
-        Spacer(Modifier.height(14.dp))
-        // mochy's bar is where people share modules, so it sits right up top
-        ModulesBarBanner { context.openDevUrl(DiscordUrl) }
+        if (DiscordUrl.isNotBlank()) {
+            Spacer(Modifier.height(14.dp))
+            ModulesBarBanner { context.openDevUrl(DiscordUrl) }
+        }
         Spacer(Modifier.height(22.dp))
         Box(Modifier.fillMaxWidth().padding(horizontal = 2.dp).height(1.dp).background(Color.White.copy(alpha = 0.28f)))
         Spacer(Modifier.height(28.dp))

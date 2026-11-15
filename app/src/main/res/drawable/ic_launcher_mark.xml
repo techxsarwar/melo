@@ -1,32 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- launcher foreground, icon new - transparent 9.svg at the size the old icon used -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
-    android:viewportWidth="292"
-    android:viewportHeight="292">
-    <group
-        android:translateX="28.5"
-        android:translateY="28.5">
-        <path
-            android:pathData="M163.5 96.3493C180.167 105.972 180.167 130.028 163.5 139.651L108 171.694C91.3333 181.316 70.5 169.288 70.5 150.043V85.9569C70.5 66.7119 91.3333 54.6838 108 64.3063L163.5 96.3493Z"
-            android:fillColor="#FFFFFF"
-            android:strokeColor="#212121"
-            android:strokeWidth="19"
-            android:strokeLineJoin="round" />
-        <path
-            android:pathData="M97 112L108.5 98L120 112"
-            android:fillColor="#00000000"
-            android:strokeColor="#212121"
-            android:strokeWidth="11"
-            android:strokeLineCap="round"
-            android:strokeLineJoin="round" />
-        <path
-            android:pathData="M110.325 125C111.871 133.439 121.868 148.704 142.944 149.92"
-            android:fillColor="#00000000"
-            android:strokeColor="#212121"
-            android:strokeWidth="11"
-            android:strokeLineCap="round"
-            android:strokeLineJoin="round" />
-    </group>
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,68 C35,70.2 36.8,72 39,72 C41.2,72 43,70.2 43,68 L43,44 C43,41.8 44.8,40 47,40 C49.2,40 51,41.8 51,44 L51,64 C51,66.2 52.8,68 55,68 C57.2,68 59,66.2 59,64 L59,44 C59,41.8 60.8,40 63,40 C65.2,40 67,41.8 67,44 L67,68 C67,70.2 68.8,72 71,72 C73.2,72 75,70.2 75,68 L75,43 C75,36.4 69.6,31 63,31 C59.2,31 55.9,32.8 54,35.5 C52.1,32.8 48.8,31 45,31 C38.4,31 35,36.4 35,43 Z" />
 </vector>

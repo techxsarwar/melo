@@ -2,6 +2,12 @@
 
 package com.mochyy.mochymusic.ui.screens.donate
 
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
+import android.widget.Toast
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -47,9 +53,22 @@ import com.mochyy.mochymusic.ui.player.menu.MenuRowSurface
 import com.mochyy.mochymusic.ui.screens.update.VersionRing
 import com.mochyy.mochymusic.ui.screens.update.openUrl
 
-const val KofiUrl = "https://ko-fi.com/realidkroo"
-const val SocialBuzzUrl = "https://sociabuzz.com/realidkroo/tribe"
-const val BuyMeACoffeeUrl = "https://buymeacoffee.com/realkeichii"
+const val UpiId = "sarwaraltafdar@fam"
+const val UpiName = "Sarwar Altaf Dar"
+
+fun openUpiPayment(context: Context, upiId: String = UpiId, name: String = UpiName) {
+    val upiUri = Uri.parse("upi://pay?pa=$upiId&pn=${Uri.encode(name)}&cu=INR")
+    val intent = Intent(Intent.ACTION_VIEW, upiUri)
+    try {
+        val chooser = Intent.createChooser(intent, "Pay via UPI")
+        chooser.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        context.startActivity(chooser)
+    } catch (_: Exception) {
+        val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as? ClipboardManager
+        clipboard?.setPrimaryClip(ClipData.newPlainText("UPI ID", upiId))
+        Toast.makeText(context, "No UPI app found. Copied UPI ID: $upiId", Toast.LENGTH_LONG).show()
+    }
+}
 
 // the title tucks up over her faded bottom by this much, like the mock
 private val TitleOverlap = 18.dp
@@ -73,7 +92,7 @@ private fun DonateSheetContent() {
         val characterWidth = characterWidth(maxWidth, maxHeight)
 
         VersionRing(
-            text = "MOCHY MUSIC",
+            text = "MELO MUSIC",
             modifier =
                 Modifier
                     .align(Alignment.TopEnd)
@@ -114,7 +133,7 @@ private fun DonateSheetContent() {
             )
             Spacer(Modifier.height(4.dp))
             Text(
-                text = stringResource(R.string.donate_subtitle),
+                text = "Support the development of Melo directly via UPI",
                 fontSize = 14.sp,
                 fontWeight = FontWeight.Bold,
                 letterSpacing = (-0.3).sp,
@@ -124,30 +143,18 @@ private fun DonateSheetContent() {
             Spacer(Modifier.height(24.dp))
             Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                 DonateLinkRow(
-                    title = stringResource(R.string.donate_kofi),
-                    icon = R.drawable.ic_kofi,
-                    iconSize = 22.dp,
-                    onClick = { context.openUrl(KofiUrl) },
-                )
-                DonateLinkRow(
-                    title = stringResource(R.string.donate_sociabuzz),
-                    subtitle = stringResource(R.string.donate_sociabuzz_desc),
+                    title = "Pay via UPI (GPay / PhonePe / Paytm)",
+                    subtitle = "sarwaraltafdar@fam · Tap to open UPI app",
                     icon = R.drawable.link,
                     iconSize = 16.dp,
                     iconTint = Color.Black,
-                    onClick = { context.openUrl(SocialBuzzUrl) },
-                )
-                DonateLinkRow(
-                    title = stringResource(R.string.donate_buymeacoffee),
-                    icon = R.drawable.ic_bmc_logo,
-                    iconSize = 20.dp,
-                    onClick = { context.openUrl(BuyMeACoffeeUrl) },
+                    onClick = { openUpiPayment(context) },
                 )
             }
 
             Spacer(Modifier.height(22.dp))
             Text(
-                text = stringResource(R.string.donate_note),
+                text = "Tapping opens any UPI app installed on your device. If no UPI app is installed, the UPI ID is automatically copied to your clipboard.",
                 fontSize = 14.sp,
                 lineHeight = 19.sp,
                 fontWeight = FontWeight.Bold,

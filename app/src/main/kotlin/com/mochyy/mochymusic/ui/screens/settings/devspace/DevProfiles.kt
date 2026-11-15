@@ -70,20 +70,24 @@ internal data class DevPerson(
 
 internal val DevPeople = listOf(
     DevPerson(
-        name = "idkroo",
-        bio = "ui ux guy here uhh idk what to write here, pls star the repo",
+        name = "Sarwar Altaf Dar",
+        bio = "yea i started ts and yea here we are",
         avatar = R.drawable.frame_51_3,
         takesDonations = true,
         socials = listOf(
-            DevSocial("Instagram", InstagramUrl),
-            DevSocial("Discord", DiscordUrl),
-            DevSocial("Threads", ThreadsUrl),
+            DevSocial("GitHub", "https://github.com/techxsarwar/"),
+            DevSocial("Instagram", "https://www.instagram.com/i.jubito"),
         ).filter { it.url.isNotBlank() },
     ),
     DevPerson(
-        name = "Keycii",
-        bio = "Hi hello hi",
+        name = "Burhan Hamid Dar",
+        bio = "hell yea idc give a star",
         avatar = R.drawable.dev_keycii,
+        takesDonations = false,
+        socials = listOf(
+            DevSocial("GitHub", "https://github.com/BurhanHamidDar"),
+            DevSocial("Instagram", "https://www.instagram.com/let_me_code__/"),
+        ).filter { it.url.isNotBlank() },
     ),
 )
 

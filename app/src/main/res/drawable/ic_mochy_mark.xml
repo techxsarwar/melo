@@ -1,31 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="128"
-    android:viewportHeight="139">
-    <!-- the mochy mark from icon new - transparent 2.svg, moved 58,48 so it sits in the same box as the old mark -->
-    <group
-        android:translateX="-58"
-        android:translateY="-48">
-        <path
-            android:pathData="M163.5 96.3493C180.167 105.972 180.167 130.028 163.5 139.651L108 171.694C91.3333 181.316 70.5 169.288 70.5 150.043V85.9569C70.5 66.7119 91.3333 54.6838 108 64.3063L163.5 96.3493Z"
-            android:fillColor="#00000000"
-            android:strokeColor="#FFFFFF"
-            android:strokeWidth="19"
-            android:strokeLineJoin="round" />
-        <path
-            android:pathData="M97 112L108.5 98L120 112"
-            android:fillColor="#00000000"
-            android:strokeColor="#FFFFFF"
-            android:strokeWidth="11"
-            android:strokeLineCap="round"
-            android:strokeLineJoin="round" />
-        <path
-            android:pathData="M110.325 125C111.871 133.439 121.868 148.704 142.944 149.92"
-            android:fillColor="#00000000"
-            android:strokeColor="#FFFFFF"
-            android:strokeWidth="11"
-            android:strokeLineCap="round"
-            android:strokeLineJoin="round" />
-    </group>
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M4,18 C4,19.1 4.9,20 6,20 C7.1,20 8,19.1 8,18 L8,9 C8,7.9 8.9,7 10,7 C11.1,7 12,7.9 12,9 L12,17 C12,18.1 12.9,19 14,19 C15.1,19 16,18.1 16,17 L16,9 C16,7.9 16.9,7 18,7 C19.1,7 20,7.9 20,9 L20,18 C20,19.1 20.9,20 22,20 C23.1,20 24,19.1 24,18 L24,8.5 C24,5.5 21.5,3 18.5,3 C16.7,3 15.1,3.9 14,5.2 C12.9,3.9 11.3,3 9.5,3 C6.5,3 4,5.5 4,8.5 Z" />
 </vector>
