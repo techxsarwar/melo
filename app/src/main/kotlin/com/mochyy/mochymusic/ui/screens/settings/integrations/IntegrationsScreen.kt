@@ -16,7 +16,6 @@ import com.mochyy.mochymusic.R
 import com.mochyy.mochymusic.scrobble.ScrobbleSite
 import com.mochyy.mochymusic.ui.component.SubSettingsScaffold
 import com.mochyy.mochymusic.ui.screens.settings.importsync.YouTubeSyncRoute
-import com.mochyy.mochymusic.ui.screens.settings.integrations.discord.DiscordRoute
 
 const val IntegrationsRoute = "integrations_settings"
 
@@ -30,12 +29,6 @@ fun IntegrationsScreen(navController: NavController) {
         onBack = { navController.navigateUp() },
     ) {
         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            IntegrationRow(
-                name = "Discord",
-                description = stringResource(R.string.integration_discord_desc),
-                icon = R.drawable.integration_discord,
-                onClick = { navController.navigate(DiscordRoute) },
-            )
             IntegrationRow(
                 name = ScrobbleSite.LASTFM.label,
                 description = stringResource(R.string.integration_scrobbling_desc, ScrobbleSite.LASTFM.label),

@@ -56,7 +56,6 @@ import com.mochyy.mochymusic.scrobble.ScrobbleSite
 import com.mochyy.mochymusic.ui.screens.devices.showDeviceIntegration
 import com.mochyy.mochymusic.ui.screens.settings.importsync.YouTubeSyncRoute
 import com.mochyy.mochymusic.ui.screens.settings.integrations.IntegrationsRoute
-import com.mochyy.mochymusic.ui.screens.settings.integrations.discord.DiscordRoute
 import com.mochyy.mochymusic.ui.screens.settings.integrations.scrobbleServiceRoute
 import com.mochyy.mochymusic.constants.ProfilePicUriKey
 import com.mochyy.mochymusic.ui.component.GlassState
@@ -221,7 +220,6 @@ private val SettingsIndex = listOf(
     SettingsEntry("YouTube Music", "Audio Lab", "audio_quality", "youtube turn off disable provider only monochrome apple music"),
 
     // Integrations
-    SettingsEntry("Discord", "Integrations", DiscordRoute, "discord rich presence rpc status activity listening playing profile behaviour pause clear"),
     SettingsEntry("Last.fm", "Integrations", scrobbleServiceRoute(ScrobbleSite.LASTFM), "lastfm scrobble scrobbling history stats account sign in"),
     SettingsEntry("Libre.fm", "Integrations", scrobbleServiceRoute(ScrobbleSite.LIBREFM), "librefm scrobble scrobbling history stats account sign in"),
     SettingsEntry("Now Playing", "Integrations", scrobbleServiceRoute(ScrobbleSite.LASTFM), "scrobble now playing status profile lastfm librefm"),
