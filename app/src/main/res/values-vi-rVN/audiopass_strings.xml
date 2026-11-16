@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="audiopass_hub_title">Audio Pass</string>
     <string name="audiopass_title_first">Chuyện</string>
@@ -6,7 +6,7 @@
     <string name="audiopass_joined">%1$s · %2$s</string>
     <string name="audiopass_status_label">trạng thái</string>
     <string name="audiopass_status_connected">Đã kết nối</string>
-    <string name="audiopass_status_driven">Do Mochy điều khiển</string>
+    <string name="audiopass_status_driven">Do Melo điều khiển</string>
     <string name="audiopass_status_bluetooth">Bluetooth</string>
     <string name="audiopass_status_wired">Tai nghe</string>
     <string name="audiopass_status_none">Chưa kết nối</string>
@@ -51,13 +51,13 @@
     <string name="audiopass_bt_open_developer">Mở Tùy chọn nhà phát triển</string>
     <string name="audiopass_bt_developer_off">Hãy bật Tùy chọn nhà phát triển trước: nhấn vào Số hiệu bản dựng 7 lần trong Giới thiệu điện thoại.</string>
     <string name="audiopass_bt_permission">Hiện codec</string>
-    <string name="audiopass_bt_permission_hint">Mochy cần quyền Thiết bị ở gần để xem tai nghe của bạn đang dùng codec nào.</string>
+    <string name="audiopass_bt_permission_hint">Melo cần quyền Thiết bị ở gần để xem tai nghe của bạn đang dùng codec nào.</string>
     <string name="audiopass_bt_unknown_hint">Điện thoại này không báo codec cho ứng dụng ngay lập tức. Codec sẽ hiện ở đây ngay khi có thay đổi.</string>
     <string name="audiopass_options">Tùy chọn</string>
     <string name="audiopass_prefer_usb">Dùng DAC khi đã kết nối</string>
     <string name="audiopass_hires">Đầu ra Hi-res (32-bit)</string>
     <string name="audiopass_exclusive">Chế độ độc quyền</string>
-    <string name="audiopass_resampler">Bộ lấy mẫu lại Hi-fi riêng của Mochy</string>
+    <string name="audiopass_resampler">Bộ lấy mẫu lại Hi-fi riêng của Melo</string>
     <string name="audiopass_resampler_desc">Chỉ dành cho loa và giắc cắm tai nghe. Bài hát được đưa về tần số riêng của điện thoại bằng bộ lọc sạch hơn của Android.</string>
     <string name="audiopass_passthrough">Truyền bit-perfect</string>
     <string name="audiopass_passthrough_desc">Bài hát đến DAC nguyên vẹn, không qua trộn hay lấy mẫu lại của Android.</string>
@@ -67,11 +67,11 @@
     <string name="audiopass_mode_bit_perfect">Bit-perfect</string>
     <string name="audiopass_mode_bit_perfect_desc">Android chuyển mọi bài hát lossless đến DAC mà không chỉnh sửa.</string>
     <string name="audiopass_mode_direct_usb">USB trực tiếp</string>
-    <string name="audiopass_mode_direct_usb_desc">Mochy tự điều khiển DAC trên mọi phiên bản Android và chỉnh âm lượng ngay trên DAC. Cần quyền truy cập USB.</string>
+    <string name="audiopass_mode_direct_usb_desc">Melo tự điều khiển DAC trên mọi phiên bản Android và chỉnh âm lượng ngay trên DAC. Cần quyền truy cập USB.</string>
     <string name="audiopass_mode_exclusive_usb">USB độc quyền</string>
-    <string name="audiopass_mode_exclusive_usb_desc">DAC chỉ mở riêng cho Mochy ở đúng tần số của bài hát. Không phải điện thoại nào cũng cho phép.</string>
+    <string name="audiopass_mode_exclusive_usb_desc">DAC chỉ mở riêng cho Melo ở đúng tần số của bài hát. Không phải điện thoại nào cũng cho phép.</string>
     <string name="audiopass_mode_exclusive_dac">DAC tích hợp</string>
-    <string name="audiopass_mode_exclusive_dac_desc">Dành cho máy nghe nhạc có DAC riêng: giắc cắm tai nghe chỉ mở riêng cho Mochy.</string>
+    <string name="audiopass_mode_exclusive_dac_desc">Dành cho máy nghe nhạc có DAC riêng: giắc cắm tai nghe chỉ mở riêng cho Melo.</string>
     <string name="audiopass_mode_needs">Cần Android %1$s</string>
     <string name="audiopass_blockers_title">Bit-perfect sẽ đợi cho đến khi những mục này được tắt</string>
     <string name="audiopass_blockers_clear_title">Không có gì cản trở</string>
@@ -86,13 +86,13 @@
     <string name="audiopass_blocker_lossy">Bài hát nén mất dữ liệu (YouTube, Apple Music) luôn phát theo cách thông thường.</string>
     <string name="audiopass_now_bitperfect">Bit-perfect tới %1$s · %2$s kHz · %3$s-bit</string>
     <string name="audiopass_now_untouched">Nguyên vẹn tới %1$s · %2$s kHz · %3$s-bit. Bản thân bài hát đã bị nén trước khi đến đây.</string>
-    <string name="audiopass_now_inexact">Đến %1$s mà không thay đổi, nhưng các mẫu của bài hát này đã bị làm tròn trước khi Mochy nhận được.</string>
+    <string name="audiopass_now_inexact">Đến %1$s mà không thay đổi, nhưng các mẫu của bài hát này đã bị làm tròn trước khi Melo nhận được.</string>
     <string name="audiopass_now_waiting">Đã sẵn sàng. Bài hát tiếp theo phù hợp sẽ được đưa thẳng vào DAC.</string>
     <string name="audiopass_now_fell">Bài hát %1$s kHz %2$s-bit không thể mở DAC theo cách này, nên được phát theo cách thông thường.</string>
     <string name="audiopass_usb_title">USB trực tiếp</string>
     <string name="audiopass_usb_permission">Cho phép truy cập USB</string>
     <string name="audiopass_usb_permission_hint">Android sẽ hỏi mỗi khi cắm DAC. Cho đến khi bạn cho phép, bài hát sẽ phát theo cách thông thường.</string>
-    <string name="audiopass_usb_no_dac">Cắm USB DAC vào và Mochy sẽ lo phần còn lại.</string>
+    <string name="audiopass_usb_no_dac">Cắm USB DAC vào và Melo sẽ lo phần còn lại.</string>
     <string name="audiopass_fixed_volume">DAC không có âm lượng riêng</string>
     <string name="audiopass_fixed_volume_desc">Phát ở mức tối đa, nên chỉ núm vặn của DAC mới giảm được âm lượng. Có thể rất to với tai nghe nhạy.</string>
     <string name="audiopass_dac_volume">Âm lượng DAC</string>

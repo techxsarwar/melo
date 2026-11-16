@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Experimental Settings -->
     <string name="experimental_settings_title">Experimental</string>
@@ -17,7 +17,7 @@
     <string name="experimental_force_yt_blur_desc">Override the 120 px default; may increase GPU load</string>
     <string name="experimental_force_recap_title">Force show monthly recap</string>
     <string name="experimental_force_recap_desc">Unlock the recap early</string>
-    <string name="experimental_force_recap_detail">Unlock the recap behind the Mochy card now, before the 3rd or 10 songs</string>
+    <string name="experimental_force_recap_detail">Unlock the recap behind the Melo card now, before the 3rd or 10 songs</string>
     <string name="experimental_big_disc_title">Big disc cover styles</string>
     <string name="experimental_big_disc_desc">Unfinished — oversized discs that bleed off screen</string>
     <string name="experimental_music_haptics_title">Music haptics</string>
@@ -43,7 +43,7 @@
     <string name="cipher_status_not_loaded">Not loaded</string>
     <string name="cipher_status_stale">Stale — refreshes on next playback</string>
     <string name="cipher_status_ready">Ready</string>
-    <string name="cipher_card_description">YouTube signs its stream URLs with a player script that changes periodically. mochy caches that script and re-downloads it automatically.</string>
+    <string name="cipher_card_description">YouTube signs its stream URLs with a player script that changes periodically. Melo caches that script and re-downloads it automatically.</string>
     <string name="cipher_player_id">Player ID</string>
     <string name="cipher_last_updated">Last updated</string>
     <string name="cipher_script_size">Script size</string>
@@ -118,10 +118,10 @@
     <string name="discord_no_browser_toast">There\'s no browser to open Discord\'s login page in.</string>
     <string name="discord_settings_title">Discord</string>
     <string name="discord_subtitle_rich_presence">Rich presence on your profile</string>
-    <string name="discord_status_not_configured">Not set up in this build of Mochy</string>
+    <string name="discord_status_not_configured">Not set up in this build of Melo</string>
     <string name="discord_status_signing_in">Signing in…</string>
     <string name="discord_status_login_below">Log in below to turn it on</string>
-    <string name="discord_status_off">Off, so your profile shows nothing from Mochy</string>
+    <string name="discord_status_off">Off, so your profile shows nothing from Melo</string>
     <string name="discord_status_live">On your profile now</string>
     <string name="discord_status_connecting">Connecting to Discord…</string>
     <string name="discord_status_retrying">Can\'t reach Discord. Trying again…</string>
@@ -158,7 +158,7 @@
     <string name="discord_cd_close">Close</string>
     <string name="discord_spin_full_turn">One full turn</string>
     <string name="discord_spin_smoothness">Smoothness</string>
-    <string name="discord_spin_note">Turns forever. Discord can only show pictures from the web, so Mochy makes a GIF of the artwork and puts it on a free file host (uguu.se, which deletes it after three hours). Slower, smoother turns make a bigger GIF that takes a little longer to show up; the still artwork stands in meanwhile. 50 fps is as smooth as a GIF can play.</string>
+    <string name="discord_spin_note">Turns forever. Discord can only show pictures from the web, so Melo makes a GIF of the artwork and puts it on a free file host (uguu.se, which deletes it after three hours). Slower, smoother turns make a bigger GIF that takes a little longer to show up; the still artwork stands in meanwhile. 50 fps is as smooth as a GIF can play.</string>
     <string name="discord_placeholder_list_title">Placeholder list</string>
     <string name="discord_placeholder_example_title">For example, this activity name</string>
     <string name="discord_placeholder_shows_up_as">shows up as</string>
@@ -170,7 +170,7 @@
     <string name="discord_image_artwork">Music artwork</string>
     <string name="discord_image_artist">Artist artwork</string>
     <string name="discord_image_playback_status">Playback status</string>
-    <string name="discord_image_app_logo">Mochy logo</string>
+    <string name="discord_image_app_logo">Melo logo</string>
     <string name="discord_image_spinning_artist">Rotating artist artwork</string>
     <string name="discord_image_spinning_artwork">Rotating music artwork</string>
     <string name="discord_image_custom">Your own picture</string>
@@ -178,11 +178,11 @@
     <string name="discord_target_spotify">Spotify</string>
     <string name="discord_target_apple_music">Apple Music</string>
     <string name="discord_target_tidal">Tidal</string>
-    <string name="discord_target_mochy">Mochy on GitHub</string>
+    <string name="discord_target_mochy">Melo on GitHub</string>
     <string name="discord_ph_name">Song name</string>
     <string name="discord_ph_artist">Artist name</string>
     <string name="discord_ph_album">Album</string>
-    <string name="discord_ph_app">Mochy</string>
+    <string name="discord_ph_app">Melo</string>
     <string name="discord_ph_quality">Format and bitrate, like OPUS · 160 kbps</string>
     <string name="discord_ph_apple">The Apple logo (only Apple devices can show it)</string>
     <string name="discord_enable_rich_presence">Enable rich presence</string>

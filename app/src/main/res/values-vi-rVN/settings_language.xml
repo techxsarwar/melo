@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="appearance_player">Giao diện trình phát</string>
     <string name="appearance_customize_player">Tùy chỉnh trình phát</string>
@@ -45,7 +45,7 @@
     <string name="playback_keep_playing_detail">Tiếp tục phát nhạc ở chế độ nền khi ứng dụng bị xóa khỏi danh sách ứng dụng gần đây</string>
     <string name="playback_mix_other_apps">Phát cùng ứng dụng khác</string>
     <string name="playback_mix_other_apps_desc">Vẫn phát khi ứng dụng khác phát tiếng</string>
-    <string name="playback_mix_other_apps_detail">Mochy sẽ không tạm dừng khi video, trò chơi hay ứng dụng nhạc khác bắt đầu phát, và cũng không làm chúng tạm dừng. Cuộc gọi vẫn sẽ tạm dừng nhạc và nhạc tiếp tục khi cuộc gọi kết thúc.</string>
+    <string name="playback_mix_other_apps_detail">Melo sẽ không tạm dừng khi video, trò chơi hay ứng dụng nhạc khác bắt đầu phát, và cũng không làm chúng tạm dừng. Cuộc gọi vẫn sẽ tạm dừng nhạc và nhạc tiếp tục khi cuộc gọi kết thúc.</string>
     <string name="playback_resume_bluetooth">Phát tiếp khi kết nối Bluetooth</string>
     <string name="playback_resume_bluetooth_desc">Tiếp tục bài hát đang tạm dừng khi tai nghe hoặc xe hơi kết nối</string>
     <string name="playback_save_state">Lưu trạng thái cuối của trình phát</string>
@@ -53,11 +53,11 @@
     <string name="playback_save_state_detail">Tắt tùy chọn này sẽ xóa các bài hát bạn đã phát khi bạn đóng ứng dụng</string>
     <string name="settings_albums_from_likes">Album từ bài hát đã thích</string>
     <string name="settings_albums_from_likes_desc">Thích một bài hát cũng sẽ thêm album của nó</string>
-    <string name="settings_albums_from_likes_detail">Đây là cách Mochy từng hoạt động: mỗi bài hát bạn thích sẽ đưa album của nó vào mục Album. Khi tắt, Album hoạt động như Apple Music và chỉ hiện các album bạn đã lưu, cùng album của những bài bạn thêm, nhập hoặc lưu trên điện thoại này.</string>
+    <string name="settings_albums_from_likes_detail">Đây là cách Melo từng hoạt động: mỗi bài hát bạn thích sẽ đưa album của nó vào mục Album. Khi tắt, Album hoạt động như Apple Music và chỉ hiện các album bạn đã lưu, cùng album của những bài bạn thêm, nhập hoặc lưu trên điện thoại này.</string>
     <string name="settings_pause_search_history_desc">Ngừng lưu những gì bạn tìm kiếm</string>
     <string name="proxy_status_off">Tắt</string>
     <string name="proxy_status_on">Bật, qua %1$s</string>
-    <string name="proxy_intro">Gửi lưu lượng YouTube của Mochy qua một máy chủ khác. Hữu ích khi YouTube bị chặn trên mạng của bạn, hoặc khi YouTube Music chưa có ở nơi bạn sống.</string>
+    <string name="proxy_intro">Gửi lưu lượng YouTube của Melo qua một máy chủ khác. Hữu ích khi YouTube bị chặn trên mạng của bạn, hoặc khi YouTube Music chưa có ở nơi bạn sống.</string>
     <string name="proxy_use">Dùng proxy</string>
     <string name="proxy_use_desc">Bài hát, video, tải xuống và các yêu cầu YouTube đều đi qua proxy</string>
     <string name="proxy_use_needs_address">Hãy thêm địa chỉ proxy trước</string>
@@ -107,10 +107,10 @@
     <string name="customise_reset">Đặt lại mặc định</string>
     <string name="customise_cover_rounding">Bo góc\nảnh bìa</string>
     <string name="customise_icons">Biểu tượng</string>
-    <string name="customise_icons_caption">Màn hình chính có thể mất vài giây để hiện biểu tượng mới. Mở Mochy từ đó cũng sẽ bắt đầu với biểu tượng ấy.</string>
-    <string name="app_icon_family_mark">Mochy</string>
-    <string name="app_icon_family_outline">Mochy viền</string>
-    <string name="app_icon_family_anime">Mochy anime</string>
+    <string name="customise_icons_caption">Màn hình chính có thể mất vài giây để hiện biểu tượng mới. Mở Melo từ đó cũng sẽ bắt đầu với biểu tượng ấy.</string>
+    <string name="app_icon_family_mark">Melo</string>
+    <string name="app_icon_family_outline">Melo viền</string>
+    <string name="app_icon_family_anime">Melo anime</string>
     <string name="app_icon_default">Mặc định</string>
     <string name="app_icon_white">Trắng</string>
     <string name="app_icon_black">Đen</string>
@@ -121,10 +121,10 @@
     <string name="app_icon_outline_black">Đen</string>
     <string name="app_icon_outline_material">Material u</string>
     <string name="app_icon_outline_transparent">Trong suốt</string>
-    <string name="app_icon_anime_white">Mochy trắng</string>
-    <string name="app_icon_anime_dark">Mochy tối</string>
-    <string name="app_icon_anime_material">Mochy material u</string>
-    <string name="app_icon_anime_transparent">Mochy trong suốt</string>
+    <string name="app_icon_anime_white">Melo trắng</string>
+    <string name="app_icon_anime_dark">Melo tối</string>
+    <string name="app_icon_anime_material">Melo material u</string>
+    <string name="app_icon_anime_transparent">Melo trong suốt</string>
     <string name="customise_icons_show_all">Hiện tất cả biểu tượng</string>
     <string name="customise_icons_show_less">Hiện ít biểu tượng hơn</string>
     <string name="app_icon_customize">Tùy chỉnh</string>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Import & Sync Screen -->
     <string name="import_sync_title">Nhập &amp; đồng bộ</string>
@@ -23,9 +23,9 @@
     <string name="import_sync_tunemymusic_desc">Amazon Music, SoundCloud, Deezer và hơn thế nữa</string>
     <string name="import_sync_tunemymusic_detail">Bất kỳ dịch vụ nào khác, chẳng hạn như thư viện Amazon Music, SoundCloud hoặc Deezer</string>
     <string name="import_sync_backup_title">Sao lưu</string>
-    <string name="import_sync_export_csv_title">Xuất ra Mochy CSV</string>
+    <string name="import_sync_export_csv_title">Xuất ra Melo CSV</string>
     <string name="import_sync_export_csv_desc">Bài hát đã thích và danh sách phát</string>
-    <string name="import_sync_export_csv_detail">Bài hát đã thích và danh sách phát, nhập lại từ Nhập → Bản sao lưu Mochy</string>
+    <string name="import_sync_export_csv_detail">Bài hát đã thích và danh sách phát, nhập lại từ Nhập → Bản sao lưu Melo</string>
     <string name="import_sync_exporting">Đang xuất…</string>
     <string name="import_sync_btn_ok">OK</string>
 
@@ -43,14 +43,14 @@
     <string name="yt_sync_report_plays_title">Gửi lượt nghe vào lịch sử YouTube</string>
     <string name="yt_sync_report_plays_desc">Bài hát bạn nghe tại đây sẽ xuất hiện trong lịch sử YouTube của bạn</string>
     <string name="yt_sync_pull_history_title">Sao chép lịch sử YouTube vào đây</string>
-    <string name="yt_sync_pull_history_desc">Lượt nghe từ các thiết bị khác sẽ được thêm vào lịch sử Mochy mỗi lần đồng bộ</string>
+    <string name="yt_sync_pull_history_desc">Lượt nghe từ các thiết bị khác sẽ được thêm vào lịch sử Melo mỗi lần đồng bộ</string>
     <string name="yt_sync_other_apps_header">Ứng dụng khác</string>
     <string name="yt_sync_now_header">Thao tác ngay</string>
     <string name="yt_sync_now_title">Đồng bộ ngay</string>
     <string name="yt_sync_now_desc_history">Thư viện, danh sách phát và lịch sử</string>
     <string name="yt_sync_now_desc_no_history">Thư viện và danh sách phát</string>
     <string name="yt_sync_pull_history_now_title">Sao chép lịch sử YouTube ngay</string>
-    <string name="yt_sync_pull_history_now_desc">Chỉ thêm những lượt nghe mà Mochy chưa có</string>
+    <string name="yt_sync_pull_history_now_desc">Chỉ thêm những lượt nghe mà Melo chưa có</string>
     <string name="yt_sync_upload_playlists_title">Đưa danh sách phát cục bộ lên YouTube</string>
     <string name="yt_sync_upload_playlists_desc">Sao chép danh sách phát cục bộ lên YouTube</string>
     <string name="yt_sync_upload_playlists_detail">Tạo bản sao YouTube cho mỗi danh sách phát chỉ tồn tại trên thiết bị này</string>
@@ -59,12 +59,12 @@
     <string name="yt_sync_dialog_sign_out_body">Mọi bài hát trong thư viện sẽ được giữ nguyên. Quá trình đồng bộ tạm dừng cho đến khi bạn đăng nhập lại.</string>
     <string name="yt_sync_dialog_upload_title">Đưa danh sách phát cục bộ lên YouTube?</string>
     <string name="yt_sync_dialog_upload_create">Tạo</string>
-    <string name="yt_sync_dialog_upload_body">Mỗi danh sách phát chỉ có trong Mochy sẽ có một bản sao riêng tư trên tài khoản YouTube của bạn. Sau đó, mọi thay đổi sẽ áp dụng cho cả hai.</string>
+    <string name="yt_sync_dialog_upload_body">Mỗi danh sách phát chỉ có trong Melo sẽ có một bản sao riêng tư trên tài khoản YouTube của bạn. Sau đó, mọi thay đổi sẽ áp dụng cho cả hai.</string>
     <string name="yt_sync_cancel">Hủy</string>
 
     <!-- YouTube Login Screen -->
     <string name="yt_login_title">Đăng nhập YouTube</string>
-    <string name="yt_login_subtitle">Trang đăng nhập chính thức của Google. Mochy không bao giờ nhìn thấy mật khẩu của bạn.</string>
+    <string name="yt_login_subtitle">Trang đăng nhập chính thức của Google. Melo không bao giờ nhìn thấy mật khẩu của bạn.</string>
     <string name="yt_login_signed_in_as">Đã đăng nhập với tên %1$s</string>
     <string name="yt_login_signed_in_general">Đã đăng nhập vào YouTube</string>
     <string name="yt_login_failed">Không thể hoàn tất đăng nhập. Vui lòng thử lại.</string>
@@ -94,8 +94,8 @@
     <string name="import_link_deezer_desc">Danh sách phát công khai và album, độ dài bất kỳ</string>
     <string name="import_link_youtube_desc">Danh sách phát và album, khớp chính xác bài hát, không cần tìm kiếm</string>
     <string name="import_providers_file_header">Từ tệp</string>
-    <string name="import_mochy_backup_title">Bản sao lưu Mochy</string>
-    <string name="import_mochy_backup_desc">Tệp CSV từ Xuất ra Mochy CSV. Khôi phục chính xác các bài hát</string>
+    <string name="import_mochy_backup_title">Bản sao lưu Melo</string>
+    <string name="import_mochy_backup_desc">Tệp CSV từ Xuất ra Melo CSV. Khôi phục chính xác các bài hát</string>
     <string name="import_tunemymusic_csv_desc">Danh sách phát riêng tư, bài hát đã thích và tất cả dịch vụ khác</string>
     <string name="import_providers_other_header">Dịch vụ khác</string>
     <string name="import_other_services_title">Amazon Music, SoundCloud, Pandora…</string>
@@ -106,8 +106,8 @@
     <string name="account_resync_looking">Đang tìm bài hát mới trên %1$s…</string>
     <string name="account_resync_missing"> Không tìm thấy %1$s ở đó.</string>
     <string name="account_import_signin_title">Đăng nhập vào %1$s</string>
-    <string name="account_import_resync_subtitle">Trên trang chính thức của %1$s. Mochy chỉ đọc danh sách phát bạn đang đồng bộ lại</string>
-    <string name="account_import_signin_subtitle">Trên trang chính thức của %1$s. Mochy chỉ đọc danh sách phát của bạn</string>
+    <string name="account_import_resync_subtitle">Trên trang chính thức của %1$s. Melo chỉ đọc danh sách phát bạn đang đồng bộ lại</string>
+    <string name="account_import_signin_subtitle">Trên trang chính thức của %1$s. Melo chỉ đọc danh sách phát của bạn</string>
     <string name="account_import_ytm_needs_signin">Nhập từ YouTube Music sử dụng tài khoản YouTube của ứng dụng. Hãy đăng nhập, sau đó chọn danh sách phát.</string>
     <string name="account_import_reading_count">(%1$d / %2$d)</string>
     <string name="account_import_stop">Dừng</string>

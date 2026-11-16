@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_language_search">Tìm ngôn ngữ</string>
     <string name="app_language_follow_device">Theo điện thoại của bạn</string>
@@ -31,7 +31,7 @@
     <string name="settings_seconds_short">%1$d giây</string>
     <string name="settings_youtube_plays">Tính lượt phát trên YouTube</string>
     <string name="settings_youtube_plays_desc">Các bài hát bạn nghe sẽ được tính là lượt phát trên YouTube</string>
-    <string name="settings_youtube_plays_detail">Khi một bài hát đã phát đủ lâu để được ghi vào lịch sử của bạn, Mochy sẽ báo cho YouTube, giống cách ứng dụng YouTube Music làm. Khi bạn đã đăng nhập, bài hát cũng sẽ hiện trong lịch sử YouTube của bạn. Bài hát bị bỏ qua, tệp trên máy và mọi thứ phát ngoại tuyến sẽ không bao giờ được gửi đi</string>
+    <string name="settings_youtube_plays_detail">Khi một bài hát đã phát đủ lâu để được ghi vào lịch sử của bạn, Melo sẽ báo cho YouTube, giống cách ứng dụng YouTube Music làm. Khi bạn đã đăng nhập, bài hát cũng sẽ hiện trong lịch sử YouTube của bạn. Bài hát bị bỏ qua, tệp trên máy và mọi thứ phát ngoại tuyến sẽ không bao giờ được gửi đi</string>
     <string name="settings_playback_category">Phát nhạc</string>
     <string name="settings_customisation_category">Tùy biến</string>
     <string name="settings_audio_lab_category">Audio Lab</string>

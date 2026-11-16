@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="storage_overall">Tổng quan</string>
-    <string name="storage_legend_mochy">Mochy</string>
+    <string name="storage_legend_mochy">Melo</string>
     <string name="storage_legend_yours">Bộ nhớ của bạn</string>
     <string name="storage_free">Còn trống %1$s</string>
-    <string name="storage_measuring">Đang tính dung lượng Mochy chiếm…</string>
-    <string name="storage_uses">Mochy dùng %1$s bộ nhớ của bạn (%2$s), được chia thành</string>
-    <string name="storage_uses_drives">Mochy dùng %1$s trên %2$d ổ, được chia thành</string>
-    <string name="storage_breakdown_title">Dung lượng dữ liệu ứng dụng Mochy</string>
+    <string name="storage_measuring">Đang tính dung lượng Melo chiếm…</string>
+    <string name="storage_uses">Melo dùng %1$s bộ nhớ của bạn (%2$s), được chia thành</string>
+    <string name="storage_uses_drives">Melo dùng %1$s trên %2$d ổ, được chia thành</string>
+    <string name="storage_breakdown_title">Dung lượng dữ liệu ứng dụng Melo</string>
     <string name="storage_legend_cache">Bộ nhớ đệm</string>
     <string name="storage_legend_downloads">Nhạc đã tải xuống &amp; trên máy</string>
     <string name="storage_legend_database">Cơ sở dữ liệu</string>
@@ -22,7 +22,7 @@
     <string name="storage_cache_off">Tắt</string>
     <string name="storage_cache_mb">%1$d MB</string>
     <string name="storage_cache_gb">%1$d GB</string>
-    <string name="storage_cache_applies_later">Giới hạn mới sẽ áp dụng vào lần mở Mochy tiếp theo.</string>
+    <string name="storage_cache_applies_later">Giới hạn mới sẽ áp dụng vào lần mở Melo tiếp theo.</string>
     <string name="storage_remove_downloads">Xóa tất cả bài hát đã tải xuống</string>
     <string name="storage_remove_downloads_title">Xóa tất cả bài hát đã tải xuống?</string>
     <string name="storage_remove_downloads_message">Mọi bài hát đã tải xuống sẽ bị xóa khỏi điện thoại này. Chúng vẫn nằm trong thư viện của bạn và được phát trực tuyến lại khi bạn phát, nên cần có kết nối mạng.</string>
@@ -41,14 +41,14 @@
     <string name="storage_place_card">Thẻ nhớ</string>
     <string name="storage_place_sheet_downloads">Nơi lưu bài hát tải xuống</string>
     <string name="storage_place_sheet_cache">Nơi lưu bộ nhớ đệm</string>
-    <string name="storage_place_note_downloads">Mọi bài hát đã tải xuống sẽ được chuyển sang, kèm lời bài hát. Mochy khởi động lại một lần để hoàn tất.</string>
-    <string name="storage_place_note_cache">Bộ nhớ đệm sẽ bắt đầu mới ở nơi mới. Mochy khởi động lại một lần để hoàn tất.</string>
-    <string name="storage_place_card_note">Trên thẻ nhớ, Mochy lưu vào thư mục riêng của mình, và Android sẽ xóa thư mục này nếu Mochy bị gỡ cài đặt.</string>
+    <string name="storage_place_note_downloads">Mọi bài hát đã tải xuống sẽ được chuyển sang, kèm lời bài hát. Melo khởi động lại một lần để hoàn tất.</string>
+    <string name="storage_place_note_cache">Bộ nhớ đệm sẽ bắt đầu mới ở nơi mới. Melo khởi động lại một lần để hoàn tất.</string>
+    <string name="storage_place_card_note">Trên thẻ nhớ, Melo lưu vào thư mục riêng của mình, và Android sẽ xóa thư mục này nếu Melo bị gỡ cài đặt.</string>
     <string name="storage_place_choose_folder">Chọn thư mục</string>
-    <string name="storage_place_folder_note">Mochy lưu vào một thư mục Mochy bên trong thư mục bạn chọn, nên không đụng đến những thứ khác trong đó.</string>
-    <string name="storage_place_access_needed">Để lưu vào %1$s, Mochy cần quyền truy cập Tất cả tệp. Android sẽ hỏi quyền này trong Cài đặt.</string>
+    <string name="storage_place_folder_note">Melo lưu vào một thư mục Melo bên trong thư mục bạn chọn, nên không đụng đến những thứ khác trong đó.</string>
+    <string name="storage_place_access_needed">Để lưu vào %1$s, Melo cần quyền truy cập Tất cả tệp. Android sẽ hỏi quyền này trong Cài đặt.</string>
     <string name="storage_place_allow_access">Cho phép truy cập</string>
-    <string name="storage_place_no_access">Mochy không được cấp quyền truy cập nên không thể lưu ở đó. Hãy cho phép, hoặc chọn thư mục khác.</string>
+    <string name="storage_place_no_access">Melo không được cấp quyền truy cập nên không thể lưu ở đó. Hãy cho phép, hoặc chọn thư mục khác.</string>
     <string name="storage_place_folder_unsupported">Không thể dùng thư mục này. Hãy chọn thư mục trên điện thoại này hoặc thẻ nhớ.</string>
     <string name="storage_place_free">Còn trống %1$s trên %2$s</string>
     <string name="storage_place_here_now">Đang lưu ở đây</string>
@@ -56,11 +56,11 @@
     <string name="storage_place_move">Chuyển đến đây</string>
     <string name="storage_place_move_downloads_title">Chuyển bài hát tải xuống đến %1$s?</string>
     <string name="storage_place_move_cache_title">Chuyển bộ nhớ đệm đến %1$s?</string>
-    <string name="storage_place_move_downloads_message">Việc tải xuống tạm dừng trong khi sao chép sang %1$s. Mochy sẽ khởi động lại khi xong, và bản cũ sẽ bị xóa.</string>
-    <string name="storage_place_move_cache_message">Bộ nhớ đệm hiện tại sẽ bị xóa và Mochy khởi động lại, sau đó các bài hát bạn phát sẽ được giữ ở nơi mới.</string>
+    <string name="storage_place_move_downloads_message">Việc tải xuống tạm dừng trong khi sao chép sang %1$s. Melo sẽ khởi động lại khi xong, và bản cũ sẽ bị xóa.</string>
+    <string name="storage_place_move_cache_message">Bộ nhớ đệm hiện tại sẽ bị xóa và Melo khởi động lại, sau đó các bài hát bạn phát sẽ được giữ ở nơi mới.</string>
     <string name="storage_place_move_action">Chuyển và khởi động lại</string>
     <string name="storage_export_sheet_title">Xuất bài hát đã tải xuống</string>
-    <string name="storage_export_note">Chúng được sao chép vào thư mục mochy-preserve ở nơi bạn chọn. Các bài đã tải xuống vẫn ở nguyên chỗ cũ.</string>
+    <string name="storage_export_note">Chúng được sao chép vào thư mục Melo-preserve ở nơi bạn chọn. Các bài đã tải xuống vẫn ở nguyên chỗ cũ.</string>
     <string name="storage_export_layout_playlists">Nhạc và danh sách phát</string>
     <string name="storage_export_layout_playlists_detail">Mỗi danh sách phát và bài hát đã thích có một thư mục, phần còn lại nằm trong Music</string>
     <string name="storage_export_layout_albums">Album</string>
@@ -86,11 +86,11 @@
     <string name="storage_import_user_data">Nhập dữ liệu người dùng</string>
     <string name="storage_transfer_exporting">Đang xuất…</string>
     <string name="storage_transfer_exporting_percent">Đang xuất… %1$d%%</string>
-    <string name="storage_transfer_exported">Đã xuất xong! Hãy nhập tệp .zip trong Mochy trên điện thoại kia</string>
+    <string name="storage_transfer_exported">Đã xuất xong! Hãy nhập tệp .zip trong Melo trên điện thoại kia</string>
     <string name="storage_transfer_importing">Đang nhập…</string>
-    <string name="storage_transfer_importing_percent">Đang nhập… %1$d%%, Mochy sẽ khởi động lại khi xong</string>
+    <string name="storage_transfer_importing_percent">Đang nhập… %1$d%%, Melo sẽ khởi động lại khi xong</string>
     <string name="storage_transfer_restarting">Xong, đang khởi động lại…</string>
     <string name="storage_import_title">Thay thế thư viện của bạn?</string>
-    <string name="storage_import_message">Mọi thứ hiện có trong Mochy sẽ được thay bằng nội dung trong bản xuất, gồm thư viện, lịch sử, bài hát đã tải xuống và cài đặt. Thông tin đăng nhập của bạn giữ nguyên. Mochy khởi động lại một lần để hoàn tất.</string>
+    <string name="storage_import_message">Mọi thứ hiện có trong Melo sẽ được thay bằng nội dung trong bản xuất, gồm thư viện, lịch sử, bài hát đã tải xuống và cài đặt. Thông tin đăng nhập của bạn giữ nguyên. Melo khởi động lại một lần để hoàn tất.</string>
     <string name="storage_import_action">Chọn tệp .zip</string>
 </resources>

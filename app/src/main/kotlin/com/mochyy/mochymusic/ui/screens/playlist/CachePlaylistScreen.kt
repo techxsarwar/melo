@@ -158,7 +158,7 @@ fun CachePlaylistScreen(
         searchPlaceholder = "Search cached songs",
         onBackClick = { navController.navigateUp() },
         onBackLongClick = { navController.backToMain() },
-        creator = "mochy",
+        creator = "melo",
         onMoreClick = {
             menuState.show {
                 CachePlaylistMenu(

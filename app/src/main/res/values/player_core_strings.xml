@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="pc_audio_format_cd">Audio format</string>
     <string name="pc_style_default">Default</string>
@@ -123,7 +123,7 @@
     <string name="pc_resync_open_playlist">Open the playlist and re-sync it from its menu there.</string>
     <string name="pc_resync_busy">An import is still running. Try again once it\'s done.</string>
     <string name="pc_resync_nothing">None of your playlists came from a music service, so there\'s nothing to re-sync.</string>
-    <string name="pc_resync_link_hint">This playlist was imported before Mochy saved where it came from. Its link is how Re-sync finds it again.</string>
+    <string name="pc_resync_link_hint">This playlist was imported before Melo saved where it came from. Its link is how Re-sync finds it again.</string>
     <string name="pc_search_playlist_songs">Search any song on playlist</string>
     <string name="pc_search_songs_here">Search any song here</string>
     <string name="pc_lock_order">Lock order</string>
@@ -184,7 +184,7 @@
     <string name="pc_stat_speed">Speed</string>
     <string name="pc_stat_pitch">Pitch</string>
     <string name="pc_stat_semitones">%1$s semitones</string>
-    <string name="pc_stat_rs_mochy">Mochy hi-fi, windowed sinc (Kaiser)</string>
+    <string name="pc_stat_rs_mochy">Melo hi-fi, windowed sinc (Kaiser)</string>
     <string name="pc_stat_passband">Passband</string>
     <string name="pc_stat_flat_to">flat to %1$s</string>
     <string name="pc_stat_stopband">−%1$d dB stopband, 32-bit float</string>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="fx_title_audio">Âm thanh</string>
 
@@ -35,7 +35,7 @@
     <string name="fx_mono_sub">Cả hai tai nghe toàn bộ bản phối: dùng cho một bên tai nghe hoặc khi chỉ nghe được một tai</string>
 
     <string name="fx_atmos_title">Dolby Atmos &amp; âm thanh vòm</string>
-    <string name="fx_atmos_sub">Phát 5.1, 7.1 và Atmos thành âm thanh 3D trên mọi tai nghe, bằng mô hình đầu của Mochy, thay vì gộp về stereo. Áp dụng từ bài tiếp theo.</string>
+    <string name="fx_atmos_sub">Phát 5.1, 7.1 và Atmos thành âm thanh 3D trên mọi tai nghe, bằng mô hình đầu của Melo, thay vì gộp về stereo. Áp dụng từ bài tiếp theo.</string>
     <string name="fx_atmos_decoder">Bộ giải mã Atmos</string>
     <string name="fx_atmos_spatializer">Spatializer của Android</string>
     <string name="fx_atmos_yes">Có</string>
@@ -67,7 +67,7 @@
     <string name="fx_curve_steep">Dốc</string>
     <string name="fx_curve">Đường cong</string>
     <string name="fx_volume_limit">Giới hạn âm lượng</string>
-    <string name="fx_volume_note">Định hình âm lượng riêng của Mochy (thanh trượt của trình phát, hiệu ứng mờ dần và giảm âm). Giới hạn đặt mức to nhất mà ứng dụng sẽ phát.</string>
+    <string name="fx_volume_note">Định hình âm lượng riêng của Melo (thanh trượt của trình phát, hiệu ứng mờ dần và giảm âm). Giới hạn đặt mức to nhất mà ứng dụng sẽ phát.</string>
 
     <string name="fx_reverb_title">Reverb</string>
     <string name="fx_reverb_sub">Thêm vang cho nhạc</string>

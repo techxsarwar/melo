@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="ps_device_change_playback">Đổi nơi phát</string>
     <string name="ps_device_this_device">thiết bị này</string>
@@ -199,7 +199,7 @@
     <string name="ps_action_download">Tải xuống</string>
     <string name="ps_action_add_to_playlist">Thêm vào danh sách phát</string>
     <string name="ps_extras_screen_can_sleep">Màn hình có thể tự tắt trở lại</string>
-    <string name="ps_extras_screen_stays_on">Màn hình luôn sáng khi Mochy đang mở</string>
+    <string name="ps_extras_screen_stays_on">Màn hình luôn sáng khi Melo đang mở</string>
     <string name="ps_extras_download_removed">Đã xóa bản tải xuống</string>
     <string name="ps_extras_download_stopped">Đã dừng tải xuống</string>
     <string name="ps_extras_downloading">Đang tải xuống \"%1$s\"</string>

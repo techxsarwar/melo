@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="module_adds_songs">Bài hát</string>
     <string name="module_adds_lyrics">Lời bài hát</string>
@@ -26,14 +26,14 @@
     <string name="module_remove_short">Xóa</string>
     <string name="module_remove_title">Xóa %1$s?</string>
     <string name="module_remove_body">Cài đặt và mọi thứ bạn đã thêm vào module sẽ bị xóa theo. Bạn có thể thêm lại bất cứ lúc nào.</string>
-    <string name="modules_find_more_body">Module là một dịch vụ do người khác vận hành. Mochy chỉ yêu cầu nó cung cấp bài hát, lời bài hát hoặc giao diện, và nó không thể chạm vào bất kỳ thứ gì khác trong ứng dụng.</string>
+    <string name="modules_find_more_body">Module là một dịch vụ do người khác vận hành. Melo chỉ yêu cầu nó cung cấp bài hát, lời bài hát hoặc giao diện, và nó không thể chạm vào bất kỳ thứ gì khác trong ứng dụng.</string>
     <string name="modules_add_from_link">Thêm từ liên kết</string>
     <string name="modules_link_hint">https://… hoặc một dự án GitHub</string>
     <string name="modules_link_check">Kiểm tra liên kết</string>
     <string name="modules_link_checking">Đang kiểm tra…</string>
     <string name="modules_link_not_a_link">Đây không giống một liên kết. Liên kết phải bắt đầu bằng https://</string>
     <string name="modules_link_unreachable">Không thể truy cập liên kết này. Hãy kiểm tra liên kết và kết nối mạng, rồi thử lại.</string>
-    <string name="modules_link_not_a_module">Liên kết có phản hồi, nhưng đây không phải module mà Mochy dùng được.</string>
+    <string name="modules_link_not_a_module">Liên kết có phản hồi, nhưng đây không phải module mà Melo dùng được.</string>
     <string name="modules_link_website">Đây là một trang web, không phải module. Nếu là trang Monochrome, hãy thêm nó ở trang Monochrome trong mục Máy chủ.</string>
     <string name="modules_add_from_file">Thêm từ tệp</string>
     <string name="modules_add_from_file_body">Module ai đó gửi cho bạn dưới dạng .zip. Module giao diện chạy được ngay từ tệp, module tự mang theo mã cũng vậy. Các module phát bài hát hoặc lời bài hát khác cần dịch vụ của chúng trực tuyến.</string>
@@ -63,7 +63,7 @@
     <string name="module_server_built_in">Tích hợp sẵn</string>
     <string name="module_server_remove">Xóa %1$s</string>
     <string name="module_server_add">Thêm máy chủ</string>
-    <string name="module_server_add_body">Dán một trang Monochrome, hoặc liên kết riêng của máy chủ. Mochy sẽ kiểm tra xem có tìm kiếm được ở đó không rồi mới thêm.</string>
+    <string name="module_server_add_body">Dán một trang Monochrome, hoặc liên kết riêng của máy chủ. Melo sẽ kiểm tra xem có tìm kiếm được ở đó không rồi mới thêm.</string>
     <string name="module_server_add_button">Tìm và thêm</string>
     <string name="module_server_finding">Đang tìm máy chủ của nó…</string>
     <string name="module_server_not_found">Không tìm thấy máy chủ Monochrome ở đó. Hãy thử trang chính của trang web, hoặc liên kết riêng của máy chủ.</string>
@@ -81,11 +81,11 @@
     <string name="module_info_version">Phiên bản</string>
     <string name="module_info_author">Tác giả</string>
     <string name="module_info_status">Trạng thái</string>
-    <string name="module_info_built_in">Tích hợp sẵn trong Mochy</string>
+    <string name="module_info_built_in">Tích hợp sẵn trong Melo</string>
     <string name="module_shader_problem">Shader trình phát của nó không tải được, nên trình phát dùng bản dự phòng: %1$s</string>
     <string name="module_shader_needs_13">Shader trình phát của nó cần Android 13, nên điện thoại này dùng bản dự phòng.</string>
-    <string name="module_glass_problem">Hiệu ứng kính của nó không tải được, nên các thanh giữ hiệu ứng mờ của Mochy: %1$s</string>
-    <string name="module_glass_needs_13">Hiệu ứng kính của nó cần Android 13 trở lên, nên điện thoại này giữ hiệu ứng mờ của Mochy.</string>
+    <string name="module_glass_problem">Hiệu ứng kính của nó không tải được, nên các thanh giữ hiệu ứng mờ của Melo: %1$s</string>
+    <string name="module_glass_needs_13">Hiệu ứng kính của nó cần Android 13 trở lên, nên điện thoại này giữ hiệu ứng mờ của Melo.</string>
     <string name="module_data_saver_on">Trình tiết kiệm dữ liệu đang bật</string>
     <string name="module_data_saver_capped">Khi trình tiết kiệm dữ liệu hoạt động, bài hát từ module này phát ở %1$s để dùng ít dữ liệu hơn.</string>
     <string name="module_data_saver_no_cap">Module này không có luồng nhẹ hơn, nên vẫn phát như bình thường. Hãy tắt nó khi dùng dữ liệu di động để tiết kiệm hơn.</string>
@@ -132,10 +132,10 @@
     <string name="module_items_nothing">Không có gì trong đó mà %1$s dùng được.</string>
     <string name="module_items_broken">Nội dung bên trong bị lỗi nên không chạy được. Hãy nhờ người tạo ra nó gửi bản đã sửa.</string>
     <string name="module_items_too_big">Tệp này quá lớn để %1$s tiếp nhận.</string>
-    <string name="modules_file_not_signed">Module này chạy mã riêng, nên phải được ký bằng cùng khóa với Mochy của bạn, và bản này thì không. Hãy lấy bản được làm cho bản dựng Mochy của bạn.</string>
-    <string name="modules_code_broken">Mã của module này không khởi động được. Có thể nó được làm cho một phiên bản Mochy khác.</string>
+    <string name="modules_file_not_signed">Module này chạy mã riêng, nên phải được ký bằng cùng khóa với Melo của bạn, và bản này thì không. Hãy lấy bản được làm cho bản dựng Melo của bạn.</string>
+    <string name="modules_code_broken">Mã của module này không khởi động được. Có thể nó được làm cho một phiên bản Melo khác.</string>
     <string name="modules_github_no_release">Dự án GitHub đó chưa phát hành bản nào. Hãy nhờ người tạo ra nó phát hành một bản kèm tệp .zip của module.</string>
-    <string name="modules_github_no_module">Bản phát hành mới nhất không có module nào. Mochy tìm tệp .zip có \"mochyymodule\" trong tên, như glass.mochyymodule.zip.</string>
+    <string name="modules_github_no_module">Bản phát hành mới nhất không có module nào. Melo tìm tệp .zip có \"mochyymodule\" trong tên, như glass.mochyymodule.zip.</string>
     <string name="skin_customise_row">Tùy chỉnh %1$s</string>
     <string name="skin_customise_title">Tùy chỉnh</string>
     <string name="skin_customise_body">Các mục này thay đổi diện mạo của %1$s. Chúng là cùng các cài đặt như ở trang của module.</string>

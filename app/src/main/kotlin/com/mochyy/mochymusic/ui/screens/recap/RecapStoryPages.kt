@@ -979,7 +979,7 @@ private fun Receipt(
                 .padding(horizontal = 26.dp, vertical = 40.dp),
     ) {
         ReceiptLine(dashes)
-        ReceiptLine("MOCHY")
+        ReceiptLine("MELO")
         ReceiptLine(stringResource(R.string.rc_story_receipt_recap, data.monthName))
         ReceiptLine(
             stringResource(

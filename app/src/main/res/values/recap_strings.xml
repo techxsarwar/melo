@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Stats screen -->
     <string name="rc_stats_done">Done</string>
@@ -82,7 +82,7 @@
 
     <!-- Recap story -->
     <string name="rc_story_hey">hey, %1$s!</string>
-    <string name="rc_story_journey_started">%1$s you started your journey in Mochy on</string>
+    <string name="rc_story_journey_started">%1$s you started your journey in Melo on</string>
     <string name="rc_story_journey_listening">and you have been listening to music in total time of</string>
     <string name="rc_story_journey_bye">so long, partners!</string>
     <string name="rc_story_tap">TAP!</string>

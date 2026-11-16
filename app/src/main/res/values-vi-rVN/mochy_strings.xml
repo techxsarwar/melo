@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="explore">Khám phá</string>
     <string name="local_history">Lịch sử nghe cục bộ</string>
@@ -239,7 +239,7 @@
     <string name="show_artist_description">Hiển thị mô tả nghệ sĩ</string>
     <string name="show_artist_subscriber_count">Hiện số lượng người đăng ký</string>
     <string name="show_artist_monthly_listeners">Hiển thị số lượt nghe hằng tháng</string>
-    <string name="wrapped_logo_content_description">mochy Logo</string>
+    <string name="wrapped_logo_content_description">Melo Logo</string>
     <string name="wrapped_year">2025</string>
     <string name="listen_together_join_room">Tham gia phòng</string>
     <string name="listen_together_create_room_desc">Tạo phòng và chia sẽ mã cho bạn bè</string>
@@ -269,7 +269,7 @@
     <string name="error_copy_hint">Sao chép thông tin lỗi để giúp nhà phát triển gỡ lỗi</string>
     <string name="album_art">Cài đặt widget</string>
     <string name="no_song_playing">Không có bài hát đang phát</string>
-    <string name="tap_to_open">Chạm để mở mochy</string>
+    <string name="tap_to_open">Chạm để mở Melo</string>
     <string name="previous">Bài trước</string>
     <string name="play_pause">Phát/Tạm dừng</string>
     <string name="next">Bài tiếp</string>
@@ -349,7 +349,7 @@
     <string name="crash_description">Đã xảy ra lỗi không mong muốn. Vui lòng chia sẻ báo cáo sự cố để giúp chúng tôi khắc phục lỗi.</string>
     <string name="crash_share_logs">Chia sẻ nhật ký</string>
     <string name="crash_share_title">Chia sẻ báo cáo sự cố</string>
-    <string name="crash_report_subject">Báo cáo sự cố mochy</string>
+    <string name="crash_report_subject">Báo cáo sự cố Melo</string>
     <string name="crash_close">Đóng</string>
     <string name="crash_no_log">Không có nhật ký sự cố</string>
     <string name="palette_crimson">Đỏ thẫm</string>
@@ -386,7 +386,7 @@
     <string name="remember_shuffle_and_repeat_desc">Nhớ chế độ ngẫu nhiên &amp; lặp khi mở lại ứng dụng</string>
     <string name="pause_music_when_media_is_muted">Tạm dừng nhạc khi tắt tiếng media</string>
     <string name="keep_screen_on_when_player_is_expanded">Giữ màn hình bật khi mở trình phát</string>
-    <string name="last_fm_send_likes_description">Đánh dấu yêu thích/bỏ yêu thích bài hát trên Last.fm khi chúng được thích/bỏ thích trong mochy</string>
+    <string name="last_fm_send_likes_description">Đánh dấu yêu thích/bỏ yêu thích bài hát trên Last.fm khi chúng được thích/bỏ thích trong Melo</string>
     <string name="logging_in">Đang đăng nhập…</string>
     <string name="hide_video_songs">Ẩn bài hát video</string>
     <string name="details_desc">Xem thông tin bài hát</string>
@@ -480,14 +480,14 @@
     <string name="scrobble_account">Tài khoản</string>
     <string name="scrobble_sign_in_title">Đăng nhập vào %1$s</string>
     <string name="scrobble_sign_in_desc">Lưu lịch sử nghe, thống kê và gợi ý của bạn tại đó</string>
-    <string name="scrobble_not_set_up">Chưa được thiết lập trong bản Mochy này</string>
+    <string name="scrobble_not_set_up">Chưa được thiết lập trong bản Melo này</string>
     <string name="scrobble_to">Scrobble tới %1$s</string>
     <string name="scrobble_signed_in_as">Đã đăng nhập với tên %1$s</string>
     <string name="scrobble_paused_signed_in_as">Đã tạm dừng. Đã đăng nhập với tên %1$s</string>
     <string name="scrobble_open_profile">Mở hồ sơ của bạn</string>
     <string name="scrobble_open_profile_desc">Lượt scrobble và thống kê của bạn trên %1$s</string>
     <string name="scrobble_sign_out">Đăng xuất</string>
-    <string name="scrobble_sign_out_desc">Mochy sẽ ngừng scrobble tới %1$s</string>
+    <string name="scrobble_sign_out_desc">Melo sẽ ngừng scrobble tới %1$s</string>
     <string name="scrobble_while_listening">Khi bạn nghe nhạc</string>
     <string name="scrobble_now_playing">Đang phát</string>
     <string name="scrobble_now_playing_desc">Hiện bài hát bạn đang nghe lên hồ sơ</string>
@@ -498,10 +498,10 @@
     </plurals>
     <string name="scrobble_plays_waiting_desc">Chúng sẽ tự động được gửi khi bạn có mạng. Chạm để gửi ngay</string>
     <string name="scrobble_all_sent">Đã gửi hết</string>
-    <string name="scrobble_send_later">Chưa gửi được. Mochy sẽ thử lại mỗi khi bạn có mạng.</string>
+    <string name="scrobble_send_later">Chưa gửi được. Melo sẽ thử lại mỗi khi bạn có mạng.</string>
     <string name="scrobble_signed_in">Đã đăng nhập vào %1$s với tên %2$s. Từ giờ các bài hát bạn nghe sẽ được scrobble.</string>
-    <string name="scrobble_signed_out">%1$s đã đăng xuất Mochy. Hãy đăng nhập lại trong Cài đặt → Tích hợp để tiếp tục scrobble.</string>
-    <string name="scrobble_sign_in_body">Dùng tên người dùng và mật khẩu %1$s của bạn. Mochy chỉ giữ khóa đăng nhập mà %1$s gửi về, không bao giờ lưu mật khẩu của bạn.</string>
+    <string name="scrobble_signed_out">%1$s đã đăng xuất Melo. Hãy đăng nhập lại trong Cài đặt → Tích hợp để tiếp tục scrobble.</string>
+    <string name="scrobble_sign_in_body">Dùng tên người dùng và mật khẩu %1$s của bạn. Melo chỉ giữ khóa đăng nhập mà %1$s gửi về, không bao giờ lưu mật khẩu của bạn.</string>
     <string name="scrobble_username_hint">Tên người dùng %1$s của bạn</string>
     <string name="scrobble_password_hint">Mật khẩu %1$s của bạn</string>
     <string name="scrobble_sign_in_button">Đăng nhập</string>
@@ -529,7 +529,7 @@
     <string name="cache_size_warning_confirm">Tiếp tục</string>
     <string name="lyrics_animation_style">Kiểu hiệu ứng từng từ</string>
     <string name="apple_music_style_letter">Apple Music V2 (Từng chữ cái)</string>
-    <string name="mochy_1">mochy (Mượt)</string>
+    <string name="mochy_1">Melo (Mượt)</string>
     <string name="apple_music_lyrics_blur">Làm mờ lời bài hát kiểu Apple Music</string>
     <string name="apple_music_lyrics_blur_desc">Làm mờ các dòng lời chưa hát để tập trung hơn</string>
     <string name="lyrics_v2_fluid">Lời bài hát V2 (Mượt)</string>
@@ -557,10 +557,10 @@
     <string name="wrapped_total_artists_subtitle">nghệ sĩ khác nhau</string>
     <string name="wrapped_total_songs_title">Bạn đã nghe</string>
     <string name="wrapped_total_songs_subtitle">bài hát khác nhau</string>
-    <string name="wrapped_intro_title">mochy</string>
+    <string name="wrapped_intro_title">Melo</string>
     <string name="wrapped_intro_subtitle">đến lúc xem bạn đã nghe gì rồi</string>
     <string name="wrapped_intro_button">bắt đầu nào!</string>
-    <string name="wrapped_end_thanks">Cảm ơn bạn đã nghe nhạc cùng mochy!</string>
+    <string name="wrapped_end_thanks">Cảm ơn bạn đã nghe nhạc cùng Melo!</string>
     <string name="wrapped_end_create_playlist">Tạo danh sách phát Wrapped của bạn</string>
     <string name="wrapped_end_creating_playlist">Đang tạo...</string>
     <string name="wrapped_end_playlist_saved">Đã lưu danh sách phát</string>
@@ -592,7 +592,7 @@
     <string name="import_error_title">Lỗi nhập</string>
     <string name="error_title">Lỗi</string>
     <string name="error_eq_apply_failed">Không áp dụng được hồ sơ EQ: %1$s</string>
-    <string name="mochy_equalizer">mochyEqualizer</string>
+    <string name="mochy_equalizer">MeloEqualizer</string>
     <string name="mochy_equalizer_desc">Tinh chỉnh âm thanh chuyên nghiệp &amp; hiệu ứng</string>
     <string name="eq_simple">Đơn giản</string>
     <string name="eq_advanced">Nâng cao</string>
@@ -600,7 +600,7 @@
     <string name="eq_label_mid">Trung</string>
     <string name="eq_label_treble">Cao</string>
     <string name="eq_preset_flat">Phẳng</string>
-    <string name="eq_preset_mochy_signature">mochy Signature</string>
+    <string name="eq_preset_mochy_signature">Melo Signature</string>
     <string name="eq_preset_acoustic">Acoustic</string>
     <string name="eq_preset_spatial">Sân khấu 3D</string>
     <string name="eq_preset_bass_boost">Tăng trầm</string>
@@ -617,9 +617,9 @@
     <string name="eq_preset_dirac_music">Dirac Music</string>
     <string name="eq_preset_dirac_movie">Dirac Movie</string>
     <string name="eq_preset_dirac_game">Dirac Game</string>
-    <string name="eq_enable_title">mochyEqualizer</string>
+    <string name="eq_enable_title">MeloEqualizer</string>
     <string name="eq_enable_summary">Bật/tắt xử lý âm thanh chuyên nghiệp</string>
-    <string name="eq_label_mochy">mochy Signature</string>
+    <string name="eq_label_mochy">Melo Signature</string>
     <string name="eq_label_dolby">Dolby Atmos</string>
     <string name="eq_label_dirac">Dirac Audio</string>
     <string name="eq_reset">Đặt lại</string>
@@ -635,9 +635,9 @@
     <string name="plays">lượt phát</string>
     <string name="casting_to">Đang truyền tới %s</string>
     <string name="progress_percent">Tiến độ %s%%</string>
-    <string name="listening_to_mochy">Đang nghe mochy</string>
+    <string name="listening_to_mochy">Đang nghe Melo</string>
     <string name="listen_on_youtube_music">Nghe trên YouTube Music</string>
-    <string name="visit_mochy">Truy cập mochy</string>
+    <string name="visit_mochy">Truy cập Melo</string>
     <string name="open">Mở</string>
     <string name="failed_to_create_image">Không tạo được ảnh: %s</string>
     <string name="copied_title">Đã sao chép tiêu đề</string>
@@ -646,7 +646,7 @@
     <string name="failed_to_parse_proxy">Không phân tích được URL proxy.</string>
     <string name="error_playback_failed">Phát nhạc thất bại</string>
     <string name="not_playing">Không có bài hát nào đang phát</string>
-    <string name="tap_to_play">Chạm để mở mochy</string>
+    <string name="tap_to_play">Chạm để mở Melo</string>
     <string name="queue_widget_description">Trình phát nhạc có xem trước hàng đợi</string>
     <string name="turntable_widget_description">Widget nhạc hình tròn có nút phát và thích</string>
     <string name="widget_music_player">Trình phát nhạc</string>
@@ -717,7 +717,7 @@
     <string name="delete_from_history">Xóa khỏi lịch sử</string>
     <string name="re_listen">Nghe lại</string>
     <string name="hold_to_recognize">Giữ biểu tượng tìm kiếm để nhận diện nhạc</string>
-    <string name="play_on_app">Phát trên mochy</string>
+    <string name="play_on_app">Phát trên Melo</string>
     <string name="recognized_track">Bài hát đã nhận diện</string>
     <string name="map_csv_columns">Ánh xạ cột CSV</string>
     <string name="first_row_is_header">Dòng đầu là tiêu đề</string>
@@ -755,9 +755,9 @@
     <string name="discord_rpc_preview">Xem trước Rich Presence</string>
     <string name="discord_presence">Trạng thái hiện diện</string>
     <string name="discord_connect_description">Đăng nhập Discord để chia sẻ bài bạn đang nghe</string>
-    <string name="discord_playing_mochy">Đang chơi mochy</string>
-    <string name="discord_watching_mochy">Đang xem mochy</string>
-    <string name="discord_competing_mochy">Đang thi đấu trong mochy</string>
+    <string name="discord_playing_mochy">Đang chơi Melo</string>
+    <string name="discord_watching_mochy">Đang xem Melo</string>
+    <string name="discord_competing_mochy">Đang thi đấu trong Melo</string>
     <string name="discord_activity_name">Tên hoạt động</string>
     <string name="discord_activity_name_description">Tên tùy chỉnh cho hoạt động (để trống để dùng mặc định)</string>
     <string name="discord_advanced_mode">Chế độ nâng cao</string>
@@ -805,14 +805,14 @@
     <string name="get_started">Bắt đầu</string>
     <string name="perm_required">Bắt buộc</string>
     <string name="perm_permissions">Quyền truy cập</string>
-    <string name="perm_intro_text">mochy cần các quyền này để hoạt động đúng. Vui lòng cấp quyền để tiếp tục.</string>
+    <string name="perm_intro_text">Melo cần các quyền này để hoạt động đúng. Vui lòng cấp quyền để tiếp tục.</string>
     <string name="perm_notif_title">Thông báo</string>
     <string name="perm_notif_desc">Biết ngay khi nhạc đang phát và điều khiển từ thanh thông báo.</string>
     <string name="perm_install_title">Cài đặt ứng dụng</string>
     <string name="perm_install_desc">Cần để tải xuống và cài đặt bản cập nhật ứng dụng một cách liền mạch.</string>
     <string name="feat_discover">Khám phá</string>
     <string name="feat_features">Tính năng</string>
-    <string name="feat_intro">Khám phá mọi thứ mochy mang lại cho hành trình âm nhạc của bạn.</string>
+    <string name="feat_intro">Khám phá mọi thứ Melo mang lại cho hành trình âm nhạc của bạn.</string>
     <string name="feat_lyrics_title">Lời bài hát thông minh</string>
     <string name="feat_lyrics_desc">Thưởng thức lời bài hát đồng bộ từng từ cho hàng triệu bài hát.</string>
     <string name="feat_download_title">Phát ngoại tuyến</string>
@@ -830,7 +830,7 @@
     <string name="welcome_update_status">Cập nhật</string>
     <string name="welcome_update_intro">Đảm bảo bạn có các tính năng mới nhất và cải tiến bảo mật.</string>
     <string name="welcome_checking_updates">Đang kiểm tra cập nhật…</string>
-    <string name="welcome_up_to_date">mochy đã là bản mới nhất!</string>
+    <string name="welcome_up_to_date">Melo đã là bản mới nhất!</string>
     <string name="welcome_update_available">Có phiên bản mới: %s</string>
     <string name="welcome_everything_ready">Mọi thứ đã được cập nhật</string>
     <string name="commits_title">Commit</string>
@@ -1028,7 +1028,7 @@
     <string name="speed_only_this_song_detail">%1$s giữ nguyên tốc độ và cao độ này. Các bài hát khác phát như bình thường.</string>
     <string name="discord_custom_pick">Chọn ảnh</string>
     <string name="discord_custom_change">Đổi ảnh</string>
-    <string name="discord_custom_note">Discord chỉ hiển thị ảnh từ web, nên Mochy sẽ đưa ảnh của bạn lên một nơi lưu trữ tệp miễn phí và hiển thị từ đó.</string>
+    <string name="discord_custom_note">Discord chỉ hiển thị ảnh từ web, nên Melo sẽ đưa ảnh của bạn lên một nơi lưu trữ tệp miễn phí và hiển thị từ đó.</string>
     <string name="discord_custom_failed">Không dùng được ảnh đó. Hãy thử ảnh khác.</string>
     <string name="search_in_playlist">Tìm trong danh sách phát này…</string>
     <string name="search_in_album">Tìm trong album này…</string>

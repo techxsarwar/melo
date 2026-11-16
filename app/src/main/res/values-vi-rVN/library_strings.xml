@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared labels -->
     <string name="lib_artist">Nghệ sĩ</string>
@@ -46,7 +46,7 @@
     <string name="lib_manage_imports_pill">Quản lý nhập nhạc</string>
     <string name="lib_manage_local_pill">Quản lý nhạc trên máy</string>
     <string name="lib_local_or">Hoặc</string>
-    <string name="lib_local_let_read">Cho phép Mochy đọc bộ nhớ để tìm tất cả bài hát của bạn</string>
+    <string name="lib_local_let_read">Cho phép Melo đọc bộ nhớ để tìm tất cả bài hát của bạn</string>
     <string name="lib_local_import_here">Nhập nhạc trên máy của bạn tại đây</string>
     <string name="lib_local_imported_from_local">Đã nhập từ máy</string>
 
@@ -60,7 +60,7 @@
     <string name="lib_import_still_running">Một lượt nhập vẫn đang chạy. Hãy thử lại khi nó hoàn tất.</string>
 
     <!-- Local import -->
-    <string name="lib_local_no_access">Mochy không thể thấy nhạc của bạn nếu chưa được cấp quyền</string>
+    <string name="lib_local_no_access">Melo không thể thấy nhạc của bạn nếu chưa được cấp quyền</string>
     <string name="lib_local_no_new_songs">Không có bài hát mới trong các thư mục nhạc của bạn</string>
 
     <!-- Transfer progress -->

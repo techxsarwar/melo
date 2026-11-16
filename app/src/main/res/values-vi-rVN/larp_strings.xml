@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="larp_mode">Chế độ larp</string>
     <string name="larp_mode_desc">Nạp đầy 67 dopamine của bạn</string>
@@ -49,7 +49,7 @@
     <string name="larp_skibidi_buffer">40 ms</string>
     <string name="larp_sixty_seven_title">67 larper</string>
     <string name="larp_sixty_seven_dac">Chord Mojo 2</string>
-    <string name="larp_sixty_seven_lead">DAC di động, truyền thẳng từ Mochy</string>
+    <string name="larp_sixty_seven_lead">DAC di động, truyền thẳng từ Melo</string>
     <string name="larp_sixty_seven_power">600 mW</string>
     <string name="larp_sixty_seven_channels">Stereo, khớp pha</string>
     <string name="larp_sixty_seven_source">Bản master hi-res chính chủ của hãng đĩa</string>
@@ -57,7 +57,7 @@
     <string name="larp_sixty_seven_runs">Một lõi âm thanh dự phòng</string>
     <string name="larp_sixty_seven_effects">Không có, kể cả hiệu ứng mờ dần</string>
     <string name="larp_sixty_seven_hires">32-bit float, truyền thẳng</string>
-    <string name="larp_sixty_seven_route">Mochy tới DAC qua USB bất đồng bộ</string>
+    <string name="larp_sixty_seven_route">Melo tới DAC qua USB bất đồng bộ</string>
     <string name="larp_sixty_seven_jitter">12 ps</string>
     <string name="larp_sixty_seven_buffer">10 ms</string>
     <string name="larp_brainrot_title">Brainrot larper</string>
@@ -66,24 +66,24 @@
     <string name="larp_brainrot_power">18 W</string>
     <string name="larp_brainrot_channels">Stereo, chỉnh bằng tai</string>
     <string name="larp_brainrot_source">Bàn mixing, trực tiếp</string>
-    <string name="larp_brainrot_decoder">Không có, Mochy đọc FLAC trôi chảy</string>
+    <string name="larp_brainrot_decoder">Không có, Melo đọc FLAC trôi chảy</string>
     <string name="larp_brainrot_runs">Brainrot</string>
     <string name="larp_brainrot_effects">Không có, nghệ sĩ đã duyệt từng bit</string>
     <string name="larp_brainrot_hires">64-bit float, mạ vàng</string>
-    <string name="larp_brainrot_route">Mochy tới DAC qua dây bạc</string>
+    <string name="larp_brainrot_route">Melo tới DAC qua dây bạc</string>
     <string name="larp_brainrot_jitter">1 ps</string>
     <string name="larp_brainrot_buffer">1 ms</string>
     <string name="larp_maxxing_title">Maxxing larper</string>
     <string name="larp_maxxing_dac">Wadax Atlantis Reference</string>
-    <string name="larp_maxxing_lead">Thẳng từ Mochy, không qua bộ giải mã</string>
+    <string name="larp_maxxing_lead">Thẳng từ Melo, không qua bộ giải mã</string>
     <string name="larp_maxxing_power">1.000.000 W</string>
     <string name="larp_maxxing_channels">Stereo, chỉnh bằng tay</string>
     <string name="larp_maxxing_source">Cuộn băng master của chính studio</string>
-    <string name="larp_maxxing_decoder">Không có, Mochy phát luồng thô</string>
+    <string name="larp_maxxing_decoder">Không có, Melo phát luồng thô</string>
     <string name="larp_maxxing_runs">Dopamine thuần khiết</string>
     <string name="larp_maxxing_effects">Không có, từng bit đến tai đúng như nghệ sĩ hằng mơ</string>
     <string name="larp_maxxing_hires">64-bit float, truyền thẳng</string>
-    <string name="larp_maxxing_route">Mochy tới DAC, không có bộ giải mã ở giữa</string>
+    <string name="larp_maxxing_route">Melo tới DAC, không có bộ giải mã ở giữa</string>
     <string name="larp_maxxing_jitter">0 ps</string>
     <string name="larp_maxxing_buffer">0 ms, nhạc phát trước khi bạn bấm phát</string>
 </resources>

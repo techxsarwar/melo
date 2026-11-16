@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Stats screen -->
     <string name="rc_stats_done">Xong</string>
@@ -74,7 +74,7 @@
 
     <!-- Recap story -->
     <string name="rc_story_hey">chào %1$s!</string>
-    <string name="rc_story_journey_started">%1$s đã bắt đầu hành trình cùng Mochy vào ngày</string>
+    <string name="rc_story_journey_started">%1$s đã bắt đầu hành trình cùng Melo vào ngày</string>
     <string name="rc_story_journey_listening">và bạn đã nghe nhạc với tổng thời gian là</string>
     <string name="rc_story_journey_bye">hẹn gặp lại nhé!</string>
     <string name="rc_story_tap">CHẠM!</string>

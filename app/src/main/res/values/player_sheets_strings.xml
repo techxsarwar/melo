@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="ps_device_change_playback">Change playback</string>
     <string name="ps_device_this_device">this device</string>
@@ -199,7 +199,7 @@
     <string name="ps_action_download">Download</string>
     <string name="ps_action_add_to_playlist">Add to playlist</string>
     <string name="ps_extras_screen_can_sleep">The screen can sleep again</string>
-    <string name="ps_extras_screen_stays_on">The screen stays on while Mochy is open</string>
+    <string name="ps_extras_screen_stays_on">The screen stays on while Melo is open</string>
     <string name="ps_extras_download_removed">Removed the download</string>
     <string name="ps_extras_download_stopped">Download stopped</string>
     <string name="ps_extras_downloading">Downloading \"%1$s\"</string>

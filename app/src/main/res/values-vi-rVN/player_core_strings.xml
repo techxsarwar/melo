@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="pc_audio_format_cd">Định dạng âm thanh</string>
     <string name="pc_style_default">Mặc định</string>
@@ -123,7 +123,7 @@
     <string name="pc_resync_open_playlist">Hãy mở danh sách phát và đồng bộ lại từ menu của nó.</string>
     <string name="pc_resync_busy">Một lượt nhập vẫn đang chạy. Hãy thử lại sau khi nó xong.</string>
     <string name="pc_resync_nothing">Không có danh sách phát nào của bạn đến từ dịch vụ nhạc nên không có gì để đồng bộ lại.</string>
-    <string name="pc_resync_link_hint">Danh sách phát này được nhập trước khi Mochy lưu nguồn gốc của nó. Đồng bộ lại cần liên kết để tìm lại nó.</string>
+    <string name="pc_resync_link_hint">Danh sách phát này được nhập trước khi Melo lưu nguồn gốc của nó. Đồng bộ lại cần liên kết để tìm lại nó.</string>
     <string name="pc_search_playlist_songs">Tìm bài hát trong danh sách phát</string>
     <string name="pc_search_songs_here">Tìm bài hát ở đây</string>
     <string name="pc_lock_order">Khóa thứ tự</string>
@@ -184,7 +184,7 @@
     <string name="pc_stat_speed">Tốc độ</string>
     <string name="pc_stat_pitch">Cao độ</string>
     <string name="pc_stat_semitones">%1$s nửa cung</string>
-    <string name="pc_stat_rs_mochy">Mochy hi-fi, windowed sinc (Kaiser)</string>
+    <string name="pc_stat_rs_mochy">Melo hi-fi, windowed sinc (Kaiser)</string>
     <string name="pc_stat_passband">Dải thông</string>
     <string name="pc_stat_flat_to">phẳng đến %1$s</string>
     <string name="pc_stat_stopband">Dải chặn −%1$d dB, float 32-bit</string>

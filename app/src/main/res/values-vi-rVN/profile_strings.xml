@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Greetings -->
     <string name="profile_greeting_hello_again">Chào bạn</string>
@@ -29,14 +29,14 @@
 
     <!-- Community & Settings -->
     <string name="profile_meet_dev_contributors">gặp gỡ dev &amp; người đóng góp :3</string>
-    <string name="profile_join_discord">Tham gia máy chủ Discord của Mochy!</string>
+    <string name="profile_join_discord">Tham gia máy chủ Discord của Melo!</string>
     <string name="profile_discord_cd">Discord</string>
     <string name="profile_settings_title">Cài đặt</string>
     <string name="profile_open_settings">Mở cài đặt</string>
 
     <!-- Edit Profile Sheet -->
     <string name="profile_edit_title">Chỉnh sửa hồ sơ</string>
-    <string name="profile_data_privacy_hint">Mochy sẽ không bao giờ lưu trữ dữ liệu của bạn trên mạng!</string>
+    <string name="profile_data_privacy_hint">Melo sẽ không bao giờ lưu trữ dữ liệu của bạn trên mạng!</string>
     <string name="profile_done">Xong</string>
     <string name="profile_username_label">tên người dùng</string>
     <string name="profile_username_placeholder">tên người dùng</string>

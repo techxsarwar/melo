@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- common -->
     <string name="onb_next">Tiếp</string>
@@ -12,7 +12,7 @@
     <string name="onb_selected">Đã chọn</string>
 
     <!-- welcome -->
-    <string name="onb_welcome_title">Chào mừng đến\nmochy!</string>
+    <string name="onb_welcome_title">Chào mừng đến\nMelo!</string>
     <string name="onb_welcome_subtitle">Một cách khác để nghe và\nsở hữu âm nhạc của bạn.</string>
 
     <!-- photo cropper -->
@@ -28,16 +28,16 @@
     <string name="onb_import">Nhập</string>
     <string name="onb_import_desc">nhập nhạc, danh sách phát và album từ các nguồn được hỗ trợ như Apple Music, Spotify, Tidal và YouTube Music</string>
     <string name="onb_import_backup_title">Nhập từ bản sao lưu</string>
-    <string name="onb_import_backup_desc">nếu bạn tình cờ có bản sao lưu Mochy</string>
+    <string name="onb_import_backup_desc">nếu bạn tình cờ có bản sao lưu Melo</string>
 
     <!-- restoring previous data -->
     <string name="onb_all_set">Xong rồi!</string>
     <string name="onb_bringing_over">Đang chuyển nhạc của bạn sang</string>
-    <string name="onb_restart_once">Mochy sẽ khởi động lại một lần để hoàn tất. Hẹn gặp lại ngay!</string>
+    <string name="onb_restart_once">Melo sẽ khởi động lại một lần để hoàn tất. Hẹn gặp lại ngay!</string>
     <string name="onb_restore_counts">%1$s, %2$s và %3$s từ ứng dụng cũ của bạn.</string>
     <string name="onb_reading_export">Đang đọc tệp xuất của bạn…</string>
     <string name="onb_restarting">Đang khởi động lại…</string>
-    <string name="onb_restore_progress">%1$d%% · hãy để Mochy mở, ứng dụng sẽ tự khởi động lại khi xong</string>
+    <string name="onb_restore_progress">%1$d%% · hãy để Melo mở, ứng dụng sẽ tự khởi động lại khi xong</string>
     <plurals name="onb_songs">
         <item quantity="other">%1$,d bài hát</item>
     </plurals>
@@ -74,21 +74,21 @@
 
     <!-- sync options -->
     <string name="onb_sync_title">Đồng bộ luôn nhé?</string>
-    <string name="onb_sync_subtitle">YouTube Music có thể luôn khớp với Mochy: danh sách phát, lượt thích và lịch sử, hai chiều.</string>
+    <string name="onb_sync_subtitle">YouTube Music có thể luôn khớp với Melo: danh sách phát, lượt thích và lịch sử, hai chiều.</string>
     <string name="onb_import_and_sync">Nhập &amp; đồng bộ</string>
     <string name="onb_just_import">Chỉ nhập</string>
     <string name="onb_sync_launch_title">Đồng bộ thư viện khi mở app</string>
-    <string name="onb_sync_launch_desc">Lượt thích, thư viện và các danh sách phát bạn đã chọn, mỗi lần Mochy mở</string>
+    <string name="onb_sync_launch_desc">Lượt thích, thư viện và các danh sách phát bạn đã chọn, mỗi lần Melo mở</string>
     <string name="onb_sync_new_playlists_title">Danh sách phát mới lên YouTube</string>
     <string name="onb_sync_new_playlists_desc">Danh sách phát bạn tạo ở đây cũng được tạo trên YouTube</string>
     <string name="onb_sync_push_plays_title">Đẩy lượt phát lên lịch sử YouTube</string>
     <string name="onb_sync_push_plays_desc">Những gì bạn phát ở đây sẽ hiện trong lịch sử YouTube của bạn</string>
     <string name="onb_sync_bring_history_title">Đưa lịch sử YouTube về đây</string>
-    <string name="onb_sync_bring_history_desc">Lượt phát từ các thiết bị khác của bạn được thêm vào lịch sử của Mochy</string>
+    <string name="onb_sync_bring_history_desc">Lượt phát từ các thiết bị khác của bạn được thêm vào lịch sử của Melo</string>
 
     <!-- profile -->
     <string name="onb_profile_title">Hãy tạo hồ sơ của bạn!</string>
-    <string name="onb_never_store">Mochy sẽ không bao giờ lưu dữ liệu của bạn trực tuyến!</string>
+    <string name="onb_never_store">Melo sẽ không bao giờ lưu dữ liệu của bạn trực tuyến!</string>
     <string name="onb_username_prompt">tên người dùng của bạn là gì?</string>
     <string name="onb_username_hint">tên người dùng</string>
     <string name="onb_set_photo">Đặt ảnh hồ sơ tại đây!</string>
@@ -100,7 +100,7 @@
 
     <!-- hello / done -->
     <string name="onb_hello">Xin chào!</string>
-    <string name="onb_welcome_to_mochy">chào mừng đến với mochy!</string>
+    <string name="onb_welcome_to_mochy">chào mừng đến với Melo!</string>
     <string name="onb_all_good">Bạn đã sẵn sàng</string>
 
     <!-- blur warning -->

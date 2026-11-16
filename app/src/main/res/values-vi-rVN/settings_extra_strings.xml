@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Experimental Settings -->
     <string name="experimental_settings_title">Thử nghiệm</string>
@@ -17,7 +17,7 @@
     <string name="experimental_force_yt_blur_desc">Ghi đè giá trị mặc định 120 px; có thể làm tăng tải GPU</string>
     <string name="experimental_force_recap_title">Bắt buộc hiện tổng kết tháng</string>
     <string name="experimental_force_recap_desc">Mở khóa sớm phần tổng kết</string>
-    <string name="experimental_force_recap_detail">Mở khóa phần tổng kết phía sau thẻ Mochy ngay bây giờ, không cần chờ đến bài hát thứ 3 hoặc thứ 10</string>
+    <string name="experimental_force_recap_detail">Mở khóa phần tổng kết phía sau thẻ Melo ngay bây giờ, không cần chờ đến bài hát thứ 3 hoặc thứ 10</string>
     <string name="experimental_big_disc_title">Kiểu bìa đĩa lớn</string>
     <string name="experimental_big_disc_desc">Chưa hoàn thiện — đĩa kích thước lớn tràn viền màn hình</string>
     <string name="experimental_music_haptics_title">Rung theo nhạc</string>
@@ -43,7 +43,7 @@
     <string name="cipher_status_not_loaded">Chưa tải</string>
     <string name="cipher_status_stale">Đã cũ — sẽ làm mới trong lần phát tiếp theo</string>
     <string name="cipher_status_ready">Sẵn sàng</string>
-    <string name="cipher_card_description">YouTube ký các URL luồng phát của mình bằng một script trình phát thay đổi định kỳ. Mochy lưu đệm script đó và tự động tải lại khi cần.</string>
+    <string name="cipher_card_description">YouTube ký các URL luồng phát của mình bằng một script trình phát thay đổi định kỳ. Melo lưu đệm script đó và tự động tải lại khi cần.</string>
     <string name="cipher_player_id">ID trình phát</string>
     <string name="cipher_last_updated">Cập nhật lần cuối</string>
     <string name="cipher_script_size">Kích thước script</string>
@@ -117,10 +117,10 @@
     <string name="discord_no_browser_toast">Không tìm thấy trình duyệt để mở trang đăng nhập Discord.</string>
     <string name="discord_settings_title">Discord</string>
     <string name="discord_subtitle_rich_presence">Hiển thị trạng thái hoạt động trên trang cá nhân</string>
-    <string name="discord_status_not_configured">Chưa được thiết lập trong bản dựng Mochy này</string>
+    <string name="discord_status_not_configured">Chưa được thiết lập trong bản dựng Melo này</string>
     <string name="discord_status_signing_in">Đang đăng nhập…</string>
     <string name="discord_status_login_below">Đăng nhập bên dưới để bật tính năng</string>
-    <string name="discord_status_off">Đang tắt, hồ sơ của bạn sẽ không hiển thị thông tin từ Mochy</string>
+    <string name="discord_status_off">Đang tắt, hồ sơ của bạn sẽ không hiển thị thông tin từ Melo</string>
     <string name="discord_status_live">Đang hiển thị trên hồ sơ của bạn</string>
     <string name="discord_status_connecting">Đang kết nối tới Discord…</string>
     <string name="discord_status_retrying">Không thể kết nối Discord. Đang thử lại…</string>
@@ -157,7 +157,7 @@
     <string name="discord_cd_close">Đóng</string>
     <string name="discord_spin_full_turn">Một vòng quay</string>
     <string name="discord_spin_smoothness">Độ mượt mà</string>
-    <string name="discord_spin_note">Quay liên tục. Discord chỉ có thể hiển thị hình ảnh từ web, vì vậy Mochy tạo ảnh GIF từ bìa bài hát và tải lên dịch vụ lưu trữ miễn phí (uguu.se, tự động xóa sau 3 giờ). Vòng quay chậm và mượt hơn sẽ tạo tệp GIF có dung lượng lớn hơn và mất nhiều thời gian tải hơn; trong lúc đó ảnh tĩnh sẽ được hiển thị thay thế. 50 fps là độ mượt tối đa mà ảnh GIF có thể đạt được.</string>
+    <string name="discord_spin_note">Quay liên tục. Discord chỉ có thể hiển thị hình ảnh từ web, vì vậy Melo tạo ảnh GIF từ bìa bài hát và tải lên dịch vụ lưu trữ miễn phí (uguu.se, tự động xóa sau 3 giờ). Vòng quay chậm và mượt hơn sẽ tạo tệp GIF có dung lượng lớn hơn và mất nhiều thời gian tải hơn; trong lúc đó ảnh tĩnh sẽ được hiển thị thay thế. 50 fps là độ mượt tối đa mà ảnh GIF có thể đạt được.</string>
     <string name="discord_placeholder_list_title">Danh sách biến thay thế</string>
     <string name="discord_placeholder_example_title">Ví dụ, tên hoạt động này</string>
     <string name="discord_placeholder_shows_up_as">sẽ hiển thị là</string>
@@ -169,7 +169,7 @@
     <string name="discord_image_artwork">Bìa bài hát</string>
     <string name="discord_image_artist">Ảnh nghệ sĩ</string>
     <string name="discord_image_playback_status">Trạng thái phát</string>
-    <string name="discord_image_app_logo">Logo Mochy</string>
+    <string name="discord_image_app_logo">Logo Melo</string>
     <string name="discord_image_spinning_artist">Ảnh nghệ sĩ xoay tròn</string>
     <string name="discord_image_spinning_artwork">Bìa bài hát xoay tròn</string>
     <string name="discord_image_custom">Ảnh của bạn</string>
@@ -177,11 +177,11 @@
     <string name="discord_target_spotify">Spotify</string>
     <string name="discord_target_apple_music">Apple Music</string>
     <string name="discord_target_tidal">Tidal</string>
-    <string name="discord_target_mochy">Mochy trên GitHub</string>
+    <string name="discord_target_mochy">Melo trên GitHub</string>
     <string name="discord_ph_name">Tên bài hát</string>
     <string name="discord_ph_artist">Tên nghệ sĩ</string>
     <string name="discord_ph_album">Album</string>
-    <string name="discord_ph_app">Mochy</string>
+    <string name="discord_ph_app">Melo</string>
     <string name="discord_ph_quality">Định dạng và tốc độ bit, ví dụ: OPUS · 160 kbps</string>
     <string name="discord_ph_apple">Logo Apple (chỉ thiết bị Apple mới hiển thị được)</string>
     <string name="discord_enable_rich_presence">Bật Rich Presence</string>

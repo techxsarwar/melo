@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- common -->
     <string name="onb_next">Next</string>
@@ -12,7 +12,7 @@
     <string name="onb_selected">Selected</string>
 
     <!-- welcome -->
-    <string name="onb_welcome_title">Welcome to\nmochy!</string>
+    <string name="onb_welcome_title">Welcome to\nMelo!</string>
     <string name="onb_welcome_subtitle">A way to listen and own your\nmusic, differently.</string>
 
     <!-- photo cropper -->
@@ -28,16 +28,16 @@
     <string name="onb_import">Import</string>
     <string name="onb_import_desc">import music, playlists and albums from supported providers like Apple Music, Spotify, Tidal and YouTube Music</string>
     <string name="onb_import_backup_title">Import from backup</string>
-    <string name="onb_import_backup_desc">if you by any chance have a Mochy backup</string>
+    <string name="onb_import_backup_desc">if you by any chance have a Melo backup</string>
 
     <!-- restoring previous data -->
     <string name="onb_all_set">All set!</string>
     <string name="onb_bringing_over">Bringing your music over</string>
-    <string name="onb_restart_once">Mochy restarts once to finish. See you in a sec!</string>
+    <string name="onb_restart_once">Melo restarts once to finish. See you in a sec!</string>
     <string name="onb_restore_counts">%1$s, %2$s and %3$s from your old app.</string>
     <string name="onb_reading_export">Reading your export…</string>
     <string name="onb_restarting">Restarting…</string>
-    <string name="onb_restore_progress">%1$d%% · keep Mochy open, it restarts by itself when it\'s done</string>
+    <string name="onb_restore_progress">%1$d%% · keep Melo open, it restarts by itself when it\'s done</string>
     <plurals name="onb_songs">
         <item quantity="one">%1$,d song</item>
         <item quantity="other">%1$,d songs</item>
@@ -77,21 +77,21 @@
 
     <!-- sync options -->
     <string name="onb_sync_title">Also keep in sync?</string>
-    <string name="onb_sync_subtitle">YouTube Music can stay in step with Mochy: your playlists, likes and history, both ways.</string>
+    <string name="onb_sync_subtitle">YouTube Music can stay in step with Melo: your playlists, likes and history, both ways.</string>
     <string name="onb_import_and_sync">Import &amp; sync</string>
     <string name="onb_just_import">Just import</string>
     <string name="onb_sync_launch_title">Sync library on launch</string>
-    <string name="onb_sync_launch_desc">Likes, library and the playlists you picked, each time Mochy opens</string>
+    <string name="onb_sync_launch_desc">Likes, library and the playlists you picked, each time Melo opens</string>
     <string name="onb_sync_new_playlists_title">New playlists go to YouTube</string>
     <string name="onb_sync_new_playlists_desc">Playlists you make here are created on YouTube too</string>
     <string name="onb_sync_push_plays_title">Push plays to YouTube history</string>
     <string name="onb_sync_push_plays_desc">What you play here shows up in your YouTube history</string>
     <string name="onb_sync_bring_history_title">Bring YouTube history here</string>
-    <string name="onb_sync_bring_history_desc">Plays from your other devices join Mochy\'s history</string>
+    <string name="onb_sync_bring_history_desc">Plays from your other devices join Melo\'s history</string>
 
     <!-- profile -->
     <string name="onb_profile_title">Let\'s create your profile!</string>
-    <string name="onb_never_store">Mochy will never store your data online!</string>
+    <string name="onb_never_store">Melo will never store your data online!</string>
     <string name="onb_username_prompt">what\'s your username?</string>
     <string name="onb_username_hint">username</string>
     <string name="onb_set_photo">Set a profile picture here!</string>
@@ -103,7 +103,7 @@
 
     <!-- hello / done -->
     <string name="onb_hello">Hello!</string>
-    <string name="onb_welcome_to_mochy">welcome to mochy!</string>
+    <string name="onb_welcome_to_mochy">welcome to Melo!</string>
     <string name="onb_all_good">You\'re good to go</string>
 
     <!-- blur warning -->

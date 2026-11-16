@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- About Sheet -->
     <string name="about_app">Giới thiệu ứng dụng</string>
-    <string name="about_mochy_music_version">Mochy Music | %1$s</string>
-    <string name="about_app_description">Mochy Music là một ứng dụng nghe nhạc,\nnhưng khá là thú vị đấy.</string>
+    <string name="about_mochy_music_version">Melo | %1$s</string>
+    <string name="about_app_description">Melo là một ứng dụng nghe nhạc,\nnhưng khá là thú vị đấy.</string>
     <string name="about_actions">Hành động</string>
     <string name="about_support_me">Ủng hộ mình với nhé :3 \u2192</string>
-    <string name="about_github">GitHub của Mochy Music \u2192</string>
+    <string name="about_github">GitHub của Melo \u2192</string>
     <string name="about_meet_lead_dev">Đội ngũ phát triển chính</string>
     <string name="about_we_wont_exist">Ứng dụng sẽ không tồn tại nếu thiếu họ</string>
     <string name="about_and_more">Và nhiều người khác \u2192</string>
@@ -31,7 +31,7 @@
     <string name="update_status_failed">Không thể kiểm tra cập nhật</string>
     <string name="update_status_offline">Ngoại tuyến?</string>
     <string name="update_action_try_again">THỬ LẠI</string>
-    <string name="update_install_permission_error">Vui lòng cấp quyền \"Cài đặt ứng dụng không rõ nguồn gốc\" cho Mochy, sau đó nhấn Cài đặt lại.</string>
+    <string name="update_install_permission_error">Vui lòng cấp quyền \"Cài đặt ứng dụng không rõ nguồn gốc\" cho Melo, sau đó nhấn Cài đặt lại.</string>
     <string name="update_back_desc">Quay lại</string>
     <string name="update_changelog">Nhật ký thay đổi</string>
     <string name="update_to_be_installed">Chuẩn bị cài đặt -</string>

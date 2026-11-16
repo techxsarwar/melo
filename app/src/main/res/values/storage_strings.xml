@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- usage at the top of the page -->
     <string name="storage_overall">Overall</string>
-    <string name="storage_legend_mochy">Mochy</string>
+    <string name="storage_legend_mochy">Melo</string>
     <string name="storage_legend_yours">Your storage</string>
     <string name="storage_free">%1$s free</string>
-    <string name="storage_measuring">Working out how much room Mochy takes…</string>
-    <string name="storage_uses">Mochy uses %1$s of your storage (%2$s), which is split into</string>
-    <string name="storage_uses_drives">Mochy uses %1$s across %2$d drives, which is split into</string>
-    <string name="storage_breakdown_title">Mochy app data usage</string>
+    <string name="storage_measuring">Working out how much room Melo takes…</string>
+    <string name="storage_uses">Melo uses %1$s of your storage (%2$s), which is split into</string>
+    <string name="storage_uses_drives">Melo uses %1$s across %2$d drives, which is split into</string>
+    <string name="storage_breakdown_title">Melo app data usage</string>
     <string name="storage_legend_cache">Cache</string>
     <string name="storage_legend_downloads">Downloaded music &amp; local</string>
     <string name="storage_legend_database">Database</string>
@@ -25,7 +25,7 @@
     <string name="storage_cache_off">Off</string>
     <string name="storage_cache_mb">%1$d MB</string>
     <string name="storage_cache_gb">%1$d GB</string>
-    <string name="storage_cache_applies_later">The new limit starts next time you open Mochy.</string>
+    <string name="storage_cache_applies_later">The new limit starts next time you open Melo.</string>
     <string name="storage_remove_downloads">Remove all downloads</string>
     <string name="storage_remove_downloads_title">Remove all downloads?</string>
     <string name="storage_remove_downloads_message">Every downloaded song is deleted from this phone. They stay in your library and stream again when you play them, so they\'ll need a connection.</string>
@@ -46,14 +46,14 @@
     <string name="storage_place_card">Memory card</string>
     <string name="storage_place_sheet_downloads">Where downloads are saved</string>
     <string name="storage_place_sheet_cache">Where the cache is saved</string>
-    <string name="storage_place_note_downloads">Every downloaded song moves over, and its lyrics stay with it. Mochy restarts once to finish.</string>
-    <string name="storage_place_note_cache">The cache starts fresh in the new place. Mochy restarts once to finish.</string>
-    <string name="storage_place_card_note">On a memory card, Mochy saves into its own folder, which Android clears if Mochy is uninstalled.</string>
+    <string name="storage_place_note_downloads">Every downloaded song moves over, and its lyrics stay with it. Melo restarts once to finish.</string>
+    <string name="storage_place_note_cache">The cache starts fresh in the new place. Melo restarts once to finish.</string>
+    <string name="storage_place_card_note">On a memory card, Melo saves into its own folder, which Android clears if Melo is uninstalled.</string>
     <string name="storage_place_choose_folder">Choose a folder</string>
-    <string name="storage_place_folder_note">Mochy saves into a Mochy folder inside the one you pick, so nothing else in there is touched.</string>
-    <string name="storage_place_access_needed">To save in %1$s, Mochy needs All files access. Android asks for it in Settings.</string>
+    <string name="storage_place_folder_note">Melo saves into a Melo folder inside the one you pick, so nothing else in there is touched.</string>
+    <string name="storage_place_access_needed">To save in %1$s, Melo needs All files access. Android asks for it in Settings.</string>
     <string name="storage_place_allow_access">Allow access</string>
-    <string name="storage_place_no_access">Mochy didn\'t get access, so it can\'t save there. Allow it, or pick another folder.</string>
+    <string name="storage_place_no_access">Melo didn\'t get access, so it can\'t save there. Allow it, or pick another folder.</string>
     <string name="storage_place_folder_unsupported">That folder can\'t be used. Pick one on this phone or a memory card.</string>
     <string name="storage_place_free">%1$s free of %2$s</string>
     <string name="storage_place_here_now">Saved here now</string>
@@ -61,12 +61,12 @@
     <string name="storage_place_move">Move here</string>
     <string name="storage_place_move_downloads_title">Move downloads to %1$s?</string>
     <string name="storage_place_move_cache_title">Move the cache to %1$s?</string>
-    <string name="storage_place_move_downloads_message">Downloads pause while %1$s is copied over. Mochy restarts once it\'s done, and the old copy is cleared.</string>
-    <string name="storage_place_move_cache_message">The cache you have now is cleared and Mochy restarts, then songs you play are kept in the new place.</string>
+    <string name="storage_place_move_downloads_message">Downloads pause while %1$s is copied over. Melo restarts once it\'s done, and the old copy is cleared.</string>
+    <string name="storage_place_move_cache_message">The cache you have now is cleared and Melo restarts, then songs you play are kept in the new place.</string>
     <string name="storage_place_move_action">Move and restart</string>
 
     <string name="storage_export_sheet_title">Export downloaded songs</string>
-    <string name="storage_export_note">They\'re copied into a mochy-preserve folder wherever you pick. Your downloads stay where they are.</string>
+    <string name="storage_export_note">They\'re copied into a Melo-preserve folder wherever you pick. Your downloads stay where they are.</string>
     <string name="storage_export_layout_playlists">Music and playlists</string>
     <string name="storage_export_layout_playlists_detail">A folder for each playlist and your liked songs, the rest go in Music</string>
     <string name="storage_export_layout_albums">Albums</string>
@@ -96,11 +96,11 @@
     <string name="storage_import_user_data">Import user data</string>
     <string name="storage_transfer_exporting">Exporting…</string>
     <string name="storage_transfer_exporting_percent">Exporting… %1$d%%</string>
-    <string name="storage_transfer_exported">Exported! Import the .zip in Mochy on the other phone</string>
+    <string name="storage_transfer_exported">Exported! Import the .zip in Melo on the other phone</string>
     <string name="storage_transfer_importing">Importing…</string>
-    <string name="storage_transfer_importing_percent">Importing… %1$d%%, Mochy restarts when it\'s done</string>
+    <string name="storage_transfer_importing_percent">Importing… %1$d%%, Melo restarts when it\'s done</string>
     <string name="storage_transfer_restarting">Done, restarting…</string>
     <string name="storage_import_title">Replace your library?</string>
-    <string name="storage_import_message">Everything in Mochy right now is replaced by what\'s in the export, including your library, history, downloads and settings. Your logins stay as they are. Mochy restarts once to finish.</string>
+    <string name="storage_import_message">Everything in Melo right now is replaced by what\'s in the export, including your library, history, downloads and settings. Your logins stay as they are. Melo restarts once to finish.</string>
     <string name="storage_import_action">Pick the .zip</string>
 </resources>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="fx_title_audio">Audio</string>
 
@@ -35,7 +35,7 @@
     <string name="fx_mono_sub">Both ears hear the whole mix: for one earbud, or hearing in one ear</string>
 
     <string name="fx_atmos_title">Dolby Atmos &amp; surround</string>
-    <string name="fx_atmos_sub">Plays 5.1, 7.1 and Atmos beds as 3D sound on any headphones, with Mochy\'s head model, instead of folding them to stereo. From the next song.</string>
+    <string name="fx_atmos_sub">Plays 5.1, 7.1 and Atmos beds as 3D sound on any headphones, with Melo\'s head model, instead of folding them to stereo. From the next song.</string>
     <string name="fx_atmos_decoder">Atmos decoder</string>
     <string name="fx_atmos_spatializer">Android spatializer</string>
     <string name="fx_atmos_yes">Yes</string>
@@ -67,7 +67,7 @@
     <string name="fx_curve_steep">Steep</string>
     <string name="fx_curve">Curve</string>
     <string name="fx_volume_limit">Volume limit</string>
-    <string name="fx_volume_note">Shapes Mochy\'s own volume (the player\'s slider, fades and ducking). The limit caps how loud the app ever plays.</string>
+    <string name="fx_volume_note">Shapes Melo\'s own volume (the player\'s slider, fades and ducking). The limit caps how loud the app ever plays.</string>
 
     <string name="fx_reverb_title">Reverb</string>
     <string name="fx_reverb_sub">Reverb the music</string>

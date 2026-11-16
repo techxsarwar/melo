@@ -82,7 +82,7 @@ fun UpdatePromptSheet(
         } else {
             needsPermission = true
             readyToInstall = true
-            error = "Allow \"Install unknown apps\" for mochy, then tap Install here again."
+            error = "Allow \"Install unknown apps\" for Melo, then tap Install here again."
         }
     }
 
@@ -176,7 +176,7 @@ fun UpdatePromptSheet(
                 Spacer(modifier = Modifier.width(12.dp))
                 Column(modifier = Modifier.weight(1f)) {
                     Text(
-                        text = release.apkName ?: "mochy.apk",
+                        text = release.apkName ?: "melo.apk",
                         color = Color.White,
                         fontSize = 14.sp,
                         fontWeight = FontWeight.Bold,

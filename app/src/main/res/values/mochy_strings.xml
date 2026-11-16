@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="explore">Explore</string>
     <string name="tab_explore">Explore</string>
@@ -449,7 +449,7 @@
     <string name="karaoke">Karaoke</string>
     <string name="apple_music_style">Apple Music</string>
     <string name="apple_music_style_letter">Apple Music V2 (Letter by Letter)</string>
-    <string name="mochy_1">mochy (Fluid)</string>
+    <string name="mochy_1">Melo (Fluid)</string>
     <string name="apple_music_lyrics_blur">Apple Music Lyrics Blur</string>
     <string name="apple_music_lyrics_blur_desc">Apply blur to inactive lyrics lines for a premium focus effect</string>
     <string name="lyrics_v2_fluid">Lyrics V2 (Fluid)</string>
@@ -751,7 +751,7 @@
     <string name="crash_share_logs">Share Logs</string>
     <string name="copy_logs">Copy Logs</string>
     <string name="crash_share_title">Share crash report</string>
-    <string name="crash_report_subject">mochy Crash Report</string>
+    <string name="crash_report_subject">Melo Crash Report</string>
     <string name="crash_close">Close</string>
     <string name="crash_no_log">No crash log available</string>
 
@@ -1187,8 +1187,8 @@
     <!-- crossmix: the dj-style transition and how the listener can shape it -->
     <string name="crossmix_desc">DJ-style: reads each song\'s tempo, beats, key, energy and where its voice is, then picks the transition that fits and locks the two on the beat, so two voices never sing over each other</string>
     <string name="crossmix_style_title">Transition</string>
-    <string name="crossmix_style_desc">Let Mochy pick the one that fits each pair, or hear the same one every time</string>
-    <string name="crossmix_style_auto">Let Mochy choose</string>
+    <string name="crossmix_style_desc">Let Melo pick the one that fits each pair, or hear the same one every time</string>
+    <string name="crossmix_style_auto">Let Melo choose</string>
     <string name="crossmix_style_choose">Choose a transition</string>
     <string name="crossmix_length_title">Length</string>
     <string name="crossmix_length_desc">How long the two songs play together. Long blends need two songs that lock on the beat.</string>
@@ -1227,7 +1227,7 @@
     <string name="speed_only_this_song_detail">%1$s keeps this speed and pitch. Other songs play as usual.</string>
     <string name="discord_custom_pick">Choose a picture</string>
     <string name="discord_custom_change">Change picture</string>
-    <string name="discord_custom_note">Discord only shows pictures from the web, so Mochy puts yours on a free file host and shows it from there.</string>
+    <string name="discord_custom_note">Discord only shows pictures from the web, so Melo puts yours on a free file host and shows it from there.</string>
     <string name="discord_custom_failed">Couldn\'t use that picture. Try another one.</string>
     <string name="search_in_playlist">Search in this playlist…</string>
     <string name="search_in_album">Search in this album…</string>
@@ -1246,9 +1246,9 @@
     <string name="recent_search_playlist">Playlist · %1$s</string>
     <string name="recent_search_artist">Artist</string>
     <string name="recent_search_remove">Remove from recent searches</string>
-    <string name="floating_lyrics_open">Open Mochy</string>
+    <string name="floating_lyrics_open">Open Melo</string>
     <string name="floating_lyrics_hide">Hide floating lyrics</string>
-    <string name="floating_lyrics_permission">Let Mochy show over other apps so the lyrics can float</string>
+    <string name="floating_lyrics_permission">Let Melo show over other apps so the lyrics can float</string>
     <string name="swipe_action_library">Add or remove from library</string>
     <string name="swipe_action_details">View details</string>
     <string name="menu_ai_translation">AI translation</string>

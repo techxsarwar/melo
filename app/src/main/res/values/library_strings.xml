@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Shared labels -->
     <string name="lib_artist">Artist</string>
@@ -48,7 +48,7 @@
     <string name="lib_manage_imports_pill">Manage imports</string>
     <string name="lib_manage_local_pill">Manage local</string>
     <string name="lib_local_or">Or</string>
-    <string name="lib_local_let_read">Let Mochy read your storage to find all your songs</string>
+    <string name="lib_local_let_read">Let Melo read your storage to find all your songs</string>
     <string name="lib_local_import_here">Import your local music here</string>
     <string name="lib_local_imported_from_local">Imported from local</string>
 
@@ -62,7 +62,7 @@
     <string name="lib_import_still_running">An import is still running. Try again once it\'s done.</string>
 
     <!-- Local import -->
-    <string name="lib_local_no_access">Mochy can\'t see your music without access</string>
+    <string name="lib_local_no_access">Melo can\'t see your music without access</string>
     <string name="lib_local_no_new_songs">No new songs in your music folders</string>
 
     <!-- Transfer progress -->

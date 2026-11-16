@@ -187,7 +187,7 @@ private val Licenses =
     listOf(
         LicenseEntry(
             tag = "GPL-3.0",
-            title = "Mochy Music · GNU General Public License v3.0",
+            title = "Melo · GNU General Public License v3.0",
             subtitle = "Free and open source software, source code on GitHub",
             url = "$GithubRepoUrl/blob/main/LICENSE",
         ),
@@ -276,7 +276,7 @@ private suspend fun fetchContributors(): List<ContributorEntry> {
                     connectTimeout = 8_000
                     readTimeout = 8_000
                     setRequestProperty("Accept", "application/vnd.github+json")
-                    setRequestProperty("User-Agent", "mochy-android")
+                    setRequestProperty("User-Agent", "melo-android")
                 }
             try {
                 val arr = JSONArray(conn.inputStream.bufferedReader().use { it.readText() })
@@ -341,7 +341,7 @@ private fun ColumnScope.AboutSheetContent(
     Box(Modifier.fillMaxWidth()) {
         // zero-size layout places the spinning ring behind the top icon without pushing the column down
         VersionRing(
-            text = "MOCHY $installed",
+            text = "MELO $installed",
             scrollProgress = { scrollState.value / ringScrollRangePx },
             modifier =
                 Modifier

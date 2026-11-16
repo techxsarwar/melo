@@ -150,7 +150,7 @@ class PhoneLinkHost @Inject constructor(
         advert = LinkAdvert(
             context,
             LinkWire.PhoneServiceType,
-            "Mochy ${LinkIdentity.name(context)}",
+            "Melo ${LinkIdentity.name(context)}",
             port,
             mapOf(
                 LinkWire.AttrId to LinkIdentity.id(context),
@@ -408,7 +408,7 @@ class PhoneLinkHost @Inject constructor(
     private fun controlled(request: LinkRequest, device: PairedDevice): LinkResponse {
         if (device.kind.isTv) return LinkResponse.status(404)
         if (!device.remoteControl) return LinkResponse.status(403, "remote control is off on this phone")
-        val connection = LinkPlayer.current() ?: return LinkResponse.status(409, "mochy isn't open on this phone")
+        val connection = LinkPlayer.current() ?: return LinkResponse.status(409, "melo isn't open on this phone")
         return control.handle(request, connection)
     }
 

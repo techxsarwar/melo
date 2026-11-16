@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- About Sheet -->
     <string name="about_app">About app</string>
-    <string name="about_mochy_music_version">Mochy Music | %1$s</string>
-    <string name="about_app_description">Mochy Music is a music app but\nkinda cool.</string>
+    <string name="about_mochy_music_version">Melo | %1$s</string>
+    <string name="about_app_description">Melo is a music app but\nkinda cool.</string>
     <string name="about_actions">Actions</string>
     <string name="about_support_me">Support me please :3 \u2192</string>
-    <string name="about_github">Mochy Music github \u2192</string>
+    <string name="about_github">Melo github \u2192</string>
     <string name="about_meet_lead_dev">Meet the lead dev</string>
     <string name="about_we_wont_exist">We wont exist without these guys</string>
     <string name="about_and_more">And more \u2192</string>
@@ -31,7 +31,7 @@
     <string name="update_status_failed">Couldn\'t check for updates</string>
     <string name="update_status_offline">Offline?</string>
     <string name="update_action_try_again">TRY AGAIN</string>
-    <string name="update_install_permission_error">Allow \"Install unknown apps\" for mochy, then tap Install here again.</string>
+    <string name="update_install_permission_error">Allow \"Install unknown apps\" for Melo, then tap Install here again.</string>
     <string name="update_back_desc">Back</string>
     <string name="update_changelog">Changelog</string>
     <string name="update_to_be_installed">To Be Installed -</string>

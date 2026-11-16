@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- audio pass: audio lab's page for usb dacs, bluetooth codecs and bit-perfect output -->
     <string name="audiopass_hub_title">Audio Pass</string>
@@ -7,7 +7,7 @@
     <string name="audiopass_joined">%1$s · %2$s</string>
     <string name="audiopass_status_label">ステータス</string>
     <string name="audiopass_status_connected">接続済み</string>
-    <string name="audiopass_status_driven">Mochyで直接駆動</string>
+    <string name="audiopass_status_driven">Meloで直接駆動</string>
     <string name="audiopass_status_bluetooth">Bluetooth</string>
     <string name="audiopass_status_wired">ヘッドホン</string>
     <string name="audiopass_status_none">未接続</string>
@@ -58,7 +58,7 @@
     <string name="audiopass_prefer_usb">接続時にDACを優先使用</string>
     <string name="audiopass_hires">ハイレゾ出力 (32-bit)</string>
     <string name="audiopass_exclusive">排他モード設定</string>
-    <string name="audiopass_resampler">Mochy独自 Hi-Fiリサンプラー</string>
+    <string name="audiopass_resampler">Melo独自 Hi-Fiリサンプラー</string>
     <string name="audiopass_resampler_desc">スピーカーとヘッドホンジャック専用。Android標準より高精度なフィルターで端末のネイティブレートへ変換します</string>
     <string name="audiopass_passthrough">ビットパーフェクト・パススルー</string>
     <string name="audiopass_passthrough_desc">Androidのミキシングやリサンプリングを通さず、音源データをそのままDACへ送ります</string>
@@ -68,11 +68,11 @@
     <string name="audiopass_mode_bit_perfect">ビットパーフェクト</string>
     <string name="audiopass_mode_bit_perfect_desc">ロスレス音源を一切加工せずそのままDACへ渡します</string>
     <string name="audiopass_mode_direct_usb">ダイレクトUSB</string>
-    <string name="audiopass_mode_direct_usb_desc">Androidのバージョンを問わずMochyがDACを直接制御し、ハードウェア音量を調整します（USBアクセス権限が必要）</string>
+    <string name="audiopass_mode_direct_usb_desc">Androidのバージョンを問わずMeloがDACを直接制御し、ハードウェア音量を調整します（USBアクセス権限が必要）</string>
     <string name="audiopass_mode_exclusive_usb">排他USB</string>
-    <string name="audiopass_mode_exclusive_usb_desc">楽曲のレートでDACをMochy専用として占有します（一部端末では非対応）</string>
+    <string name="audiopass_mode_exclusive_usb_desc">楽曲のレートでDACをMelo専用として占有します（一部端末では非対応）</string>
     <string name="audiopass_mode_exclusive_dac">内蔵DAC占有</string>
-    <string name="audiopass_mode_exclusive_dac_desc">専用DAC搭載DAP向け：ヘッドホンジャックをMochy専用として占有します</string>
+    <string name="audiopass_mode_exclusive_dac_desc">専用DAC搭載DAP向け：ヘッドホンジャックをMelo専用として占有します</string>
     <string name="audiopass_mode_needs">Android %1$s以降が必要</string>
     <string name="audiopass_blockers_title">ビットパーフェクト待機中（以下の項目をオフにしてください）</string>
     <string name="audiopass_blockers_clear_title">制限なし（準備完了）</string>
@@ -87,13 +87,13 @@
     <string name="audiopass_blocker_lossy">非可逆圧縮音源（YouTube、Apple Musicなど）は常に通常再生されます</string>
     <string name="audiopass_now_bitperfect">ビットパーフェクト出力中 → %1$s · %2$s kHz · %3$s-bit</string>
     <string name="audiopass_now_untouched">無加工で出力中 → %1$s · %2$s kHz · %3$s-bit（元の音源自体は圧縮されています）</string>
-    <string name="audiopass_now_inexact">無変更で %1$s へ出力中（Mochyでの処理前にすでに丸め処理が行われています）</string>
+    <string name="audiopass_now_inexact">無変更で %1$s へ出力中（Meloでの処理前にすでに丸め処理が行われています）</string>
     <string name="audiopass_now_waiting">準備完了。次の対応曲からDACへダイレクト出力されます</string>
     <string name="audiopass_now_fell">%1$s kHz / %2$s-bit の楽曲はこのモードでDACを開けなかったため、通常再生に切り替わりました</string>
     <string name="audiopass_usb_title">ダイレクトUSB</string>
     <string name="audiopass_usb_permission">USBアクセスを許可</string>
     <string name="audiopass_usb_permission_hint">DAC接続時に毎回Androidの確認が表示されます。許可するまでは通常再生になります</string>
-    <string name="audiopass_usb_no_dac">USB DACを接続するとMochyが制御を引き継ぎます</string>
+    <string name="audiopass_usb_no_dac">USB DACを接続するとMeloが制御を引き継ぎます</string>
     <string name="audiopass_fixed_volume">音量調整機能のないDAC</string>
     <string name="audiopass_fixed_volume_desc">最大出力（フルスケール）で再生されるため、機器側のノブでのみ音量を下げられます。高感度イヤホンでは大音量になるためご注意ください</string>
     <string name="audiopass_dac_volume">DACハードウェア音量</string>

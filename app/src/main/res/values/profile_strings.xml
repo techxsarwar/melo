@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Greetings -->
     <string name="profile_greeting_hello_again">Hello again</string>
@@ -29,14 +29,14 @@
 
     <!-- Community & Settings -->
     <string name="profile_meet_dev_contributors">meet da dev and contributors :3</string>
-    <string name="profile_join_discord">Join mochy’s discord server!</string>
+    <string name="profile_join_discord">Join Melo’s discord server!</string>
     <string name="profile_discord_cd">Discord</string>
     <string name="profile_settings_title">Settings</string>
     <string name="profile_open_settings">Open settings</string>
 
     <!-- Edit Profile Sheet -->
     <string name="profile_edit_title">Edit profile</string>
-    <string name="profile_data_privacy_hint">Mochy will never store your data online!</string>
+    <string name="profile_data_privacy_hint">Melo will never store your data online!</string>
     <string name="profile_done">Done</string>
     <string name="profile_username_label">username</string>
     <string name="profile_username_placeholder">username</string>
