@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Mochy Wiki</title>
-<meta name="description" content="Mochy Music's wiki: how the app works, and how to make modules for it.">
+<title>Melo Wiki</title>
+<meta name="description" content="Melo Music's wiki: how the app works, and how to make modules for it.">
 <meta name="theme-color" content="#0e0e0f">
 <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,7 @@
 <div class="wiki">
 <aside class="side" id="side">
   <div class="side-head">
-    <div class="brand"><a class="brand-name" href="../" style="text-decoration:none"><img src="../assets/img/logo.svg" alt="" width="32" height="35">Mochy Music</a><span class="brand-sep"></span><span class="brand-sub">Docs</span></div>
+    <div class="brand"><a class="brand-name" href="../" style="text-decoration:none"><img src="../assets/img/logo.svg" alt="" width="32" height="35">Melo Music</a><span class="brand-sep"></span><span class="brand-sub">Docs</span></div>
     <button class="icon-btn fold press" type="button" id="sideFold" aria-label="Hide the sidebar" aria-expanded="true" aria-controls="toc"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4.5" width="17" height="15" rx="3.5"/><path d="M9.5 4.5v15"/><path class="arrow" d="m15.5 10-2 2 2 2"/></svg></button>
     <button class="icon-btn burger press" type="button" id="tocToggle" aria-label="Pages" aria-expanded="false" aria-controls="toc"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="bars" d="M4 7h16M4 12h16M4 17h16"/><path class="cross" d="M6 6l12 12M18 6 6 18"/></svg></button>
   </div>
@@ -38,11 +38,11 @@
 
 <article class="page" id="welcome" data-group="Beggining" data-title="Hi! start here">
 <h1>Hi!</h1>
-<p class="sub">this is mochy's wiki &lt;3</p>
-<p>hello, im the one making mochy. this wiki is where i explain how the app works and how to make your own modules for it. i tried to keep it with a lot of pictures instead of a wall of code, becuase reading code in docs is boring lol.</p>
+<p class="sub">this is melo's wiki &lt;3</p>
+<p>hello, im the one making melo. this wiki is where i explain how the app works and how to make your own modules for it. i tried to keep it with a lot of pictures instead of a wall of code, becuase reading code in docs is boring lol.</p>
 <p>everything here comes from the real app, the screenshots are from the latest build. if something looks diffrent on your phone, you're probably on an older version, go update :p</p>
 <div class="cards">
-  <a class="press" href="#app-tour"><b>Using the app</b><span>a walk around mochy, page by page, with what every button does</span></a>
+  <a class="press" href="#app-tour"><b>Using the app</b><span>a walk around melo, page by page, with what every button does</span></a>
   <a class="press" href="#modules-types"><b>Making modules</b><span>new looks, your own player, liquid glass, sources, lyrics and song info</span></a>
   <a class="press" href="#modules-first"><b>Your first module</b><span>a whole module in two minutes, one json file in a zip</span></a>
   <a class="press" href="#roadmap"><b>Roadmap</b><span>what's done and what i'm working on</span></a>
@@ -53,7 +53,7 @@
 <article class="page" id="app-tour" data-group="Beggining" data-title="The app">
 <h1>The app</h1>
 <p class="sub">a quick walk around</p>
-<p>mochy has four tabs at the bottom, plus the player that lives right above them. tap the bar below, it switches just like in the app:</p>
+<p>melo has four tabs at the bottom, plus the player that lives right above them. tap the bar below, it switches just like in the app:</p>
 <div class="tour" style="align-items:flex-start;margin:20px 0 30px">
   <div class="phone">
     <img class="on" src="../assets/img/app-home.webp" alt="Home" width="450" height="1000" loading="lazy">
@@ -76,13 +76,13 @@
 
 <article class="page" id="install" data-group="Beggining" data-title="Installing">
 <h1>Installing</h1>
-<p class="sub">getting mochy on your phone</p>
+<p class="sub">getting melo on your phone</p>
 <ol>
-  <li>go to the <a href="https://github.com/realidkroo/Mochy-Music/releases">releases page</a> and download the apk. <b>arm64</b> is for almost every phone, <b>universal</b> works everywhere but its bigger.</li>
+  <li>go to the <a href="https://github.com/techxsarwar/melo/releases">releases page</a> and download the apk. <b>arm64</b> is for almost every phone, <b>universal</b> works everywhere but its bigger.</li>
   <li>open it, android asks if you trust the source, say yes.</li>
-  <li>open mochy, it walks you thru a few steps: a username, importing (you can skip), and a check if your phone can do blur.</li>
+  <li>open melo, it walks you thru a few steps: a username, importing (you can skip), and a check if your phone can do blur.</li>
 </ol>
-<div class="note">mochy works on android 8 and newer. blur and glass need android 12, additional effects may needs android 13. older phones get a plain version that still looks nice.</div>
+<div class="note">melo works on android 8 and newer. blur and glass need android 12, additional effects may needs android 13. older phones get a plain version that still looks nice.</div>
 <p>updates show up inside the app when theres a new one, you can turn that off in app behaviour.</p>
 </article>
 
@@ -103,7 +103,7 @@
 <h2>Search</h2>
 <div class="shot">
   <div class="phone"><img src="../assets/img/app-search.webp" alt="Search" width="450" height="1000" loading="lazy"></div>
-  <div><p>moods and genres at first. type to search songs, albums, artists, playlists and videos. tap search twice fast and it goes straight to typing.</p><p>Home has three styles too (mochyy, listen now, hop in), change it in customisation.</p></div>
+  <div><p>moods and genres at first. type to search songs, albums, artists, playlists and videos. tap search twice fast and it goes straight to typing.</p><p>Home has three styles too (meloy, listen now, hop in), change it in customisation.</p></div>
 </div>
 </article>
 
@@ -137,7 +137,7 @@
   <div class="phone"><img src="../assets/img/app-lyrics.webp" alt="Lyrics" width="450" height="1000" loading="lazy"></div>
   <div>
     <p>tap the card at the bottom of the player to open the lyrics. the line being sung is bright, the rest fade.</p>
-    <p>mochy asks a bunch of lyric sources at once and keeps the best one (timed lyrics win). you can switch source from the player's menu, nudge the timing, or translate them.</p>
+    <p>melo asks a bunch of lyric sources at once and keeps the best one (timed lyrics win). you can switch source from the player's menu, nudge the timing, or translate them.</p>
     <div class="note">with a music video playing, lyrics follow the video instead of the album version.</div>
     <p>lyrics modules join the list too, and go first while their on.</p>
   </div>
@@ -179,7 +179,7 @@
 </div>
 <div class="shot">
   <div class="phone"><img src="../assets/img/app-recap.webp" alt="Recap" width="450" height="1000" loading="lazy"></div>
-  <div><p>pick the month or the year and play through it.</p><p class="aside">all of this stays on your phone, mochy never sends it anywhere.</p></div>
+  <div><p>pick the month or the year and play through it.</p><p class="aside">all of this stays on your phone, melo never sends it anywhere.</p></div>
 </div>
 </article>
 
@@ -212,14 +212,14 @@
 <article class="page" id="modules-types" data-group="Modules" data-title="What's a module?">
 <h1>Modules</h1>
 <p class="sub">what they are, and every kind you can make</p>
-<p>ok so this is my favourite part of mochy. a <b>module</b> adds something to the app without you waiting for me to ship an update. most of the time it's just a folder with a <code>manifest.json</code> in it (a small text file that says what you want), zipped up. mochy reads it and builds everything with its own parts, so your thing looks and feels like it was always in the app.</p>
+<p>ok so this is my favourite part of melo. a <b>module</b> adds something to the app without you waiting for me to ship an update. most of the time it's just a folder with a <code>manifest.json</code> in it (a small text file that says what you want), zipped up. melo reads it and builds everything with its own parts, so your thing looks and feels like it was always in the app.</p>
 <p>there are a few kinds, and one module can be any mix of them. tap one to jump to its page, each has a full example you can copy:</p>
 <div class="cards">
-  <a class="press" href="#modules-look"><b>🎨 A look</b><span>changes mochy's own settings: player style, accent colour, cover corners, pure black, blur and more. one json file, nothing else.</span></a>
+  <a class="press" href="#modules-look"><b>🎨 A look</b><span>changes melo's own settings: player style, accent colour, cover corners, pure black, blur and more. one json file, nothing else.</span></a>
   <a class="press" href="#modules-player"><b>📱 A player</b><span>a whole now playing screen of your own: blocks, panels, glass, pictures, svg shapes, keyframe animations, states that switch, a visualizer, shaders.</span></a>
   <a class="press" href="#modules-glass"><b>🫧 A bar</b><span>your own agsl shader for the nav bar, the wide bar and the mini player. liquid glass is made this way.</span></a>
-  <a class="press" href="#modules-pages"><b>📄 Pages</b><span>pages of your own with a shader or picture behind them, frosted cards, touchable shader blocks, settings, songs and playlists. they can sit right in mochy's settings.</span></a>
-  <a class="press" href="#modules-web"><b>🎵 Songs</b><span>a source mochy plays from. you answer search and stream, mochy plays it with every audio lab effect still on.</span></a>
+  <a class="press" href="#modules-pages"><b>📄 Pages</b><span>pages of your own with a shader or picture behind them, frosted cards, touchable shader blocks, settings, songs and playlists. they can sit right in melo's settings.</span></a>
+  <a class="press" href="#modules-web"><b>🎵 Songs</b><span>a source melo plays from. you answer search and stream, melo plays it with every audio lab effect still on.</span></a>
   <a class="press" href="#modules-lyrics"><b>💬 Lyrics</b><span>a lyrics provider: line by line, word by word, duets and background vocals.</span></a>
   <a class="press" href="#modules-metadata"><b>ℹ️ Song info</b><span>a metadata provider: genre, release date, writers, producers, the label and what the song is about, shown in about song.</span></a>
   <a class="press" href="#modules-js"><b>📜 Scripts</b><span>javascript for JS Modules: songs, lyrics or song info from a script, no server needed.</span></a>
@@ -230,7 +230,7 @@
 <div class="shot">
   <div class="phone"><img src="../assets/img/app-modules2.webp" alt="The modules page" width="450" height="1000" loading="lazy"><span class="mark" style="left:30%;top:9%">1</span><span class="mark" style="left:36%;top:30%">2</span><span class="mark" style="left:94%;top:40%">3</span></div>
   <ol class="marks">
-    <li><b>look modules</b> are the ones that only change how mochy looks: looks, players, bars, pages.</li>
+    <li><b>look modules</b> are the ones that only change how melo looks: looks, players, bars, pages.</li>
     <li><b>JS &amp; source modules</b> bring songs, lyrics or song info.</li>
     <li><b>drag a row by its lines</b> to reorder, <b>swipe it left</b> to delete. the order is the order songs, lyrics and song info are asked in. tap a row to open the module's own page.</li>
   </ol>
@@ -240,7 +240,7 @@
 <h2>Which kind should i make?</h2>
 <div class="tbl"><table>
 <tr><th>you want to…</th><th>make a…</th><th>needs a server?</th><th>who can make it</th></tr>
-<tr><td>change mochy's settings in one go</td><td><a href="#modules-look"><b>look</b></a>: a zip, or a link to a manifest.json</td><td>no</td><td>anyone</td></tr>
+<tr><td>change melo's settings in one go</td><td><a href="#modules-look"><b>look</b></a>: a zip, or a link to a manifest.json</td><td>no</td><td>anyone</td></tr>
 <tr><td>your own now playing screen</td><td><a href="#modules-player"><b>player</b></a> in a zip</td><td>no</td><td>anyone</td></tr>
 <tr><td>your own nav bar and mini player glass</td><td><a href="#modules-glass"><b>bar</b></a>: a glass shader in a zip</td><td>no</td><td>anyone</td></tr>
 <tr><td>pages, a settings page, rows in the player's menu</td><td><a href="#modules-pages"><b>pages</b></a> in a zip or a link</td><td>no</td><td>anyone</td></tr>
@@ -249,46 +249,46 @@
 <tr><td>song info from a service</td><td><a href="#modules-metadata"><b>song info provider</b></a>: answering <code>/metadata</code></td><td>yes</td><td>anyone</td></tr>
 <tr><td>any of those three from javascript</td><td><a href="#modules-js"><b>script</b></a> for JS Modules</td><td>no</td><td>anyone</td></tr>
 <tr><td>add another monochrome server</td><td>not a module: monochrome's page → servers</td><td>no</td><td>anyone</td></tr>
-<tr><td>code that runs inside mochy</td><td><a href="#modules-zip"><b>zip with its own code</b></a></td><td>no</td><td>only me (it has to be signed with mochy's key)</td></tr>
+<tr><td>code that runs inside melo</td><td><a href="#modules-zip"><b>zip with its own code</b></a></td><td>no</td><td>only me (it has to be signed with melo's key)</td></tr>
 </table></div>
 
 <h2>Why it's safe</h2>
-<p>nothing from a look, a player, a page, a web module or a plain zip runs inside mochy as code. they only hand back json, stream links and look values, and mochy draws everything with its own parts. that's why anyone can make one and nobody has to trust it with the app.</p>
-<div class="note">the only exceptions: code modules (only loaded when they're signed with mochy's own key, so only i can make them), JS Modules scripts (sandboxed inside that module, no access to your phone or the app, only the internet through mochy), and shaders, which run on the gpu and can only paint pixels.</div>
+<p>nothing from a look, a player, a page, a web module or a plain zip runs inside melo as code. they only hand back json, stream links and look values, and melo draws everything with its own parts. that's why anyone can make one and nobody has to trust it with the app.</p>
+<div class="note">the only exceptions: code modules (only loaded when they're signed with melo's own key, so only i can make them), JS Modules scripts (sandboxed inside that module, no access to your phone or the app, only the internet through melo), and shaders, which run on the gpu and can only paint pixels.</div>
 </article>
 
 <article class="page" id="modules-how" data-group="Modules" data-title="How modules work">
 <h1>How modules work</h1>
-<p class="sub">what mochy does with yours, from adding it to removing it</p>
+<p class="sub">what melo does with yours, from adding it to removing it</p>
 <p>before you build anything, here's the whole life of a module, so nothing surprises you later.</p>
-<div class="flow"><div>1. add it<small>a link, a zip or github</small></div><i>→</i><div>2. mochy checks it<small>shows what it adds</small></div><i>→</i><div>3. it sits there, off</div><i>→</i><div>4. you flip enable</div><i>→</i><div>5. it's live</div><i>→</i><div>6. update<small>when you publish</small></div><i>→</i><div>7. remove<small>gives everything back</small></div></div>
+<div class="flow"><div>1. add it<small>a link, a zip or github</small></div><i>→</i><div>2. melo checks it<small>shows what it adds</small></div><i>→</i><div>3. it sits there, off</div><i>→</i><div>4. you flip enable</div><i>→</i><div>5. it's live</div><i>→</i><div>6. update<small>when you publish</small></div><i>→</i><div>7. remove<small>gives everything back</small></div></div>
 
 <h2>1 and 2: adding and checking</h2>
-<p>whatever way it comes in, mochy reads the <code>manifest.json</code> first and shows a little sheet: the name, what it adds (songs, lyrics, song info, a look) and where it came from. nothing is installed until you tap add. a zip's pictures, fonts and shaders are unpacked into mochy's own files right then, so a look works offline after that.</p>
+<p>whatever way it comes in, melo reads the <code>manifest.json</code> first and shows a little sheet: the name, what it adds (songs, lyrics, song info, a look) and where it came from. nothing is installed until you tap add. a zip's pictures, fonts and shaders are unpacked into melo's own files right then, so a look works offline after that.</p>
 
 <h2>3 and 4: the one switch</h2>
 <p>every new module starts <b>off</b>, so adding one never changes anything until you turn it on yourself. each module has exactly one switch. off means gone everywhere: from audio quality, the provider order, the download order, the lyrics sources, about song, settings, the player's menu and the look.</p>
 
 <h2>5: what "live" means for each kind</h2>
 <div class="tbl"><table>
-<tr><th>it adds</th><th>while it's on, mochy…</th></tr>
+<tr><th>it adds</th><th>while it's on, melo…</th></tr>
 <tr><td>a look</td><td>writes its values onto your settings and remembers what they were before. turn it off and your own come back, exactly how you had them. change something by hand while it's on and your change wins, even after it goes off.</td></tr>
 <tr><td>a player</td><td>puts it first in the style picker and switches to it. off, your own style comes back.</td></tr>
 <tr><td>a bar</td><td>draws the nav bar, the wide bar and the mini player with your shader instead of the frost (android 13+).</td></tr>
 <tr><td>pages</td><td>lists them on the module's page, puts the ones you marked in settings, and adds your rows to the player's menu.</td></tr>
 <tr><td>songs</td><td>asks it for every song in the <b>provider order</b> (audio lab → audio quality). the first one that has the song plays it. a module that doesn't answer in 12 seconds is skipped for that song.</td></tr>
 <tr><td>lyrics</td><td>adds it to the lyrics sources, first in line when you turn it on. it's graded like every other source, so word synced beats line synced beats plain.</td></tr>
-<tr><td>song info</td><td>asks it when about song opens, along with mochy's own sources. each fact comes from the first module on your list that knows it.</td></tr>
+<tr><td>song info</td><td>asks it when about song opens, along with melo's own sources. each fact comes from the first module on your list that knows it.</td></tr>
 </table></div>
 
 <h2>Only one look at a time</h2>
-<p>anything that changes how mochy looks (look settings, a player, a font, a bar) counts as a look, and only one look is on at a time. turning a second one on turns the first off and gives its settings back first. a module that only brings pages or menu rows doesn't count, so it can stay on next to a look.</p>
+<p>anything that changes how melo looks (look settings, a player, a font, a bar) counts as a look, and only one look is on at a time. turning a second one on turns the first off and gives its settings back first. a module that only brings pages or menu rows doesn't count, so it can stay on next to a look.</p>
 
 <h2>The order</h2>
-<p>the order on the modules page is the order mochy asks modules in. drag a song module above youtube and it's asked first. lyrics and song info modules follow the same order.</p>
+<p>the order on the modules page is the order melo asks modules in. drag a song module above youtube and it's asked first. lyrics and song info modules follow the same order.</p>
 
 <h2>6: updates</h2>
-<p>a module added from github or from a link remembers where it came from. a few times a day, when you open the modules page, mochy quietly asks there if anything new is out. if there is, an <b>update</b> button appears. tap it and the new version goes in place, switch and settings untouched. the whole story is on <a href="#modules-install">adding &amp; updating</a>.</p>
+<p>a module added from github or from a link remembers where it came from. a few times a day, when you open the modules page, melo quietly asks there if anything new is out. if there is, an <b>update</b> button appears. tap it and the new version goes in place, switch and settings untouched. the whole story is on <a href="#modules-install">adding &amp; updating</a>.</p>
 
 <h2>7: removing</h2>
 <p>swipe the row left, or tap <b>remove this module</b> on its page. its look gives your settings back, and its pictures, fonts, shaders, settings and anything you added to it are deleted with it.</p>
@@ -305,7 +305,7 @@
 <article class="page" id="modules-first" data-group="Modules" data-title="Your first module">
 <h1>Your first module</h1>
 <p class="sub">two minutes, i promise</p>
-<p>the easiest module is a look in a zip: one json file and an icon. this one turns mochy pure black with sharp corners and the turntable player.</p>
+<p>the easiest module is a look in a zip: one json file and an icon. this one turns melo pure black with sharp corners and the turntable player.</p>
 <div class="flow"><div>1. a folder<small>midnight/</small></div><i>→</i><div>2. manifest.json<small>+ icon.png</small></div><i>→</i><div>3. zip it</div><i>→</i><div>4. add from a file</div><i>→</i><div>5. turn it on</div></div>
 <pre><code>midnight/
 ├── manifest.json     // what the module is and what it changes
@@ -326,8 +326,8 @@
 <ol>
   <li>make a folder called <code>midnight</code>. put that <code>manifest.json</code> in it, plus a square <code>icon.png</code>.</li>
   <li>zip it. <b>mac:</b> right click the folder → compress. <b>windows:</b> right click → send to → compressed (zipped) folder. <b>terminal:</b> <code>cd midnight &amp;&amp; zip midnight.zip manifest.json icon.png</code></li>
-  <li>send the zip to your phone. in mochy: <b>settings → modules → add a module → add from a file → choose a .zip</b>.</li>
-  <li>mochy shows what it adds. tap <b>add</b>, open its page and flip <b>enable</b>.</li>
+  <li>send the zip to your phone. in melo: <b>settings → modules → add a module → add from a file → choose a .zip</b>.</li>
+  <li>melo shows what it adds. tap <b>add</b>, open its page and flip <b>enable</b>.</li>
 </ol>
 <p>thats a whole module! turn it off and your own settings come back. from here every page in this wiki just adds one more thing to that same manifest. want to see where it ends up? <a href="#modules-player-example">neon night</a> is a full player and <a href="#modules-interface-example">liquid glass</a> is a full bar with a page.</p>
 <div class="note">tip: while you're making it, keep the zip on your phone and add it again after every change. adding a zip with the same <code>id</code> updates the module in place, its switch and settings stay.</div>
@@ -336,13 +336,13 @@
 <article class="page" id="modules-files" data-group="Modules" data-title="File structure">
 <h1>File structure</h1>
 <p class="sub">what goes where, for every kind of module</p>
-<p>here's every layout mochy understands. the rules first, then a tree for each kind.</p>
+<p>here's every layout melo understands. the rules first, then a tree for each kind.</p>
 
 <h2>The rules for a zip</h2>
 <ul>
-  <li><code>manifest.json</code> sits at the root of the zip, or inside <b>one</b> folder (that's how most zip tools pack a folder, so both work). mochy only looks through the first 200 entries for it, and it has to be under 256 KB.</li>
+  <li><code>manifest.json</code> sits at the root of the zip, or inside <b>one</b> folder (that's how most zip tools pack a folder, so both work). melo only looks through the first 200 entries for it, and it has to be under 256 KB.</li>
   <li>paths in the manifest are relative to the manifest, use <code>/</code>, and are <b>case sensitive</b>: <code>Images/Icon.PNG</code> is not <code>images/icon.png</code>.</li>
-  <li>mochy unpacks pictures (<code>.png .jpg .jpeg .webp .gif</code>), fonts (<code>.ttf .otf</code>) and shaders (<code>.agsl .sksl</code>). up to 200 files, 8 MB each, 30 MB in all. everything else is ignored, and so are macos's hidden <code>__MACOSX</code> and <code>._</code> files.</li>
+  <li>melo unpacks pictures (<code>.png .jpg .jpeg .webp .gif</code>), fonts (<code>.ttf .otf</code>) and shaders (<code>.agsl .sksl</code>). up to 200 files, 8 MB each, 30 MB in all. everything else is ignored, and so are macos's hidden <code>__MACOSX</code> and <code>._</code> files.</li>
   <li>a path can't climb out of the module (<code>../</code> is dropped).</li>
   <li>folder names are up to you. i use <code>images/</code>, <code>fonts/</code> and <code>shaders/</code> so it's easy to read.</li>
 </ul>
@@ -418,7 +418,7 @@
 └── README.md
 releases/
 └── v1.2
-    └── neon-night.mochyymodule.zip  // the file mochy installs, "mochyymodule" in its name</code></pre>
+    └── neon-night.mochyymodule.zip  // the file melo installs, "mochyymodule" in its name</code></pre>
 <pre><code>#!/bin/sh
 # a tiny build.sh: checks the manifest is valid json, then zips module/
 set -e
@@ -434,7 +434,7 @@ echo "built build/neon-night.mochyymodule.zip"</code></pre>
 <p>every module, link or zip, describes itself with one <code>manifest.json</code>. here's every top level field:</p>
 <div class="tbl"><table>
 <tr><th>field</th><th>needed?</th><th>what it's for</th></tr>
-<tr><td><code>id</code></td><td>id or name</td><td>short and stable, like <code>neon-night</code>. mochy turns it into <code>web.neon-night</code> (link) or <code>local.neon-night</code> (zip), so it can never replace a built-in module. <b>never change it</b>: adding the same id again is how a module updates</td></tr>
+<tr><td><code>id</code></td><td>id or name</td><td>short and stable, like <code>neon-night</code>. melo turns it into <code>web.neon-night</code> (link) or <code>local.neon-night</code> (zip), so it can never replace a built-in module. <b>never change it</b>: adding the same id again is how a module updates</td></tr>
 <tr><td><code>name</code></td><td>id or name</td><td>what people see</td></tr>
 <tr><td><code>version</code></td><td>no</td><td>shown on its row and page, and on the update button. bump it every time</td></tr>
 <tr><td><code>description</code></td><td>no</td><td>one line under its name</td></tr>
@@ -451,14 +451,14 @@ echo "built build/neon-night.mochyymodule.zip"</code></pre>
 <tr><td><code>url</code></td><td>zip only</td><td>the server a zip's songs, lyrics or song info come from</td></tr>
 <tr><td><code>code</code></td><td>zip only, me</td><td>signed code inside the zip (<a href="#modules-zip">zips with code</a>)</td></tr>
 </table></div>
-<p>fields mochy doesn't know are ignored, so a manifest written for a newer mochy still opens on an older one. the same goes for blocks and animations inside a player: an older mochy skips what it doesn't know.</p>
+<p>fields melo doesn't know are ignored, so a manifest written for a newer melo still opens on an older one. the same goes for blocks and animations inside a player: an older melo skips what it doesn't know.</p>
 <h2>Two rules worth knowing</h2>
 <ul>
   <li>a manifest with no <code>resources</code> and nothing that changes the look (<code>look</code>, <code>player</code>, <code>font</code>, <code>pages</code>, <code>actions</code>, <code>glass</code>, or settings that carry a look or a glass) is read as a song source, because that's what most services like this are.</li>
   <li>a website's own manifest.json is turned away. websites have one for "install to home screen", with <code>start_url</code>, <code>display</code>, <code>short_name</code> or <code>icons</code>. a manifest with any of those and none of the module fields gets "that's a website, not a module". so don't use those names.</li>
 </ul>
 <h2>Numbers and text</h2>
-<p>mochy is forgiving: <code>"12"</code> and <code>12</code> both work, so do <code>"true"</code> and <code>true</code>. every number is kept in range, so a typo can never break anything: a size of 500 just becomes the biggest one allowed. colours are <code>"#RRGGBB"</code> or <code>"#AARRGGBB"</code> (the first two digits are how see-through it is).</p>
+<p>melo is forgiving: <code>"12"</code> and <code>12</code> both work, so do <code>"true"</code> and <code>true</code>. every number is kept in range, so a typo can never break anything: a size of 500 just becomes the biggest one allowed. colours are <code>"#RRGGBB"</code> or <code>"#AARRGGBB"</code> (the first two digits are how see-through it is).</p>
 </article>
 
 <article class="page" id="modules-art" data-group="Modules" data-title="Icon &amp; banner">
@@ -468,14 +468,14 @@ echo "built build/neon-night.mochyymodule.zip"</code></pre>
   <div class="phone"><img src="../assets/img/app-module_page.webp" alt="A module's page" width="450" height="1000" loading="lazy"><span class="mark" style="left:50%;top:9%">1</span><span class="mark" style="left:14%;top:27%">2</span><span class="mark" style="left:60%;top:36%">3</span><span class="mark" style="left:50%;top:55%">4</span></div>
   <ol class="marks">
     <li><b>banner.</b> wide, about 2:1 (1200×600 is plenty). it fades into the page, and <b>the page takes its colour from it</b>. keep the bottom third calm, the icon and name sit over it.</li>
-    <li><b>icon.</b> square, 512×512 is plenty. shown on the row, big on the page and next to its pages in settings. mochy rounds the corners, so give it square ones.</li>
+    <li><b>icon.</b> square, 512×512 is plenty. shown on the row, big on the page and next to its pages in settings. melo rounds the corners, so give it square ones.</li>
     <li><b>name + dot.</b> green is on, grey is off, amber means it needs something.</li>
     <li><b>enable.</b> the one switch.</li>
   </ol>
 </div>
 <pre><code class="json">"icon": "icon.png",
 "banner": "images/banner.webp"</code></pre>
-<p>no banner? mochy blows your icon up and softly blurs it instead. no icon either? your first letter on a colour.</p>
+<p>no banner? melo blows your icon up and softly blurs it instead. no icon either? your first letter on a colour.</p>
 <h2>Where a picture can come from</h2>
 <p>this is the same everywhere in a module: icons, banners, player pictures, button icons, page pictures, menu row icons.</p>
 <div class="tbl"><table>
@@ -510,7 +510,7 @@ echo "built build/neon-night.mochyymodule.zip"</code></pre>
 <tr><th>field</th><th>what it's for</th></tr>
 <tr><td><code>key</code></td><td>the setting's name, the same forever. it's also the query parameter a server gets, and the name a player uses in <code>when</code>, <code>states</code>, <code>$colours</code> and <code>{$key}</code> text</td></tr>
 <tr><td><code>label</code></td><td>what people see. without it the key is shown</td></tr>
-<tr><td><code>type</code></td><td><code>select</code> (round rows to pick one), <code>text</code> (a line to type in, saved when you stop typing) or <code>toggle</code> (a switch). left out, mochy works it out: options make a select, a <code>"true"</code>/<code>"false"</code> default a toggle, anything else text</td></tr>
+<tr><td><code>type</code></td><td><code>select</code> (round rows to pick one), <code>text</code> (a line to type in, saved when you stop typing) or <code>toggle</code> (a switch). left out, melo works it out: options make a select, a <code>"true"</code>/<code>"false"</code> default a toggle, anything else text</td></tr>
 <tr><td><code>default</code></td><td>what it starts as. a select starts on its first option without one, a toggle starts off</td></tr>
 <tr><td><code>options</code></td><td>for a select: plain values (<code>["us", "jp"]</code>) or objects with <code>value</code>, <code>label</code>, <code>description</code>, <code>look</code> and <code>glass</code></td></tr>
 <tr><td><code>hint</code></td><td>for text: the grey words in the empty field</td></tr>
@@ -518,21 +518,21 @@ echo "built build/neon-night.mochyymodule.zip"</code></pre>
 <tr><td><code>look</code>, <code>glass</code></td><td>for a toggle: the look or glass change it puts on while it's on</td></tr>
 </table></div>
 <h2>Where the values go</h2>
-<div class="flow"><div>you pick<small>on the page, in a page, or in the player's customise sheet</small></div><i>→</i><div>mochy keeps it</div><i>→</i><div>it goes where it's needed</div></div>
+<div class="flow"><div>you pick<small>on the page, in a page, or in the player's customise sheet</small></div><i>→</i><div>melo keeps it</div><i>→</i><div>it goes where it's needed</div></div>
 <ul>
   <li>a <b>server</b> gets every setting as a query parameter on every call (<code>/search</code>, <code>/stream</code>, <code>/lyrics</code>, <code>/metadata</code>): <code>?region=jp&amp;token=abc&amp;explicit=true</code>. a value nobody set goes as its default.</li>
-  <li>a module that plays songs keeps <code>quality</code> and <code>atmos</code> for mochy's own stream and dolby atmos choices, so those two never show as options.</li>
+  <li>a module that plays songs keeps <code>quality</code> and <code>atmos</code> for melo's own stream and dolby atmos choices, so those two never show as options.</li>
   <li>a <b>player</b> reads them live: blocks show or hide with <code>when</code>, states switch, colours and text follow. see <a href="#modules-player-states">states &amp; events</a>.</li>
   <li>a <b>page</b> can show any of them with a <code>setting</code> block.</li>
   <li>a zip with its own code gets them through <code>ModuleFields.onFields</code> (<a href="#devs">for devs</a>).</li>
 </ul>
 <h2>Settings that change the look or the glass</h2>
-<p>an option, or a toggle that's on, can carry a look of its own. it's laid over the module's look while the module is on. when someone picks something else, mochy gives the old values back and puts the new ones on. a glass works the same way: a blur, a margin and uniforms laid over your bar's glass. that's how one module offers "liquid" or "clear" glass, or hands the bars back to mochy's frost:</p>
+<p>an option, or a toggle that's on, can carry a look of its own. it's laid over the module's look while the module is on. when someone picks something else, melo gives the old values back and puts the new ones on. a glass works the same way: a blur, a margin and uniforms laid over your bar's glass. that's how one module offers "liquid" or "clear" glass, or hands the bars back to melo's frost:</p>
 <pre><code class="json">"settings": [
   { "key": "style", "label": "Glass", "type": "select", "default": "liquid", "options": [
     { "value": "liquid", "label": "Liquid glass", "glass": { "blur": 7, "uniforms": { "tintAlpha": 0.42 } } },
     { "value": "clear",  "label": "Clear glass",  "glass": { "blur": 2.5, "uniforms": { "tintAlpha": 0.16 } } },
-    { "value": "frost",  "label": "Mochy's frost", "look": { "bottomBar": "FROSTED" } }
+    { "value": "frost",  "label": "Melo's frost", "look": { "bottomBar": "FROSTED" } }
   ] },
   { "key": "fringe", "label": "Colour fringe", "type": "toggle", "default": "true",
     "glass": { "uniforms": { "spread": 0.06 } } },
@@ -545,22 +545,22 @@ echo "built build/neon-night.mochyymodule.zip"</code></pre>
 <article class="page" id="modules-install" data-group="Modules" data-title="Adding &amp; updating">
 <h1>Adding &amp; updating</h1>
 <p class="sub">four ways in, and the update button</p>
-<p>everything starts at <b>settings → modules → add a module</b>. whichever way you pick, mochy checks the module first and shows you what it adds before anything is installed.</p>
+<p>everything starts at <b>settings → modules → add a module</b>. whichever way you pick, melo checks the module first and shows you what it adds before anything is installed.</p>
 <div class="cards">
   <div><b>From a link</b><span>paste a server's link (<code>https://my-flac.example</code>) or the link to any manifest.json. both work.</span></div>
-  <div><b>From GitHub</b><span>paste a github project's link. mochy grabs the module zip from its newest release. <a href="#modules-github">how to set that up</a></span></div>
-  <div><b>From a file</b><span>pick a module's .zip that someone sent you on discord, telegram or as a download.</span></div>
+  <div><b>From GitHub</b><span>paste a github project's link. melo grabs the module zip from its newest release. <a href="#modules-github">how to set that up</a></span></div>
+  <div><b>From a file</b><span>pick a module's .zip that someone sent you on telegram, github or as a download.</span></div>
   <div><b>From the catalog</b><span>the list under the link box, read straight from github so it grows without an app update.</span></div>
 </div>
 
 <h2>The update button</h2>
-<p>a module that came from <b>github</b> or from a <b>link</b> remembers where it came from, and mochy checks there for you:</p>
-<div class="flow"><div>you open settings → modules</div><i>→</i><div>mochy asks the source<small>at most every 6 hours per module</small></div><i>→</i><div>something new?</div><i>→</i><div>an <b>update</b> pill on its row<small>and an update card on its page</small></div><i>→</i><div>one tap</div></div>
+<p>a module that came from <b>github</b> or from a <b>link</b> remembers where it came from, and melo checks there for you:</p>
+<div class="flow"><div>you open settings → modules</div><i>→</i><div>melo asks the source<small>at most every 6 hours per module</small></div><i>→</i><div>something new?</div><i>→</i><div>an <b>update</b> pill on its row<small>and an update card on its page</small></div><i>→</i><div>one tap</div></div>
 <div class="tbl"><table>
 <tr><th>it came from</th><th>"something new" means</th><th>the button says</th></tr>
 <tr><td>a github project</td><td>a newer release, <b>or</b> the same release with its mochyymodule zip uploaded again (so a quick fix without a new tag still reaches people)</td><td>the release's tag, like <b>update to v1.3</b></td></tr>
 <tr><td>a link</td><td>the manifest.json changed at all, even if you forgot to bump the version</td><td>the new version, or <b>update now</b> when the version didn't change</td></tr>
-<tr><td>a file from the phone</td><td>mochy can't know, there's nowhere to ask</td><td>no button. add the new zip again to update it</td></tr>
+<tr><td>a file from the phone</td><td>melo can't know, there's nowhere to ask</td><td>no button. add the new zip again to update it</td></tr>
 </table></div>
 <p>on the module's page, the <b>updates</b> card says where it updates from and when it last checked, with a <b>check for updates</b> button that asks right now. updating keeps the module's switch, its settings, its order and anything you added to it. if the module is a look that's on, the new look goes on straight away and your own settings are still given back properly when it goes off.</p>
 <div class="note">why only every few hours? github lets an app ask 60 times an hour without an account, shared by everyone on the same wifi. checking each module a few times a day keeps everyone well under that.</div>
@@ -570,16 +570,16 @@ echo "built build/neon-night.mochyymodule.zip"</code></pre>
 <h2>Removing</h2>
 <p>swipe the row left on the modules page, or tap <b>remove this module</b> on its page. its look gives your settings back, and its pictures, fonts, shaders and settings are deleted with it.</p>
 <h2>Backups</h2>
-<p>modules you added are kept in mochy's backup like everything else, zips and code modules included.</p>
+<p>modules you added are kept in melo's backup like everything else, zips and code modules included.</p>
 </article>
 
 <article class="page" id="modules-github" data-group="Modules" data-title="Publishing on GitHub">
 <h1>Publishing on GitHub</h1>
 <p class="sub">a link people paste once, and updates that find them</p>
-<p>if your module lives on github, people don't need to download anything themselves. they paste your project's link, mochy finds the module in your newest release and installs it. and every release you publish after that shows up as an <a href="#modules-install">update button</a> on their phone.</p>
+<p>if your module lives on github, people don't need to download anything themselves. they paste your project's link, melo finds the module in your newest release and installs it. and every release you publish after that shows up as an <a href="#modules-install">update button</a> on their phone.</p>
 <div class="flow"><div>github.com/you/vinyl</div><i>→</i><div>newest release<small>not drafts or pre-releases</small></div><i>→</i><div>the zip named <code>*mochyymodule*</code></div><i>→</i><div>checked like any zip</div><i>→</i><div>add</div></div>
 <h2>Naming the zip</h2>
-<p>attach your module's zip to a release and put <b><code>mochyymodule</code></b> in its file name. that's the only thing mochy looks for, so other files in the release (source code, screenshots, apks) are left alone.</p>
+<p>attach your module's zip to a release and put <b><code>mochyymodule</code></b> in its file name. that's the only thing melo looks for, so other files in the release (source code, screenshots, apks) are left alone.</p>
 <div class="tbl"><table>
 <tr><th>file name</th><th>picked?</th></tr>
 <tr><td><code>vinyl-night.mochyymodule.zip</code></td><td>yes ✓</td></tr>
@@ -590,14 +590,14 @@ echo "built build/neon-night.mochyymodule.zip"</code></pre>
 <p>the zip itself is exactly the same as one you'd send as a file. see <a href="#modules-files">file structure</a>.</p>
 <h2>The links that work</h2>
 <div class="tbl"><table>
-<tr><th>someone pastes</th><th>mochy takes</th></tr>
+<tr><th>someone pastes</th><th>melo takes</th></tr>
 <tr><td><code>github.com/you/vinyl</code></td><td>the newest release</td></tr>
 <tr><td><code>github.com/you/vinyl/releases</code></td><td>the newest release</td></tr>
 <tr><td><code>github.com/you/vinyl/releases/tag/v1.2</code></td><td>exactly that release (updates still follow your newest one after)</td></tr>
 <tr><td><code>github.com/you/vinyl/blob/main/manifest.json</code></td><td>not a release: treated as a normal link</td></tr>
 </table></div>
 <h2>Debug and release builds</h2>
-<p>a module with its own code has to be signed like the mochy it runs in. if your release has two zips with mochyymodule in the name, mochy takes the one with <code>debug</code> in its name on debug, fast and profileable builds, and the other one on a release build. so <code>js-modules-debug.mochyymodule.zip</code> next to <code>js-modules.mochyymodule.zip</code> just works, for installs and updates alike.</p>
+<p>a module with its own code has to be signed like the melo it runs in. if your release has two zips with mochyymodule in the name, melo takes the one with <code>debug</code> in its name on debug, fast and profileable builds, and the other one on a release build. so <code>js-modules-debug.mochyymodule.zip</code> next to <code>js-modules.mochyymodule.zip</code> just works, for installs and updates alike.</p>
 <h2>Shipping an update</h2>
 <ol>
   <li>bump <code>version</code> in your manifest. keep the <code>id</code> the same, always.</li>
@@ -615,8 +615,8 @@ gh release upload v1.2 vinyl-night.mochyymodule.zip --clobber</code></pre>
 
 <article class="page" id="modules-look" data-group="Looks" data-title="Looks">
 <h1>Looks</h1>
-<p class="sub">restyle mochy, safely</p>
-<p>a <code>look</code> is a list of mochy's own settings with the values you want. while your module is on they're put in place, and when it goes off people get theirs back. it's the simplest module there is.</p>
+<p class="sub">restyle melo, safely</p>
+<p>a <code>look</code> is a list of melo's own settings with the values you want. while your module is on they're put in place, and when it goes off people get theirs back. it's the simplest module there is.</p>
 <pre><code class="json">"look": {
   "accentColor": "#FF6FB5",
   "pureBlack": "true",
@@ -628,16 +628,16 @@ gh release upload v1.2 vinyl-night.mochyymodule.zip --clobber</code></pre>
 <div class="cards">
   <div><b>one at a time</b><span>turning a second look on turns the first off and gives its settings back first. a module with only pages or menu rows doesn't count, so it can stay on next to one. a player, a font or a bar does count.</span></div>
   <div><b>you always win</b><span>change a setting by hand while a look is on, and you keep your value when the look goes off.</span></div>
-  <div><b>survives restarts</b><span>mochy remembers what each look replaced, so turning it off after a restart still gives the right settings back.</span></div>
-  <div><b>nothing runs</b><span>a look is a description. mochy draws it with its own parts, so it stays smooth on slow phones and can't break anything.</span></div>
+  <div><b>survives restarts</b><span>melo remembers what each look replaced, so turning it off after a restart still gives the right settings back.</span></div>
+  <div><b>nothing runs</b><span>a look is a description. melo draws it with its own parts, so it stays smooth on slow phones and can't break anything.</span></div>
 </div>
 <h2>Look settings</h2>
-<p>a look may change only these, so a module can restyle mochy but never reach your accounts, the network or playback. values are written as text (<code>"true"</code>, <code>"12"</code>, <code>"FLAGSHIP"</code>). keys are spelled exactly like this, style names can be any case, and a value out of range is simply ignored.</p>
+<p>a look may change only these, so a module can restyle melo but never reach your accounts, the network or playback. values are written as text (<code>"true"</code>, <code>"12"</code>, <code>"FLAGSHIP"</code>). keys are spelled exactly like this, style names can be any case, and a value out of range is simply ignored.</p>
 <div class="tbl"><table>
 <tr><th>key</th><th>values</th><th>what it changes</th></tr>
 <tr><td><code>bottomBar</code></td><td><code>FROSTED</code>, <code>MODULE</code></td><td>the glass of the nav bar, the wide bar and the mini player. <code>MODULE</code> is <a href="#modules-glass">your own bar</a> and is picked for you when you bring one</td></tr>
 <tr><td><code>playerStyle</code></td><td><code>FLAGSHIP</code>, <code>CLASSIC</code>, <code>TURNTABLE</code>, <code>VIDEO</code>, <code>IPOD</code>, <code>POSTER</code>, <code>TIMELINE</code>, <code>LYRICS</code>, <code>BEDSIDE</code>, <code>BEDSIDE_TILES</code>, <code>MODULE</code></td><td>the now playing screen. <code>MODULE</code> is <a href="#modules-player">your own player</a>, picked for you when you bring one</td></tr>
-<tr><td><code>homeStyle</code></td><td><code>MOCHYY</code>, <code>LISTEN_NOW</code>, <code>HOP_IN</code></td><td>the home page layout</td></tr>
+<tr><td><code>homeStyle</code></td><td><code>MELOY</code>, <code>LISTEN_NOW</code>, <code>HOP_IN</code></td><td>the home page layout</td></tr>
 <tr><td><code>playlistStyle</code></td><td><code>FLOW</code>, <code>CLASSIC</code>, <code>MINIMAL</code></td><td>how playlists and albums are laid out</td></tr>
 <tr><td><code>thumbnailCornerRadius</code></td><td>0 to 45</td><td>how round covers are</td></tr>
 <tr><td><code>lyricsMotionStyle</code></td><td><code>MOTION</code>, <code>LEGACY</code>, <code>BORING</code>, <code>PLAIN</code></td><td>how lyrics animate</td></tr>
@@ -653,7 +653,7 @@ gh release upload v1.2 vinyl-night.mochyymodule.zip --clobber</code></pre>
 <tr><td><code>enableProgressiveBlur</code></td><td><code>true</code>, <code>false</code></td><td>blur that grows toward the edges</td></tr>
 <tr><td><code>elementBlur</code></td><td><code>true</code>, <code>false</code></td><td>blur on moving elements</td></tr>
 </table></div>
-<p>want a setting that isn't in this list? it has to be added to mochy first (<a href="#devs">for devs</a>).</p>
+<p>want a setting that isn't in this list? it has to be added to melo first (<a href="#devs">for devs</a>).</p>
 </article>
 
 <article class="page" id="modules-fonts" data-group="Looks" data-title="Fonts">
@@ -675,7 +675,7 @@ gh release upload v1.2 vinyl-night.mochyymodule.zip --clobber</code></pre>
 <article class="page" id="modules-player" data-group="Your own player" data-title="How a player works">
 <h1>Your own player</h1>
 <p class="sub">design the now playing screen</p>
-<p>a <code>player</code> in your manifest describes a whole now playing screen. while your look is on, it's the first style in the style picker (hold the player to open it) under the name you give it. mochy switches to it when your look turns on, and back to the person's own style when it goes off.</p>
+<p>a <code>player</code> in your manifest describes a whole now playing screen. while your look is on, it's the first style in the style picker (hold the player to open it) under the name you give it. melo switches to it when your look turns on, and back to the person's own style when it goes off.</p>
 <p>i made this part really deep on purpose. you can keep it simple (a cover, a title and controls) or go wild: frosted panels, your own svg icons, blurred layers, keyframe animations driven by the bass, states that switch the whole layout when you pause, a shader background. the next pages go through all of it, one thing at a time.</p>
 <h2>What you get for free</h2>
 <p>your player gets everything the other styles have, without writing anything: swipe sideways to change song (your cover and words ride along), tap to play or pause, swipe down to close, the chevron menu (lyrics, shuffle, repeat, other menu, edit player, plus <a href="#modules-player-custom">your own items</a>), turning sideways, and its clocks resting while it's hidden.</p>
@@ -735,7 +735,7 @@ gh release upload v1.2 vinyl-night.mochyymodule.zip --clobber</code></pre>
   <li><b>column</b> stacks its blocks, handy inside a row.</li>
   <li><b>stack</b> lays its blocks on top of each other, the first at the back. that's how you put a ring visualizer around a cover, or a sticker over it.</li>
   <li><b>box</b> is a column (or a row) on a panel: frosted glass, a colour or a gradient, round corners, a border. see <a href="#modules-player-panels">panels, shapes &amp; blur</a>.</li>
-  <li>groups can go four deep. a block mochy doesn't know is skipped, so a newer layout still opens on an older mochy.</li>
+  <li>groups can go four deep. a block melo doesn't know is skipped, so a newer layout still opens on an older melo.</li>
 </ul>
 <pre><code class="json">{ "type": "row", "gap": 14, "blocks": [
   { "type": "cover", "size": 0.22, "corner": 10 },
@@ -744,7 +744,7 @@ gh release upload v1.2 vinyl-night.mochyymodule.zip --clobber</code></pre>
     { "type": "artist", "size": 14, "align": "start" }
   ]}
 ]}</code></pre>
-<div class="note">it stays smooth because nothing you write runs as code on the main thread. mochy draws every block with its own parts, everything that moves is worked out while drawing (so it never rebuilds the screen), and every loop, visualizer and shader stops the moment the player is closed. i test every feature here on a redmi note 11 pro, which has a pretty weak gpu.</div>
+<div class="note">it stays smooth because nothing you write runs as code on the main thread. melo draws every block with its own parts, everything that moves is worked out while drawing (so it never rebuilds the screen), and every loop, visualizer and shader stops the moment the player is closed. i test every feature here on a redmi note 11 pro, which has a pretty weak gpu.</div>
 </article>
 
 <article class="page" id="modules-player-blocks" data-group="Your own player" data-title="Blocks">
@@ -822,7 +822,7 @@ gh release upload v1.2 vinyl-night.mochyymodule.zip --clobber</code></pre>
 <tr><td><code>{title}</code>, <code>{artist}</code>, <code>{album}</code></td><td>the song's</td></tr>
 <tr><td><code>{$key}</code></td><td>whatever one of your <a href="#modules-settings">settings</a> is set to right now</td></tr>
 </table></div>
-<p>and these follow what's actually playing and where it goes. they're numbers or short words, so you write the units yourself (<code>{kbps} kbps</code>, <code>{size}mb</code>). one mochy doesn't know yet shows as –.</p>
+<p>and these follow what's actually playing and where it goes. they're numbers or short words, so you write the units yourself (<code>{kbps} kbps</code>, <code>{size}mb</code>). one melo doesn't know yet shows as –.</p>
 <div class="tbl"><table>
 <tr><th>you write</th><th>it becomes</th></tr>
 <tr><td><code>{codec}</code></td><td>MP3, AAC, OPUS, FLAC…</td></tr>
@@ -833,7 +833,7 @@ gh release upload v1.2 vinyl-night.mochyymodule.zip --clobber</code></pre>
 <tr><td><code>{quality}</code></td><td>Lossy or Lossless (add <code>"upper": true</code> for capitals)</td></tr>
 <tr><td><code>{device}</code></td><td>where it plays: Speaker, Headphones, or your bluetooth or usb device's name</td></tr>
 <tr><td><code>{volume}</code></td><td>the phone's media volume, 0–100</td></tr>
-<tr><td><code>{cpu}</code></td><td>how much of the phone's cpu mochy is using, 0–100</td></tr>
+<tr><td><code>{cpu}</code></td><td>how much of the phone's cpu melo is using, 0–100</td></tr>
 </table></div>
 <p>the volume and cpu are read once a second, only while the player is open. the rest only change with the song or the output.</p>
 <h2>Colours</h2>
@@ -879,7 +879,7 @@ gh release upload v1.2 vinyl-night.mochyymodule.zip --clobber</code></pre>
 <tr><td><code>width</code>, <code>height</code></td><td>8–600 and 8–800. without a width it fills the row or the screen</td><td></td></tr>
 <tr><td><code>shadow</code></td><td>a soft shadow under it</td><td>false</td></tr>
 </table></div>
-<div class="note">how the glass works: mochy captures your player's background (everything under <code>background</code>, layers and shader included) and blurs the part behind each glass box, past its edges so nothing bright smears in. it doesn't blur other blocks, and with the <code>tones</code> background there's nothing to blur, so the box shows its tint. in the small preview in the style picker it's a soft panel. blur needs android 12+, older phones get the tint.</div>
+<div class="note">how the glass works: melo captures your player's background (everything under <code>background</code>, layers and shader included) and blurs the part behind each glass box, past its edges so nothing bright smears in. it doesn't blur other blocks, and with the <code>tones</code> background there's nothing to blur, so the box shows its tint. in the small preview in the style picker it's a soft panel. blur needs android 12+, older phones get the tint.</div>
 
 <h2>path: your own shapes</h2>
 <p>any icon, logo, squiggle or badge you can draw as an svg path. open your svg, copy the <code>d</code> of a path and its <code>viewBox</code>:</p>
@@ -997,7 +997,7 @@ gh release upload v1.2 vinyl-night.mochyymodule.zip --clobber</code></pre>
   { "type": "visualizer", "style": "ring", "count": 40, "height": 340, "color": "#99FFFFFF" },
   { "type": "cover", "shape": "circle", "size": 0.62, "spin": true }
 ]}</code></pre>
-<div class="note">the visualizer and everything that follows the music share one clock that reads the music once a frame, however many of them you use. it only runs while something on your player needs it. when the audio goes straight to a receiver (some passthrough outputs), there's nothing for mochy to read and the bars stay low.</div>
+<div class="note">the visualizer and everything that follows the music share one clock that reads the music once a frame, however many of them you use. it only runs while something on your player needs it. when the audio goes straight to a receiver (some passthrough outputs), there's nothing for melo to read and the bars stay low.</div>
 </article>
 
 <article class="page" id="modules-player-keyframes" data-group="Your own player" data-title="Keyframes">
@@ -1266,7 +1266,7 @@ gh release upload v1.2 vinyl-night.mochyymodule.zip --clobber</code></pre>
   { "type": "button", "page": "about", "image": "icons/info.png" },
   { "type": "space", "grow": true }
 ]}</code></pre>
-<p>without an <code>image</code>, mochy uses its own icon (a puzzle piece for custom actions). <code>imageOn</code> swaps in while it's on: playing, liked, shuffling or repeating.</p>
+<p>without an <code>image</code>, melo uses its own icon (a puzzle piece for custom actions). <code>imageOn</code> swaps in while it's on: playing, liked, shuffling or repeating.</p>
 <h2>The chevron menu</h2>
 <p>the chevron at the top right opens a little menu (lyrics, shuffle, repeat, other menu, edit player). <code>menu</code> adds up to 4 items of your own above <b>other menu</b>, each with your own picture and any action or custom action:</p>
 <pre><code class="json">"menu": [
@@ -1309,8 +1309,8 @@ gh release upload v1.2 vinyl-night.mochyymodule.zip --clobber</code></pre>
 <tr><td><code>fallback</code></td><td>a background: another background object. a block: a colour. used below android 13, and if the shader doesn't compile</td></tr>
 <tr><td><code>width</code>, <code>height</code>, <code>corner</code></td><td>a block's box: <code>width</code> (full), <code>height</code> 8–800 (120), <code>corner</code> 0–300 (0)</td></tr>
 </table></div>
-<h2>What mochy gives your shader</h2>
-<p>declare the ones you use and mochy fills them in every frame. ones you don't declare are simply skipped.</p>
+<h2>What melo gives your shader</h2>
+<p>declare the ones you use and melo fills them in every frame. ones you don't declare are simply skipped.</p>
 <div class="tbl"><table>
 <tr><th>uniform</th><th>what it is</th></tr>
 <tr><td><code>uniform float2 size;</code></td><td>the box in pixels</td></tr>
@@ -1464,9 +1464,9 @@ half4 main(float2 p) {
 <article class="page" id="modules-glass" data-group="Interfaces" data-title="Your own bar">
 <h1>Your own bar</h1>
 <p class="sub">an agsl shader for the nav bar, the wide bar and the mini player</p>
-<p>mochy's floating bars are glass: what's under them, blurred. a module can swap mochy's frost for a glass of its own, written as an <b>agsl shader</b> in your zip. mochy captures what's under each bar (with some room around it), blurs it, runs your shader over it and clips the result to the bar. your shader decides the rest: how it bends, tints, shines and lights its rim. compare them here:</p>
+<p>melo's floating bars are glass: what's under them, blurred. a module can swap melo's frost for a glass of its own, written as an <b>agsl shader</b> in your zip. melo captures what's under each bar (with some room around it), blurs it, runs your shader over it and clips the result to the bar. your shader decides the rest: how it bends, tints, shines and lights its rim. compare them here:</p>
 <div class="demo">
-  <div class="demo-row" data-group="g"><button class="opt on press" type="button" data-bar="frost">Mochy's frost</button><button class="opt press" type="button" data-bar="liquid">Liquid</button><button class="opt press" type="button" data-bar="clear">Clear</button></div>
+  <div class="demo-row" data-group="g"><button class="opt on press" type="button" data-bar="frost">Melo's frost</button><button class="opt press" type="button" data-bar="liquid">Liquid</button><button class="opt press" type="button" data-bar="clear">Clear</button></div>
   <div class="glass-stage"><div class="bar frost" id="glassBar"></div></div>
 </div>
 <div class="flow"><div>what's under the bar</div><i>→</i><div>blur<small>glass.blur</small></div><i>→</i><div>your shader<small>glass.agsl</small></div><i>→</i><div>clipped to the bar</div></div>
@@ -1479,11 +1479,11 @@ half4 main(float2 p) {
 <div class="tbl"><table>
 <tr><th>field</th><th>what it's for</th><th>default</th></tr>
 <tr><td><code>shader</code></td><td>the <code>.agsl</code> (or <code>.sksl</code>) file in your zip, up to 64 KB</td><td></td></tr>
-<tr><td><code>blur</code></td><td>how much mochy blurs what's under the bar before your shader sees it, in dp, 0–40. low blur quality takes 30% off</td><td>6</td></tr>
-<tr><td><code>margin</code></td><td>how far past the bar your shader may read, in dp, 0–64. mochy adds room for the blur on top</td><td>16</td></tr>
+<tr><td><code>blur</code></td><td>how much melo blurs what's under the bar before your shader sees it, in dp, 0–40. low blur quality takes 30% off</td><td>6</td></tr>
+<tr><td><code>margin</code></td><td>how far past the bar your shader may read, in dp, 0–64. melo adds room for the blur on top</td><td>16</td></tr>
 <tr><td><code>uniforms</code></td><td>your shader's own float uniforms by name, up to 24. <a href="#modules-settings">settings</a> can change them</td><td></td></tr>
 </table></div>
-<p>while your look is on, mochy switches <code>bottomBar</code> to <code>MODULE</code> for you. a setting can hand the bars back to the frost with <code>"look": { "bottomBar": "FROSTED" }</code>.</p>
+<p>while your look is on, melo switches <code>bottomBar</code> to <code>MODULE</code> for you. a setting can hand the bars back to the frost with <code>"look": { "bottomBar": "FROSTED" }</code>.</p>
 <h2>What your shader gets</h2>
 <div class="tbl"><table>
 <tr><th>uniform</th><th>what it is</th></tr>
@@ -1494,7 +1494,7 @@ half4 main(float2 p) {
 <tr><td><code>uniform float density;</code></td><td>pixels per dp</td></tr>
 <tr><td><code>uniform float quality;</code></td><td>1 on high blur quality, 0 on low: skip your extras on low</td></tr>
 <tr><td><code>uniform float kind;</code></td><td>which bar this is: <code>0</code> the nav bar, <code>1</code> the mini player, <code>2</code> the wide bar (tablets and sideways)</td></tr>
-<tr><td><code>layout(color) uniform half4 chrome;</code></td><td>mochy's bar colour: #131313, or black with pure black on</td></tr>
+<tr><td><code>layout(color) uniform half4 chrome;</code></td><td>melo's bar colour: #131313, or black with pure black on</td></tr>
 <tr><td><code>layout(color) uniform half4 accent;</code></td><td>the app's accent colour</td></tr>
 </table></div>
 <p>declare the ones you use. a uniform you don't declare is skipped, and so is one of yours the shader doesn't have.</p>
@@ -1521,7 +1521,7 @@ half4 main(float2 p) {
     float2 c = size * 0.5;
     float d = roundedBox(p - c, c - margin, radius);
     float4 color = float4(content.eval(p));
-    // mochy's own bar colour as a tint
+    // melo's own bar colour as a tint
     color.rgb = mix(color.rgb, float4(chrome).rgb * color.a, tintAlpha);
     // a thin bright rim just inside the edge
     float edge = 1.0 - smoothstep(0.0, 1.2 * density, -d);
@@ -1540,7 +1540,7 @@ half4 main(float2 p) {
 <article class="page" id="modules-pages" data-group="Interfaces" data-title="Your own pages">
 <h1>Your own pages</h1>
 <p class="sub">pages with a shader behind them, frosted cards, touch, and menu rows</p>
-<p>a module can bring pages: an about page, a "start here", your favourite playlists, a settings page that shows up <b>in mochy's own settings</b>, or something that's just pretty, like an interactive shader you can poke. they're listed on your module's page under pages while it's on.</p>
+<p>a module can bring pages: an about page, a "start here", your favourite playlists, a settings page that shows up <b>in melo's own settings</b>, or something that's just pretty, like an interactive shader you can poke. they're listed on your module's page under pages while it's on.</p>
 <pre><code class="json">"pages": [
   { "id": "about", "title": "Neon Night", "subtitle": "Made for late nights",
     "background": { "type": "shader", "shader": "shaders/page.agsl", "fallback": ["#1A0B2E", "#05020A"] },
@@ -1555,7 +1555,7 @@ half4 main(float2 p) {
         { "type": "setting", "key": "panel" }
       ] },
       { "type": "playlist", "id": "PLxxxxxxxx", "title": "Late night picks", "subtitle": "40 songs" },
-      { "type": "button", "text": "Join us on Discord", "link": "https://discord.gg/NTmqVphbRY" }
+      { "type": "button", "text": "Support project on GitHub", "link": "https://github.com/techxsarwar/melo" }
     ] }
 ]</code></pre>
 <h2>The page's own fields</h2>
@@ -1564,7 +1564,7 @@ half4 main(float2 p) {
 <tr><td><code>id</code></td><td>a–z, 0–9, <code>-</code> and <code>_</code>, up to 40. buttons, menu rows and other pages open it by this</td></tr>
 <tr><td><code>title</code>, <code>subtitle</code></td><td>its name, and a line under it where it's listed</td></tr>
 <tr><td><code>icon</code></td><td>next to it in settings (your module's icon otherwise)</td></tr>
-<tr><td><code>inSettings</code></td><td><code>true</code> gives it its own row on mochy's main settings screen, under modules, while your module is on</td></tr>
+<tr><td><code>inSettings</code></td><td><code>true</code> gives it its own row on melo's main settings screen, under modules, while your module is on</td></tr>
 <tr><td><code>background</code></td><td>what's behind the whole page, see below</td></tr>
 <tr><td><code>blocks</code></td><td>what's on it, top to bottom. up to 80</td></tr>
 </table></div>
@@ -1644,10 +1644,10 @@ half4 main(float2 p) {
 <div class="tbl"><table>
 <tr><th>field</th><th>what it's for</th></tr>
 <tr><td><code>title</code></td><td>the row's words, up to 40 characters</td></tr>
-<tr><td><code>icon</code></td><td>a small picture beside it. without one, mochy's puzzle piece</td></tr>
+<tr><td><code>icon</code></td><td>a small picture beside it. without one, melo's puzzle piece</td></tr>
 <tr><td><code>link</code></td><td>opens a web page. https:// or http:// only, so a row can never open another app</td></tr>
 <tr><td><code>page</code></td><td>opens one of your pages, by its id</td></tr>
-<tr><td><code>search</code></td><td>opens a search in mochy for these words</td></tr>
+<tr><td><code>search</code></td><td>opens a search in melo for these words</td></tr>
 </table></div>
 <p>give exactly one of link, page or search. <code>{title}</code>, <code>{artist}</code> (every artist, joined with commas), <code>{album}</code> and <code>{id}</code> (its youtube music video id) are filled in. in a link they're made safe for a url, so write spaces between them as <code>%20</code>. up to 6 rows per module.</p>
 </article>
@@ -1655,9 +1655,9 @@ half4 main(float2 p) {
 <article class="page" id="modules-interface-example" data-group="Interfaces" data-title="Example: Liquid Glass">
 <h1>Example: Liquid Glass</h1>
 <p class="sub">a real bar and a settings page, start to finish</p>
-<p><b>Liquid Glass</b> is the bar i made for mochy, and it's a module like any other: it lives in its own project (<code>mochy-liquid-glass</code>), not in the app. it uses an icon, a banner, a glass with settings that change it, a page in settings and a menu row. here's all of it.</p>
+<p><b>Liquid Glass</b> is the bar i made for melo, and it's a module like any other: it lives in its own project (<code>melo-liquid-glass</code>), not in the app. it uses an icon, a banner, a glass with settings that change it, a page in settings and a menu row. here's all of it.</p>
 <h2>The project</h2>
-<pre><code>mochy-liquid-glass/
+<pre><code>melo-liquid-glass/
 ├── module/                    // exactly what goes in the zip
 │   ├── manifest.json
 │   ├── glass.agsl             // the bar's shader
@@ -1683,7 +1683,7 @@ echo "built build/liquid-glass.zip"</code></pre>
   "name": "Liquid Glass",
   "version": "1.0",
   "description": "Turns the nav bar and the mini player into glass that bends what's under it",
-  "author": "Mochy",
+  "author": "Melo",
   "icon": "icon.png",
   "banner": "banner.webp",
   "glass": {
@@ -1696,7 +1696,7 @@ echo "built build/liquid-glass.zip"</code></pre>
         "glass": { "blur": 7, "uniforms": { "tintAlpha": 0.42, "bevel": 18, "strength": 14, "saturation": 1.35, "rimAlpha": 0.55 } } },
       { "value": "clear", "label": "Clear glass", "description": "Almost no tint, lovely over bright covers.",
         "glass": { "blur": 2.5, "uniforms": { "tintAlpha": 0.16, "bevel": 22, "strength": 18, "saturation": 1.2, "rimAlpha": 0.7 } } },
-      { "value": "frost", "label": "Mochy's frost", "description": "The usual frosted bars, keeping the rest of this look.",
+      { "value": "frost", "label": "Melo's frost", "description": "The usual frosted bars, keeping the rest of this look.",
         "look": { "bottomBar": "FROSTED" } }
     ] },
     { "key": "fringe", "label": "Colour fringe", "type": "toggle", "default": "true",
@@ -1747,7 +1747,7 @@ half4 main(float2 p) {
     float r = min(radius, min(box.x, box.y));
     float2 local = p - c;
     float d = roundedBox(local, box, r);
-    // past the bar's edge: mochy clips it away, it only had to be there to be read
+    // past the bar's edge: melo clips it away, it only had to be there to be read
     if (d > 0.0) { return content.eval(p); }
 
     // 1. the lens: flat in the middle, bending more toward the rim
@@ -1775,7 +1775,7 @@ half4 main(float2 p) {
     float luma = dot(color.rgb, float3(0.2126, 0.7152, 0.0722));
     color.rgb = mix(float3(luma), color.rgb, saturation);
 
-    // 4. mochy's bar colour as the tint, a bit deeper with pure black on
+    // 4. melo's bar colour as the tint, a bit deeper with pure black on
     float4 tint = float4(chrome);
     float deeper = (tint.r + tint.g + tint.b) &lt; 0.01 ? 0.15 : 0.0;
     color.rgb = mix(color.rgb, tint.rgb * color.a, clamp(tintAlpha + deeper, 0.0, 0.95));
@@ -1791,10 +1791,10 @@ half4 main(float2 p) {
 }</code></pre>
 <h2>How the settings drive it</h2>
 <ul>
-  <li><b>glass</b> picks a set of uniforms (and a blur): liquid, clear, or <code>"bottomBar": "FROSTED"</code> to give the bars back to mochy's frost while keeping the rest of the look.</li>
+  <li><b>glass</b> picks a set of uniforms (and a blur): liquid, clear, or <code>"bottomBar": "FROSTED"</code> to give the bars back to melo's frost while keeping the rest of the look.</li>
   <li><b>colour fringe</b> is a toggle that sets <code>spread</code> while it's on. the shader skips it on low blur quality.</li>
   <li><b>softer covers</b> is a plain look setting riding along.</li>
-  <li>the <b>page</b> sits in mochy's settings with those three on it, so people never have to find the module's page.</li>
+  <li>the <b>page</b> sits in melo's settings with those three on it, so people never have to find the module's page.</li>
 </ul>
 <h2>Trying a change</h2>
 <p>edit <code>glass.agsl</code>, run <code>./build.sh</code> and add the zip again: adding a zip with the same id updates the module and keeps its switch and settings. if the shader doesn't compile, the bars stay frosted and the module's page says why under <b>module info</b>. want each bar different? declare <code>uniform float kind;</code> and branch on it (<a href="#modules-glass">your own bar</a>).</p>
@@ -1802,8 +1802,8 @@ half4 main(float2 p) {
 
 <article class="page" id="modules-web" data-group="Songs, lyrics &amp; info" data-title="Song sources">
 <h1>Song sources</h1>
-<p class="sub">songs from your own server, played by mochy</p>
-<p>a song source is a tiny http service (a <b>web module</b>). mochy calls it with plain GETs and reads json back. people add it by pasting its base link (<code>https://my-flac.example</code>) or its manifest's link. every request carries <code>Accept: application/json</code>, <code>User-Agent: Mochy</code> and your <a href="#modules-settings">settings</a> as query parameters.</p>
+<p class="sub">songs from your own server, played by melo</p>
+<p>a song source is a tiny http service (a <b>web module</b>). melo calls it with plain GETs and reads json back. people add it by pasting its base link (<code>https://my-flac.example</code>) or its manifest's link. every request carries <code>Accept: application/json</code>, <code>User-Agent: Melo</code> and your <a href="#modules-settings">settings</a> as query parameters.</p>
 <div class="flow"><div>GET /manifest.json</div><div>GET /search?q=</div><div>GET /stream/{id}</div></div>
 <p>the same server can also be a <a href="#modules-lyrics">lyrics provider</a> and a <a href="#modules-metadata">song info provider</a>, just answer those calls too and list them in <code>resources</code>.</p>
 <h2>/manifest.json</h2>
@@ -1821,18 +1821,18 @@ half4 main(float2 p) {
   ]
 }</code></pre>
 <h2>Playing a song</h2>
-<div class="flow"><div>song plays</div><i>→</i><div>/search<small>first artist + title</small></div><i>→</i><div>mochy picks the match<small>studio, not the remix</small></div><i>→</i><div>/stream/{id}</div><i>→</i><div>plays it</div></div>
+<div class="flow"><div>song plays</div><i>→</i><div>/search<small>first artist + title</small></div><i>→</i><div>melo picks the match<small>studio, not the remix</small></div><i>→</i><div>/stream/{id}</div><i>→</i><div>plays it</div></div>
 <h3>GET /search?q=&lt;artist title&gt;&amp;quality=…</h3>
-<p>mochy searches with the first artist and the title without extras: no "(feat. …)", "(Official Video)" or "- Remastered". so <code>q=benny%20blanco%20eastside</code>.</p>
+<p>melo searches with the first artist and the title without extras: no "(feat. …)", "(Official Video)" or "- Remastered". so <code>q=benny%20blanco%20eastside</code>.</p>
 <pre><code class="json">{ "tracks": [ {
   "id": "123", "title": "Eastside", "artist": "benny blanco, Halsey, Khalid",
   "album": "Eastside", "duration": 173, "isrc": "USUM71809132",
   "streamURL": "https://…/123.flac"
 } ] }</code></pre>
 <ul>
-  <li><code>id</code> and <code>title</code> are needed. give <code>artist</code>, <code>album</code>, <code>duration</code> and <code>isrc</code> too: they're how mochy's matcher tells the studio song from a remix, a live take or a sped up one.</li>
+  <li><code>id</code> and <code>title</code> are needed. give <code>artist</code>, <code>album</code>, <code>duration</code> and <code>isrc</code> too: they're how melo's matcher tells the studio song from a remix, a live take or a sped up one.</li>
   <li><code>duration</code> is in seconds (anything over 10000 is read as ms).</li>
-  <li><code>streamURL</code> is optional. when it's there, mochy skips the stream call.</li>
+  <li><code>streamURL</code> is optional. when it's there, melo skips the stream call.</li>
   <li>return a handful of results, 5 to 10, best first.</li>
 </ul>
 <h3>GET /stream/{id}?quality=…</h3>
@@ -1840,20 +1840,20 @@ half4 main(float2 p) {
 <ul>
   <li><b>kind of stream:</b> <code>format</code> or <code>manifest</code> saying <code>hls</code>/<code>m3u8</code> plays as hls, <code>dash</code>/<code>mpd</code> as dash. anything else plays as one file. byte ranges are welcome, seeking uses them.</li>
   <li><b>codec</b> names it for the format badge: <code>flac</code>, <code>alac</code>, <code>aac</code>, <code>opus</code>, <code>mp3</code>, <code>eac3</code>, <code>eac3-joc</code>/<code>atmos</code>.</li>
-  <li><b>encrypted:</b> a stream marked <code>"encrypted": true</code> is passed over, mochy has no keys for it.</li>
-  <li><b>sample rate:</b> give <code>sampleRate</code> and <code>bitDepth</code>. a flac the phone can't decode at that rate is passed over instead of playing silence. without them, mochy reads "96 kHz" and "24-bit" out of <code>quality</code>.</li>
+  <li><b>encrypted:</b> a stream marked <code>"encrypted": true</code> is passed over, melo has no keys for it.</li>
+  <li><b>sample rate:</b> give <code>sampleRate</code> and <code>bitDepth</code>. a flac the phone can't decode at that rate is passed over instead of playing silence. without them, melo reads "96 kHz" and "24-bit" out of <code>quality</code>.</li>
   <li><b>redirects:</b> the url may redirect, a 302 or 307 to a cdn is fine.</li>
 </ul>
 <h2>Quality and dolby atmos</h2>
 <ul>
-  <li><b>stream:</b> lossless (default), hi-res, high or low, sent as <code>quality=</code>. if your manifest declares a <code>quality</code> setting, mochy sends the option whose name matches best (<code>lossless</code>, <code>flac</code>, <code>hires</code>, <code>24bit</code>, <code>high</code>, <code>320</code>, <code>low</code>…). if not, it sends tidal's names: <code>LOSSLESS</code>, <code>HI_RES_LOSSLESS</code>, <code>HIGH</code>, <code>LOW</code>.</li>
+  <li><b>stream:</b> lossless (default), hi-res, high or low, sent as <code>quality=</code>. if your manifest declares a <code>quality</code> setting, melo sends the option whose name matches best (<code>lossless</code>, <code>flac</code>, <code>hires</code>, <code>24bit</code>, <code>high</code>, <code>320</code>, <code>low</code>…). if not, it sends tidal's names: <code>LOSSLESS</code>, <code>HI_RES_LOSSLESS</code>, <code>HIGH</code>, <code>LOW</code>.</li>
   <li><b>dolby atmos:</b> stereo (default) or atmos. atmos is only asked for when the phone can decode it (<code>atmos=auto</code>, or your declared <code>atmos</code> setting's "on" option).</li>
-  <li>mark an atmos mix in search results with <code>"atmos": true</code> (or <code>atmos</code>/<code>joc</code>/<code>ec+3</code> in <code>audioMode</code>, <code>audioModes</code>, <code>audioQuality</code> or <code>format</code>). mochy picks the row that matches the person's choice.</li>
+  <li>mark an atmos mix in search results with <code>"atmos": true</code> (or <code>atmos</code>/<code>joc</code>/<code>ec+3</code> in <code>audioMode</code>, <code>audioModes</code>, <code>audioQuality</code> or <code>format</code>). melo picks the row that matches the person's choice.</li>
   <li><b>data saver</b> asks for high instead of lossless or hi-res while it's working.</li>
 </ul>
 <h2>A whole song source in 30 lines</h2>
 <p>a cloudflare worker serving your own files. free, and no server to look after:</p>
-<pre><code>// worker.js: a tiny Mochy song source
+<pre><code>// worker.js: a tiny Melo song source
 const SONGS = [
   { id: "1", title: "My Song", artist: "Me", album: "Demo", duration: 201, url: "https://example.com/my-song.flac" },
 ];
@@ -1880,15 +1880,15 @@ export default {
     return json({ error: "not found" }, 404);
   },
 };</code></pre>
-<p>deno deploy, vercel and netlify work the same way. github alone can't host a song source: it only serves files, and mochy needs an answer that depends on the song.</p>
+<p>deno deploy, vercel and netlify work the same way. github alone can't host a song source: it only serves files, and melo needs an answer that depends on the song.</p>
 </article>
 
 <article class="page" id="modules-lyrics" data-group="Songs, lyrics &amp; info" data-title="Lyrics providers">
 <h1>Lyrics providers</h1>
-<p class="sub">your lyrics, word by word, in mochy's lyrics</p>
-<p>a lyrics provider is a module that answers one question: "what are the lyrics of this song?". it can be a server (this page), or a <a href="#modules-js">script</a> for JS Modules. once it's on, it's one of mochy's lyrics sources like the built-in ones.</p>
-<h2>How mochy uses it</h2>
-<div class="flow"><div>a song starts</div><i>→</i><div>mochy asks every lyrics source at once</div><i>→</i><div>grades the answers<small>word synced › line synced › plain</small></div><i>→</i><div>shows the best one</div></div>
+<p class="sub">your lyrics, word by word, in melo's lyrics</p>
+<p>a lyrics provider is a module that answers one question: "what are the lyrics of this song?". it can be a server (this page), or a <a href="#modules-js">script</a> for JS Modules. once it's on, it's one of melo's lyrics sources like the built-in ones.</p>
+<h2>How melo uses it</h2>
+<div class="flow"><div>a song starts</div><i>→</i><div>melo asks every lyrics source at once</div><i>→</i><div>grades the answers<small>word synced › line synced › plain</small></div><i>→</i><div>shows the best one</div></div>
 <ul>
   <li>a lyrics module you turn on goes <b>first</b> in the lyrics sources, so when two answers are just as good, yours wins.</li>
   <li>in the player, the lyrics menu → <b>lyrics provider</b> lists your module by its name, with what it found ("word synced", "line synced", "plain", "· duet") so people can pick it by hand.</li>
@@ -1906,31 +1906,31 @@ export default {
 <p>just <code>"lyrics"</code> in <code>resources</code>, nothing else, and it's a lyrics provider only: no songs, no look.</p>
 <h2>GET /lyrics?title=&amp;artist=&amp;album=&amp;duration=&amp;isrc=</h2>
 <ul>
-  <li><code>title</code> as mochy knows it.</li>
+  <li><code>title</code> as melo knows it.</li>
   <li><code>artist</code> is every artist joined with <code>", "</code>.</li>
-  <li><code>duration</code> in seconds, <code>album</code> and <code>isrc</code> when mochy knows them.</li>
+  <li><code>duration</code> in seconds, <code>album</code> and <code>isrc</code> when melo knows them.</li>
   <li>plus every <a href="#modules-settings">setting</a> of yours as a query parameter.</li>
 </ul>
 <p>answer with json, timed lyrics in <code>syncedLyrics</code> (always preferred) or untimed in <code>plainLyrics</code>. <code>lrc</code> and <code>lyrics</code> are read too, and so is a plain text body. answer 404 or <code>{}</code> when you don't have the song.</p>
 <pre><code class="json">{ "syncedLyrics": "[00:12.34] first line\n[00:15.80] second line" }
 
 { "plainLyrics": "first line\nsecond line" }</code></pre>
-<h2>The lyrics formats mochy understands</h2>
+<h2>The lyrics formats melo understands</h2>
 <h3>Line by line (lrc)</h3>
 <pre><code>[00:12.34] I've been walking down this road
 [00:15.80] with the radio on</code></pre>
 <p>one line each, <code>[minutes:seconds.hundredths]</code> (or thousandths). a line can carry several times, like <code>[00:30.00][01:45.00]</code>, for a repeated chorus.</p>
 <h3>Word by word</h3>
-<p>put each word's time in angle brackets after the line's time. this is what lights up word by word in mochy's lyrics:</p>
+<p>put each word's time in angle brackets after the line's time. this is what lights up word by word in melo's lyrics:</p>
 <pre><code>[00:12.34]&lt;00:12.34&gt; I've &lt;00:12.71&gt; been &lt;00:12.95&gt; walking &lt;00:13.60&gt; down &lt;00:13.92&gt; this &lt;00:14.20&gt; road
 [00:15.80]&lt;00:15.80&gt; with &lt;00:16.05&gt; the &lt;00:16.20&gt; ra&lt;00:16.42&gt;dio &lt;00:16.90&gt; on</code></pre>
-<p>each word lasts until the next one starts (the last one until the next line). syllables work too, like <code>ra</code> <code>dio</code> above: mochy joins pieces that have no space between them back into one word.</p>
+<p>each word lasts until the next one starts (the last one until the next line). syllables work too, like <code>ra</code> <code>dio</code> above: melo joins pieces that have no space between them back into one word.</p>
 <h3>Duets and background vocals</h3>
 <pre><code>[00:40.10]{agent:v1}&lt;00:40.10&gt; I &lt;00:40.40&gt; said
 [00:42.00]{agent:v2}&lt;00:42.00&gt; you &lt;00:42.30&gt; said
 [00:42.10]{bg}&lt;00:42.10&gt; (oh &lt;00:42.60&gt; oh)</code></pre>
 <ul>
-  <li><code>{agent:v1}</code> and <code>{agent:v2}</code> mark who sings. with two or more singers mochy treats the song as a duet, and the lyrics provider list says "duet" next to your module.</li>
+  <li><code>{agent:v1}</code> and <code>{agent:v2}</code> mark who sings. with two or more singers melo treats the song as a duet, and the lyrics provider list says "duet" next to your module.</li>
   <li><code>{bg}</code> right after the time marks a background vocal, shown smaller under the main line.</li>
   <li>both work in plain line lrc too.</li>
 </ul>
@@ -1959,17 +1959,17 @@ export default {
   },
 };</code></pre>
 <p class="aside">the same thing as a script: <code>getTrackLyrics(track)</code> returning <code>{ syncedLyrics }</code>, see <a href="#modules-js">scripts</a>.</p>
-<div class="note">tips: answer within a few seconds (mochy waits up to 20 s, but people see the other sources first). match loosely: titles come with different capitals, "feat." bits and dashes. send <code>404</code> rather than empty lyrics, an empty answer counts as "no lyrics" anyway.</div>
+<div class="note">tips: answer within a few seconds (melo waits up to 20 s, but people see the other sources first). match loosely: titles come with different capitals, "feat." bits and dashes. send <code>404</code> rather than empty lyrics, an empty answer counts as "no lyrics" anyway.</div>
 </article>
 
 <article class="page" id="modules-metadata" data-group="Songs, lyrics &amp; info" data-title="Song info providers">
 <h1>Song info providers</h1>
 <p class="sub">genre, credits, release, and what a song is about</p>
-<p>a song info (metadata) provider tells mochy about a song. what it says shows up in <b>about song</b> in the player: the genre, when it came out, who wrote and produced it, the label, a sharper cover, and a paragraph about the song.</p>
-<h2>How mochy uses it</h2>
+<p>a song info (metadata) provider tells melo about a song. what it says shows up in <b>about song</b> in the player: the genre, when it came out, who wrote and produced it, the label, a sharper cover, and a paragraph about the song.</p>
+<h2>How melo uses it</h2>
 <ul>
-  <li>when about song opens, mochy asks every song info module at once, along with its own sources (musixmatch, wikipedia, genius). each gets 12 seconds.</li>
-  <li>each fact comes from the <b>first module on your list</b> that knows it, then from mochy's own sources. so one module can give the genre and another the writers.</li>
+  <li>when about song opens, melo asks every song info module at once, along with its own sources (musixmatch, wikipedia, genius). each gets 12 seconds.</li>
+  <li>each fact comes from the <b>first module on your list</b> that knows it, then from melo's own sources. so one module can give the genre and another the writers.</li>
   <li>your <code>about</code> text is one of the sources people can pick under about, listed as <b>modules</b>.</li>
 </ul>
 <h2>The manifest</h2>
@@ -2027,21 +2027,21 @@ export default {
 <p>a zip is a module someone can send as a file, or attach to a github release. the layout rules are on <a href="#modules-files">file structure</a>.</p>
 <ul>
   <li>a zip <b>without a <code>url</code></b> lives on the phone. it never touches the network, and its page has no server to check. looks, players, bars and pages are zips like this.</li>
-  <li>a zip that plays songs, lyrics or song info <b>needs a <code>url</code></b>, and is then added just like pasting that link. the difference is that the manifest and its pictures come from the file. without one, mochy says the zip "doesn't say where from".</li>
+  <li>a zip that plays songs, lyrics or song info <b>needs a <code>url</code></b>, and is then added just like pasting that link. the difference is that the manifest and its pictures come from the file. without one, melo says the zip "doesn't say where from".</li>
 </ul>
 <pre><code class="json">{ "id": "my-flac", "name": "My FLAC", "icon": "icon.png", "url": "https://my-flac.example", "resources": ["search", "stream"] }</code></pre>
 <h2>Zips with their own code</h2>
-<p>a zip can also bring a whole module written in kotlin against <code>:modules:api</code>, the same kind as a built-in one. mochy only runs that code when it's <b>signed with mochy's own key</b>, so only i can make one.</p>
+<p>a zip can also bring a whole module written in kotlin against <code>:modules:api</code>, the same kind as a built-in one. melo only runs that code when it's <b>signed with melo's own key</b>, so only i can make one.</p>
 <pre><code>js-modules.mochyymodule.zip
 ├── manifest.json     // says "code": "module.apk"
-└── module.apk        // the module's code, signed like mochy, never installed</code></pre>
+└── module.apk        // the module's code, signed like melo, never installed</code></pre>
 <pre><code class="json">{ "id": "addons", "name": "JS Modules",
   "description": "Your links and scripts in one place: songs, lyrics and song info.",
   "resources": ["search", "stream", "lyrics", "metadata"], "code": "module.apk" }</code></pre>
 <ul>
   <li><code>name</code> and <code>resources</code> only fill in the sheet before it's added. once it's in, the module says itself what it adds, its icon, banner and settings.</li>
-  <li>signed like your mochy: a debug mochy takes a zip built with the debug key, a release mochy one built with the release key. anything else gets "it has to be signed with the same key as your mochy".</li>
-  <li>it runs on its own copy of everything: its own kotlin, coroutines and libraries, in a class loader that only sees android, java and mochy's bridge. calls go across as json, so a different kotlin version can't break it.</li>
+  <li>signed like your melo: a debug melo takes a zip built with the debug key, a release melo one built with the release key. anything else gets "it has to be signed with the same key as your melo".</li>
+  <li>it runs on its own copy of everything: its own kotlin, coroutines and libraries, in a class loader that only sees android, java and melo's bridge. calls go across as json, so a different kotlin version can't break it.</li>
   <li>updating with the same id swaps the running copy straight away. switch, choices and settings stay. removing deletes its code and everything it kept.</li>
 </ul>
 </article>
@@ -2049,13 +2049,13 @@ export default {
 <article class="page" id="modules-js" data-group="Songs, lyrics &amp; info" data-title="Scripts (JS Modules)">
 <h1>Scripts</h1>
 <p class="sub">songs, lyrics and song info from javascript</p>
-<p><b>JS Modules</b> is a module that runs javascript. it lives in its own project (<code>mochy-js-modules</code>), not in the app. once it's added, add scripts on its page under sources with <b>add from a file or a link</b>: a zip, or a link to a zip, a script, an index, or another server's link. one zip can hold many scripts.</p>
+<p><b>JS Modules</b> is a module that runs javascript. it lives in its own project (<code>melo-js-modules</code>), not in the app. once it's added, add scripts on its page under sources with <b>add from a file or a link</b>: a zip, or a link to a zip, a script, an index, or another server's link. one zip can hold many scripts.</p>
 <p>each source has its icon, a dot (green if it worked the last time it was asked, amber if not, with the reason under it) and a line saying what it is: script · songs · lyrics · v1.2 · someone. swipe a source left to remove it. <b>check sources</b> asks every one once.</p>
 <h2>What a script exports</h2>
 <p>any of these four. songs need the first two together, lyrics and song info can come with them or alone, so a script can be just a lyrics provider.</p>
 <pre><code>// module.exports, export async function, export default {...} and export { a as b } all work
 module.exports = {
-  // songs: search, then the stream of the row Mochy picked
+  // songs: search, then the stream of the row Melo picked
   async searchTracks(query, limit, context) {
     const quality = context.settings.quality.value;   // LOSSLESS, HI_RES_LOSSLESS, HIGH or LOW
     const res = await fetch('https://my-flac.example/search?q=' + encodeURIComponent(query));
@@ -2122,7 +2122,7 @@ module.exports = {
 <p class="sub">get it to other people</p>
 <div class="cards">
   <a class="press" href="#modules-github"><b>GitHub releases</b><span>publish a zip named <code>*mochyymodule*</code>, people paste your project's link, and every new release reaches them as an update button</span></a>
-  <a class="press" href="https://discord.gg/NTmqVphbRY"><b>Melo's Bar</b><span>post the zip or the link on discord, thats where people find modules. the card at the top of the modules page goes there</span></a>
+  <a class="press" href="https://github.com/techxsarwar/melo/discussions"><b>GitHub Discussions</b><span>share your module zip or link in discussions for other listeners to try.</span></a>
 </div>
 <h2>The catalog</h2>
 <p><b>settings → modules → add a module</b> lists the modules in <code>catalog.json</code>, read straight from github, so the list grows without an app update. to get listed, open a pull request adding an entry:</p>
@@ -2155,12 +2155,12 @@ curl "https://my-flac.example/metadata?title=Eastside&amp;artist=benny%20blanco&
 # a zip: is the manifest valid json, and is everything where it says?
 python3 -c "import json; json.load(open('module/manifest.json'))"
 unzip -l neon-night.mochyymodule.zip</code></pre>
-<h2>In mochy</h2>
+<h2>In melo</h2>
 <div class="shot">
   <div class="phone"><img src="../assets/img/app-module_page2.webp" alt="Testing a module" width="450" height="1000" loading="lazy"></div>
   <div>
     <p><b>check server</b> asks for your manifest again and says whether it answered.</p>
-    <p><b>test the module</b>, at the bottom of its page: search any song (or take the one playing) and tap it. mochy runs everything your module adds with that song, right on the phone, step by step:</p>
+    <p><b>test the module</b>, at the bottom of its page: search any song (or take the one playing) and tap it. melo runs everything your module adds with that song, right on the phone, step by step:</p>
     <div class="flow"><div>lyrics</div><i>→</i><div>song info</div><i>→</i><div>find the song</div><i>→</i><div>stream</div><i>→</i><div>license</div><i>→</i><div>decode 2 s<small>muted</small></div></div>
     <p>lyrics show how many lines came back, timed or plain, and the first one. song info shows the facts. the ••• beside a song plays it instead.</p>
     <p>after turning it on, play anything: a toast says where each song came from, about song shows your facts, and the lyrics menu shows your provider.</p>
@@ -2185,10 +2185,10 @@ unzip -l neon-night.mochyymodule.zip</code></pre>
 <h2>Rules</h2>
 <ul>
   <li><b>https</b> for every link: manifest, server, streams and pictures.</li>
-  <li><b>answer fast.</b> mochy waits 12 s to connect and 20 s for an answer, then moves on. a slow module makes every song wait.</li>
+  <li><b>answer fast.</b> melo waits 12 s to connect and 20 s for an answer, then moves on. a slow module makes every song wait.</li>
   <li><b>answer with json</b> in the shapes on these pages, with <code>Content-Type: application/json</code>. return an error status (404, 503…) when something's wrong, never a web page with 200.</li>
   <li><b>keep ids stable.</b> an id from search must work in <code>/stream/{id}</code>, your manifest's <code>id</code> never changes, and neither do your settings' keys.</li>
-  <li><b>be honest</b> in search results, lyrics and song info: real titles, every artist, real durations, real credits. a wrong duration makes mochy pick the wrong recording or none.</li>
+  <li><b>be honest</b> in search results, lyrics and song info: real titles, every artist, real durations, real credits. a wrong duration makes melo pick the wrong recording or none.</li>
   <li><b>no encrypted streams.</b> they're skipped anyway.</li>
   <li><b>bump <code>version</code></b> whenever you change your module. it's what the update button shows.</li>
   <li><b>never put secrets</b> in a manifest you share. if your link carries a personal key, that link is a password. a text setting is the place for a key: it stays on the phone it was typed on.</li>
@@ -2205,14 +2205,14 @@ unzip -l neon-night.mochyymodule.zip</code></pre>
 <tr><td>"The newest release has no module in it"</td><td>the zip's name needs <code>mochyymodule</code> in it and has to end in <code>.zip</code></td></tr>
 <tr><td>"That file isn't a module"</td><td>no <code>manifest.json</code> at the zip's root or one folder in, or it isn't a zip</td></tr>
 <tr><td>"…its .zip doesn't say where from"</td><td>the zip lists <code>search</code>, <code>stream</code>, <code>lyrics</code> or <code>metadata</code> but has no <code>url</code></td></tr>
-<tr><td>"…signed with the same key as your Mochy"</td><td>the zip's code was built with another key, like a debug zip on a release mochy</td></tr>
+<tr><td>"…signed with the same key as your Melo"</td><td>the zip's code was built with another key, like a debug zip on a release melo</td></tr>
 <tr><td>"This module's code didn't start"</td><td>built for another api version, or its module.apk has no entry meta-data. <code>adb logcat -s CodeModules</code> says which</td></tr>
-<tr><td>no update button after a release</td><td>mochy checks each module a few times a day, tap <b>check for updates</b> on its page. the module must have been added from that github project or link (not a file), and the release's zip must say <code>mochyymodule</code></td></tr>
+<tr><td>no update button after a release</td><td>melo checks each module a few times a day, tap <b>check for updates</b> on its page. the module must have been added from that github project or link (not a file), and the release's zip must say <code>mochyymodule</code></td></tr>
 <tr><td>"Couldn't update …"</td><td>the same reasons as adding it, the message says which. if your new manifest has another <code>id</code>, it's a different module: keep the id</td></tr>
 <tr><td>my icon or banner doesn't show</td><td>paths are relative to manifest.json and case sensitive. png/jpg/webp/gif under 8 MB</td></tr>
-<tr><td>my settings don't show</td><td><code>settings</code> must be a list of objects, each with a <code>key</code>. <code>quality</code> and <code>atmos</code> show as mochy's own choices instead</td></tr>
+<tr><td>my settings don't show</td><td><code>settings</code> must be a list of objects, each with a <code>key</code>. <code>quality</code> and <code>atmos</code> show as melo's own choices instead</td></tr>
 <tr><td>a setting doesn't change the look</td><td>the module has to be on, the option's <code>look</code> must use <a href="#modules-look">look keys</a>, and only one look is on at a time</td></tr>
-<tr><td>my player doesn't show up</td><td>your look has to be on, and the player needs at least one block mochy knows. then hold the player: yours is first in the picker</td></tr>
+<tr><td>my player doesn't show up</td><td>your look has to be on, and the player needs at least one block melo knows. then hold the player: yours is first in the picker</td></tr>
 <tr><td>a block is missing from my player</td><td>its <code>type</code> is misspelled, its <code>when</code> says no right now, it's more than four groups deep, or a required field (an image's <code>image</code>, a button's <code>action</code>, a path's <code>d</code>) is missing</td></tr>
 <tr><td>my path draws nothing</td><td><code>d</code> may only hold path commands and numbers (no <code>&lt;path&gt;</code> tag around it), and the <code>viewBox</code> has to be the one it was drawn in</td></tr>
 <tr><td>my glass box is just a tint</td><td>it blurs your player's background, so with the <code>tones</code> background there's nothing behind it. blur needs android 12+, and the preview in the style picker never blurs</td></tr>
@@ -2224,7 +2224,7 @@ unzip -l neon-night.mochyymodule.zip</code></pre>
 <tr><td>my page isn't in settings</td><td>it needs <code>"inSettings": true</code>, the module on, a valid <code>id</code> and at least one block</td></tr>
 <tr><td>my menu row doesn't show</td><td>module on, a <code>title</code> and one of <code>link</code> (https), <code>page</code> (an id that exists) or <code>search</code>. rows only show while a song is loaded</td></tr>
 <tr><td>my font isn't used</td><td>zip only, <code>.ttf</code> or <code>.otf</code>, and <code>regular</code> must point at the file. a broken font is skipped</td></tr>
-<tr><td>the visualizer stays flat</td><td>nothing's playing, or the audio is going straight to a receiver mochy can't read from</td></tr>
+<tr><td>the visualizer stays flat</td><td>nothing's playing, or the audio is going straight to a receiver melo can't read from</td></tr>
 <tr><td>the test finds the song but it never plays from your module</td><td>check the stream with <code>curl -I</code>: audio (200 or 206), not a web page. check the codec and sample rate are ones the phone can decode</td></tr>
 <tr><td>songs come from youtube instead</td><td>your module is below youtube in the provider order, it's off, or it was skipped for 10 minutes after not answering</td></tr>
 <tr><td>my lyrics never show</td><td>module on and <code>lyrics</code> in <code>resources</code>? another source may have better ones (word synced beats line synced): pick yours in the lyrics menu → lyrics provider to check</td></tr>
@@ -2239,17 +2239,17 @@ unzip -l neon-night.mochyymodule.zip</code></pre>
 <article class="page wide" id="roadmap" data-group="More" data-title="Roadmap">
 <h1>Roadmap</h1>
 <p class="sub">what's done, what's next</p>
-<p>this is the live board i plan mochy on, so it's always up to date. drag to move around, pinch or scroll to zoom.</p>
+<p>this is the live board i plan melo on, so it's always up to date. drag to move around, pinch or scroll to zoom.</p>
 <div class="board">
-  <iframe title="Mochy's roadmap board on Figma" src="https://embed.figma.com/board/NWTElXRZ21LaaJotjuOe8D/Untitled?node-id=0-1&amp;embed-host=share" loading="lazy" allowfullscreen></iframe>
+  <iframe title="Melo's roadmap board on Figma" src="https://embed.figma.com/board/NWTElXRZ21LaaJotjuOe8D/Untitled?node-id=0-1&amp;embed-host=share" loading="lazy" allowfullscreen></iframe>
 </div>
 <p class="aside">plans may change as development progresses. <a href="https://www.figma.com/board/NWTElXRZ21LaaJotjuOe8D/Untitled?node-id=0-1">open the board in figma</a> to see it full screen.</p>
 </article>
 
-<article class="page" id="devs" data-group="More" data-title="For mochy devs">
+<article class="page" id="devs" data-group="More" data-title="For melo devs">
 <h1>For devs</h1>
 <p class="sub">changing the module system itself</p>
-<p>this part is for people working on mochy itself: where the module system lives and how to change it without breaking modules people already made.</p>
+<p>this part is for people working on melo itself: where the module system lives and how to change it without breaking modules people already made.</p>
 <div class="flow"><div>modules/api<small>the contract</small></div><i>→</i><div>modules/bridge<small>json both ways</small></div><i>→</i><div>app/modules<small>registry, web, local, skin</small></div><i>→</i><div>ui/player/styles + ui/screens/settings/modules<small>what you see</small></div></div>
 <h2>Where things live</h2>
 <div class="tbl"><table>
@@ -2280,25 +2280,25 @@ unzip -l neon-night.mochyymodule.zip</code></pre>
 <tr><td>looks: applying and giving settings back</td><td><code>app/…/modules/ModuleLooks.kt</code></td></tr>
 <tr><td>the catalog</td><td><code>modules/catalog.json</code>, read by <code>ModuleCatalog.kt</code></td></tr>
 <tr><td>the modules pages</td><td><code>app/…/ui/screens/settings/modules/</code></td></tr>
-<tr><td>JS Modules</td><td>not in this repo: <code>mochy-js-modules</code>, next to the mochy folder</td></tr>
+<tr><td>JS Modules</td><td>not in this repo: <code>melo-js-modules</code>, next to the melo folder</td></tr>
 <tr><td>downloads</td><td><code>app/…/playback/DownloadUtil.kt</code></td></tr>
 </table></div>
 <h2>The contract and its version</h2>
-<p><code>:modules:api</code> is plain kotlin on purpose: no android, no media3, no http library, so a module can be built as its own apk and loaded at runtime. it has a version, <code>MODULE_API_VERSION</code> (now 3). a module app built for another version is skipped with a log line, so it can't crash mochy.</p>
+<p><code>:modules:api</code> is plain kotlin on purpose: no android, no media3, no http library, so a module can be built as its own apk and loaded at runtime. it has a version, <code>MODULE_API_VERSION</code> (now 3). a module app built for another version is skipped with a log line, so it can't crash melo.</p>
 <div class="tbl"><table>
 <tr><th>change</th><th>bump?</th></tr>
 <tr><td>add a new optional interface (like <code>ModuleArt</code>, <code>ModuleFields</code>, <code>MetadataModule</code>)</td><td>no</td></tr>
-<tr><td>add a field with a default to a class only mochy creates</td><td>no</td></tr>
+<tr><td>add a field with a default to a class only melo creates</td><td>no</td></tr>
 <tr><td>add a field with a default to the end of a class modules create, with <code>@JvmOverloads</code> so the old constructor stays</td><td>no</td></tr>
 <tr><td>add a value to <code>ModuleFeature</code></td><td>no, a module only lists the ones it adds</td></tr>
 <tr><td>rename, remove or change the type of anything a module calls or implements</td><td><b>yes</b></td></tr>
 <tr><td>add a method to an interface modules implement, even with a default body</td><td><b>yes</b>, an older module app was built without it</td></tr>
 <tr><td>change what a value means (units, ranges)</td><td><b>yes</b></td></tr>
 </table></div>
-<p>after a bump every module app has to be rebuilt against the new api. built-in modules are rebuilt with mochy anyway.</p>
+<p>after a bump every module app has to be rebuilt against the new api. built-in modules are rebuilt with melo anyway.</p>
 <h2>What a module can implement</h2>
 <div class="tbl"><table>
-<tr><th>interface</th><th>what it gives mochy</th></tr>
+<tr><th>interface</th><th>what it gives melo</th></tr>
 <tr><td><code>SourceModule</code></td><td><code>resolve</code> and <code>diagnose</code> for songs</td></tr>
 <tr><td><code>LyricsModule</code></td><td><code>lyrics(track)</code> as lrc or plain lines</td></tr>
 <tr><td><code>MetadataModule</code></td><td><code>metadata(track)</code>, a <code>TrackMetadata</code></td></tr>
@@ -2307,7 +2307,7 @@ unzip -l neon-night.mochyymodule.zip</code></pre>
 <tr><td><code>ModuleFields</code></td><td><code>fields</code> (<code>Text</code>, <code>Select</code> or <code>Toggle</code>) and <code>onFields(values)</code></td></tr>
 <tr><td><code>ServerListModule</code>, <code>ItemListModule</code></td><td>the lists on its page; <code>ModuleItem</code> can carry an icon link and <code>working</code></td></tr>
 </table></div>
-<p><b>settings for code modules:</b> implement <code>ModuleFields</code>. mochy keeps each value (its default until changed) and calls <code>onFields</code> with every value right after <code>attach</code>, and again each time one changes. over the bridge, <code>BridgedModule</code> always implements <code>ModuleFields</code>, <code>ModuleArt</code> and <code>MetadataModule</code>; a zip packed before they existed simply has none.</p>
+<p><b>settings for code modules:</b> implement <code>ModuleFields</code>. melo keeps each value (its default until changed) and calls <code>onFields</code> with every value right after <code>attach</code>, and again each time one changes. over the bridge, <code>BridgedModule</code> always implements <code>ModuleFields</code>, <code>ModuleArt</code> and <code>MetadataModule</code>; a zip packed before they existed simply has none.</p>
 <h2>Adding a look setting</h2>
 <ol>
   <li>add the key to <code>LookSetting</code> in <code>MochyModule.kt</code>, with a one-line comment saying its values.</li>
@@ -2322,7 +2322,7 @@ unzip -l neon-night.mochyymodule.zip</code></pre>
   <li>draw it in <code>ModulePlayerStyle.kt</code> or the skin files next to it, <code>ModulePageScreen.kt</code> or <code>ModuleMenuRows.kt</code>. follow the smoothness rules: read anything that changes every frame (position, <code>SkinPulse</code>) inside <code>drawBehind</code>/<code>graphicsLayer</code>, never in composition; let anything that loops ride <code>SkinPulse</code> so it rests with the player, and wrap it in <code>damageBoundary()</code> when nothing draws outside it; compile shaders off the main thread in <code>ActiveSkin</code>; use the GlassKit helpers for live blur.</li>
   <li>add a case to <code>SkinParserTest.kt</code> or <code>ManifestSettingsTest.kt</code>, and a row to the matching page of this wiki.</li>
 </ol>
-<p>an older mochy skips a block it doesn't know, so adding one never breaks older layouts. renaming or removing one does, so don't.</p>
+<p>an older melo skips a block it doesn't know, so adding one never breaks older layouts. renaming or removing one does, so don't.</p>
 <h2>Adding an animation property, clock, event or condition</h2>
 <ol>
   <li><b>a property</b> (something keyframes and states can move): add it to <code>PoseProp</code> with its neutral value and whether it multiplies, read it in <code>SkinAnimationParser.value</code> with a range, add it to <code>PoseSum.add</code> and apply it in <code>skinStyled</code>.</li>
@@ -2348,21 +2348,21 @@ unzip -l neon-night.mochyymodule.zip</code></pre>
   <li>write tests with a fake host like <code>MonochromeModuleTest.kt</code>, run with <code>./gradlew :modules:&lt;name&gt;:test</code>.</li>
 </ol>
 <h2>Zip modules with their own code</h2>
-<p>these live outside the repo, so mochy never compiles them. <code>mochy-js-modules</code> is the one to copy:</p>
+<p>these live outside the repo, so melo never compiles them. <code>melo-js-modules</code> is the one to copy:</p>
 <ol>
-  <li>its <code>mochy-api</code> and <code>mochy-bridge</code> projects compile mochy's <code>modules/api</code> and <code>modules/bridge</code> straight from a mochy checkout (<code>mochyDir</code> in its gradle.properties), so the zip always matches.</li>
+  <li>its <code>melo-api</code> and <code>melo-bridge</code> projects compile melo's <code>modules/api</code> and <code>modules/bridge</code> straight from a melo checkout (<code>meloDir</code> in its gradle.properties), so the zip always matches.</li>
   <li><code>module/</code> is the module, written like a built-in one, with a no-argument constructor.</li>
-  <li><code>zip/</code> is an android app build depending on <code>:module</code> and <code>:mochy-bridge</code>, with <code>&lt;meta-data android:name="com.mochyy.mochymusic.module.entry"&gt;</code> naming the module class, and a manifest.json with <code>"code": "module.apk"</code>.</li>
-  <li><code>./gradlew :zip:moduleZipDebug</code> makes the zip for a debug mochy, <code>:zip:moduleZipRelease</code> (with the release key's environment set) for a release one. it lands in <code>zip/build/outputs/module/</code>. name the release assets <code>…-debug.mochyymodule.zip</code> and <code>….mochyymodule.zip</code> and <a href="#modules-github">github links</a> pick the right one.</li>
+  <li><code>zip/</code> is an android app build depending on <code>:module</code> and <code>:melo-bridge</code>, with <code>&lt;meta-data android:name="com.mochyy.mochymusic.module.entry"&gt;</code> naming the module class, and a manifest.json with <code>"code": "module.apk"</code>.</li>
+  <li><code>./gradlew :zip:moduleZipDebug</code> makes the zip for a debug melo, <code>:zip:moduleZipRelease</code> (with the release key's environment set) for a release one. it lands in <code>zip/build/outputs/module/</code>. name the release assets <code>…-debug.mochyymodule.zip</code> and <code>….mochyymodule.zip</code> and <a href="#modules-github">github links</a> pick the right one.</li>
 </ol>
-<p>keep r8 off in the packing project: mochy makes <code>ModuleSide</code> and your module class by name. only <code>com.mochyy.mochymusic.module.bridge.shared</code> crosses between the two class loaders. it's kept by name in mochy's r8 rules, and changing it means bumping <code>MODULE_API_VERSION</code>.</p>
+<p>keep r8 off in the packing project: melo makes <code>ModuleSide</code> and your module class by name. only <code>com.mochyy.mochymusic.module.bridge.shared</code> crosses between the two class loaders. it's kept by name in melo's r8 rules, and changing it means bumping <code>MODULE_API_VERSION</code>.</p>
 <h2>Module apps</h2>
-<p>an apk whose code runs inside mochy. it needs a <code>&lt;service&gt;</code> answering <code>com.mochyy.mochymusic.SOURCE_MODULE</code>, <code>&lt;meta-data android:name="com.mochyy.mochymusic.module.entry" android:value="your.module.EntryClass" /&gt;</code> on it, an entry class with a no-argument constructor implementing <code>MochyModule</code>, and to be <b>signed with mochy's own key</b> and built for the same api version. build against <code>:modules:api</code> as <code>compileOnly</code>. a module app replaces the built-in module with the same id.</p>
+<p>an apk whose code runs inside melo. it needs a <code>&lt;service&gt;</code> answering <code>com.mochyy.mochymusic.SOURCE_MODULE</code>, <code>&lt;meta-data android:name="com.mochyy.mochymusic.module.entry" android:value="your.module.EntryClass" /&gt;</code> on it, an entry class with a no-argument constructor implementing <code>MochyModule</code>, and to be <b>signed with melo's own key</b> and built for the same api version. build against <code>:modules:api</code> as <code>compileOnly</code>. a module app replaces the built-in module with the same id.</p>
 <h2>Checking your change</h2>
 <pre><code>./gradlew :app:compileArm64FossDebugKotlin
 ./gradlew :modules:bridge:test
 ./gradlew :modules:&lt;name&gt;:test
-./gradlew :module:test                          # inside mochy-js-modules</code></pre>
+./gradlew :module:test                          # inside melo-js-modules</code></pre>
 </article>
 
 <nav class="next" id="next"></nav>
@@ -2370,15 +2370,15 @@ unzip -l neon-night.mochyymodule.zip</code></pre>
 
 <footer class="footer">
   <div class="footer-brand">
-    <a class="brand-name" href="#welcome"><img src="../assets/img/logo.svg" alt="" width="32" height="35">Mochy Music</a>
+    <a class="brand-name" href="#welcome"><img src="../assets/img/logo.svg" alt="" width="32" height="35">Melo Music</a>
     <p>not affiliated by google, apple, or other.</p>
     <span class="footer-year">2026</span>
   </div>
-  <nav class="footer-links" aria-label="Mochy links">
+  <nav class="footer-links" aria-label="Melo links">
     <a href="#welcome">Docs</a>
-    <a href="https://github.com/realidkroo/Mochy-Music">Github</a>
-    <a href="https://discord.gg/NTmqVphbRY">Join discord</a>
-    <a href="https://github.com/realidkroo/Mochy-Music/releases">Download now</a>
+    <a href="https://github.com/techxsarwar/melo">Github</a>
+    <a href="upi://pay?pa=sarwaraltafdar@fam&amp;pn=Melo%20Music&amp;cu=INR">Donate (UPI)</a>
+    <a href="https://github.com/techxsarwar/melo/releases">Download now</a>
   </nav>
   <img class="footer-art" src="../assets/img/mochy-phone.webp?v=2" alt="" width="648" height="1100" loading="lazy" decoding="async">
 </footer>

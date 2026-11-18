@@ -41,10 +41,16 @@
 
 ---
 
+## 🌐 Website & Docs
+
+Visit the official website and module documentation at [techxsarwar.github.io/melo](https://techxsarwar.github.io/melo/).
+
+---
+
 ## 📥 How to Install
 
 1. Go to the [Actions Tab](https://github.com/techxsarwar/melo/actions) or [Releases](https://github.com/techxsarwar/melo/releases).
-2. Download the `app-universal-gms-debug.apk` file.
+2. Download the `Melo-Universal-Release` APK.
 3. Open the APK on your Android device and tap **Install**.
 4. Launch **Melo** and start listening!
 

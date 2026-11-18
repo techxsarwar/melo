@@ -44,7 +44,7 @@ a { color: inherit; }
   background-size: 22px 22px;
 }
 
-/* the brand: the logo, mochy music, and what follows the line */
+/* the brand: the logo, melo music, and what follows the line */
 .brand { display: flex; align-items: center; gap: 18px; text-decoration: none; }
 .brand-name { white-space: nowrap; display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 23px; letter-spacing: -0.04em; }
 .brand-name img { width: 32px; height: 35px; }
@@ -201,7 +201,7 @@ pre .k { color: #8fb8ff; } pre .s { color: var(--yellow); } pre .n { color: #ff9
 .board { position: relative; aspect-ratio: 16 / 10; min-height: 480px; margin: 20px 0 22px; border-radius: 24px; overflow: hidden; background: var(--card); box-shadow: 0 0 0 1px var(--line); }
 .board iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 
-/* the footer: a black sheet under every page, mochy holding up the app on the right, sliding along with the sidebar like the page does */
+/* the footer: a black sheet under every page, melo holding up the app on the right, sliding along with the sidebar like the page does */
 .footer {
   position: relative; overflow: hidden; margin-left: var(--side-w); min-height: 290px;
   display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 40px;

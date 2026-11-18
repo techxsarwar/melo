@@ -32,7 +32,7 @@
     var page = document.getElementById(id) || pages[0];
     if (!page.classList.contains("page")) page = pages[0];
     Object.keys(links).forEach(function (k) { links[k].classList.toggle("on", k === page.id); });
-    document.title = page.dataset.title.replace(/&amp;/g, "&").replace(/^\d+\. /, "") + " · Mochy Wiki";
+    document.title = page.dataset.title.replace(/&amp;/g, "&").replace(/^\d+\. /, "") + " · Melo Docs";
     document.getElementById("side").classList.remove("open");
     document.getElementById("tocToggle").setAttribute("aria-expanded", "false");
     clearTimeout(leaving);

@@ -69,7 +69,7 @@
 .phone.tilt { transition: transform 0.5s var(--spring); }
 
 /* ---------- the hero ---------- */
-/* two rows of outlined words drifting forever, mochy to the right and music to the left; each row is two identical halves, so sliding by half loops without a seam */
+/* two rows of outlined words drifting forever, melo to the right and music to the left; each row is two identical halves, so sliding by half loops without a seam */
 .ghost {
   position: absolute; left: 0; right: 0; top: 9vh; z-index: 0; font: 800 clamp(140px, 21vw, 400px)/0.82 var(--font); letter-spacing: -0.04em;
   color: transparent; -webkit-text-stroke: 1px rgba(255, 255, 255, 0.06); white-space: nowrap; pointer-events: none; user-select: none;
